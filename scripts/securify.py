@@ -1,4 +1,4 @@
-print("script started")
+
 import os
 import csv
 import subprocess

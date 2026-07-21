@@ -17,4 +17,4 @@ df = pd.DataFrame(rows)
 
 df.to_csv("dataset/selected_contracts.csv", index=False)
 
-print("CSV created successfully!")
+print("CSV created")

@@ -1,11 +1,14 @@
 tool,rule,category
-smartcheck,SOLIDITY_TX_ORIGIN,access_control
 smartcheck,SOLIDITY_VISIBILITY,access_control
+smartcheck,SOLIDITY_TX_ORIGIN,access_control
 smartcheck,SOLIDITY_INTEGER_OVERFLOW,arithmetic
 smartcheck,SOLIDITY_UINT_CANT_BE_NEGATIVE,arithmetic
 smartcheck,SOLIDITY_EXACT_TIME,time_manipulation
 smartcheck,SOLIDITY_UNCHECKED_CALL,unchecked_low_level_calls
 smartcheck,SOLIDITY_SEND,unchecked_low_level_calls
+smartcheck,SOLIDITY_GAS_LIMIT_IN_LOOPS,denial_of_service
+smartcheck,SOLIDITY_TRANSFER_IN_LOOP,denial_of_service
+smartcheck,SOLIDITY_ERC20_APPROVE,front_running
 
 slither,tx-origin,access_control
 slither,controlled-delegatecall,access_control
@@ -20,9 +23,9 @@ slither,timestamp,time_manipulation
 slither,divide-before-multiply,arithmetic
 slither,incorrect-shift,arithmetic
 
-
 solhint,avoid-low-level-calls,unchecked_low_level_calls
 solhint,avoid-call-value,unchecked_low_level_calls
 solhint,no-unchecked-calls,unchecked_low_level_calls
 solhint,avoid-tx-origin,access_control
 solhint,not-rely-on-time,time_manipulation
+solhint,not-rely-on-block-hash,bad_randomness

@@ -1,0 +1,2412 @@
+contract,category,output
+arbitrary_location_write_simple.sol,access_control,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ARRAY_LENGTH_MANIPULATION
+patternId: 872bdd
+severity: 1
+line: 28
+column: 9
+content: bonusCodes.length--
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 17
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 10
+column: 12
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 11
+column: 13
+content: private
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 18
+column: 17
+content: public
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_ARRAY_LENGTH_MANIPULATION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :2
+SOLIDITY_UPGRADE_TO_050 :1
+"
+FibonacciBalance.sol,access_control,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\access_control\FibonacciBalance.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 187b5a
+severity: 1
+line: 19
+column: 36
+content: sha3
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 36
+column: 15
+content: public
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 26
+column: 4
+content: functionwithdraw(){withdrawalCounter+=1;require(fibonacciLibrary.delegatecall(fibSig,withdrawalCounter));msg.sender.transfer(calculatedFibNumber*1ether);}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 19
+column: 4
+content: bytes4constantfibSig=bytes4(sha3(""setFibonacci(uint256)""));
+
+SOLIDITY_VISIBILITY :2
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :1
+"
+incorrect_constructor_name1.sol,access_control,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\access_control\incorrect_constructor_name1.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 10
+column: 12
+content: private
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 26
+column: 4
+content: function()payable{}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1
+"
+incorrect_constructor_name2.sol,access_control,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\access_control\incorrect_constructor_name2.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 11
+column: 12
+content: private
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 24
+column: 4
+content: function()payable{}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1
+"
+incorrect_constructor_name3.sol,access_control,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\access_control\incorrect_constructor_name3.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 10
+column: 12
+content: private
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 23
+column: 4
+content: function()payable{}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1
+"
+BECToken.sol,arithmetic,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\arithmetic\BECToken.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 14
+column: 2
+content: functionmul(uint256a,uint256b)internalconstantreturns(uint256){uint256c=a*b;require(a==0||c/a==b);returnc;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 20
+column: 2
+content: functiondiv(uint256a,uint256b)internalconstantreturns(uint256){uint256c=a/b;returnc;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 27
+column: 2
+content: functionsub(uint256a,uint256b)internalconstantreturns(uint256){require(b<=a);returna-b;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 32
+column: 2
+content: functionadd(uint256a,uint256b)internalconstantreturns(uint256){uint256c=a+b;require(c>=a);returnc;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 46
+column: 2
+content: functionbalanceOf(addresswho)publicconstantreturns(uint256);
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 81
+column: 2
+content: functionbalanceOf(address_owner)publicconstantreturns(uint256balance){returnbalances[_owner];}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 91
+column: 2
+content: functionallowance(addressowner,addressspender)publicconstantreturns(uint256);
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 150
+column: 2
+content: functionallowance(address_owner,address_spender)publicconstantreturns(uint256remaining){returnallowed[_owner][_spender];}
+
+ruleId: SOLIDITY_ERC20_APPROVE
+patternId: af782c
+severity: 2
+line: 138
+column: 2
+content: functionapprove(address_spender,uint256_value)publicreturns(bool){allowed[msg.sender][_spender]=_value;Approval(msg.sender,_spender,_value);returntrue;}
+
+ruleId: SOLIDITY_ERC20_APPROVE
+patternId: af782c
+severity: 2
+line: 257
+column: 2
+content: functionapprove(address_spender,uint256_value)publicwhenNotPausedreturns(bool){returnsuper.approve(_spender,_value);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 269
+column: 4
+content: for(uinti=0;i<cnt;i++){balances[_receivers[i]]=balances[_receivers[i]].add(_value);Transfer(msg.sender,_receivers[i],_value);}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_REDUNDANT_FALLBACK_REJECT
+patternId: b85a32
+severity: 1
+line: 302
+column: 16
+content: {revert();}
+
+ruleId: SOLIDITY_SAFEMATH
+patternId: 837cac
+severity: 1
+line: 56
+column: 2
+content: usingSafeMathforuint256;
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 261
+column: 25
+content: address[]_receivers
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 171
+column: 2
+content: functionOwnable(){owner=msg.sender;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 297
+column: 4
+content: functionBecToken(){totalSupply=7000000000*(10**(uint256(decimals)));balances[msg.sender]=totalSupply;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 302
+column: 4
+content: function(){revert();}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 58
+column: 2
+content: mapping(address=>uint256)balances;
+
+SOLIDITY_VISIBILITY :4
+SOLIDITY_SAFEMATH :1
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :8
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :1
+SOLIDITY_GAS_LIMIT_IN_LOOPS :1
+SOLIDITY_REDUNDANT_FALLBACK_REJECT :1
+SOLIDITY_ERC20_APPROVE :2
+"
+insecure_transfer.sol,arithmetic,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\arithmetic\insecure_transfer.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+SOLIDITY_PRAGMAS_VERSION :1
+"
+integer_overflow_1.sol,arithmetic,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\arithmetic\integer_overflow_1.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN
+patternId: 47acc2
+severity: 1
+line: 12
+column: 5
+content: functionadd(uintvalue)returns(bool){sellerBalance+=value;}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 17
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 10
+column: 10
+content: private
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 12
+column: 5
+content: functionadd(uintvalue)returns(bool){sellerBalance+=value;}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1
+"
+integer_overflow_add.sol,arithmetic,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\arithmetic\integer_overflow_add.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 10
+column: 16
+content: ^
+
+SOLIDITY_PRAGMAS_VERSION :1
+"
+integer_overflow_benign_1.sol,arithmetic,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\arithmetic\integer_overflow_benign_1.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 10
+column: 16
+content: ^
+
+SOLIDITY_PRAGMAS_VERSION :1
+"
+blackjack.sol,bad_randomness,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\bad_randomness\blackjack.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 70
+column: 3
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 102
+column: 3
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 106
+column: 3
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 170
+column: 36
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 183
+column: 47
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 186
+column: 41
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 223
+column: 42
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 236
+column: 37
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 240
+column: 41
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 268
+column: 3
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 275
+column: 3
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 290
+column: 3
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 24
+column: 1
+content: functionvalueOf(uint8card,boolisBigAce)internalconstantreturns(uint8){uint8value=card/4;if(value==0||value==11||value==12){return10;}if(value==1&&isBigAce){return11;}returnvalue;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 35
+column: 1
+content: functionisAce(uint8card)internalconstantreturns(bool){returncard/4==1;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 39
+column: 1
+content: functionisTen(uint8card)internalconstantreturns(bool){returncard/4==10;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 249
+column: 1
+content: functioncalculateScore(uint8[]cards)privateconstantreturns(uint8,uint8){uint8score=0;uint8scoreBig=0;boolbigAceUsed=false;for(uinti=0;i<cards.length;++i){uint8card=cards[i];if(Deck.isAce(card)&&!bigAceUsed){scoreBig+=Deck.valueOf(card,true);bigAceUsed=true;}else{scoreBig+=Deck.valueOf(card,false);}score+=Deck.valueOf(card,false);}return(score,scoreBig);}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 266
+column: 1
+content: functiongetPlayerCard(uint8id)publicgameIsGoingOnconstantreturns(uint8){if(id<0||id>games[msg.sender].playerCards.length){throw;}returngames[msg.sender].playerCards[id];}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 273
+column: 1
+content: functiongetHouseCard(uint8id)publicgameIsGoingOnconstantreturns(uint8){if(id<0||id>games[msg.sender].houseCards.length){throw;}returngames[msg.sender].houseCards[id];}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 280
+column: 1
+content: functiongetPlayerCardsNumber()publicgameIsGoingOnconstantreturns(uint){returngames[msg.sender].playerCards.length;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 284
+column: 1
+content: functiongetHouseCardsNumber()publicgameIsGoingOnconstantreturns(uint){returngames[msg.sender].houseCards.length;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 288
+column: 1
+content: functiongetGameState()publicconstantreturns(uint8){if(games[msg.sender].player==0){throw;}Gamegame=games[msg.sender];if(game.state==GameState.Player){return1;}if(game.state==GameState.House){return2;}if(game.state==GameState.Tie){return3;}return0;}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 253
+column: 2
+content: for(uinti=0;i<cards.length;++i){uint8card=cards[i];if(Deck.isAce(card)&&!bigAceUsed){scoreBig+=Deck.valueOf(card,true);bigAceUsed=true;}else{scoreBig+=Deck.valueOf(card,false);}score+=Deck.valueOf(card,false);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 253
+column: 2
+content: for(uinti=0;i<cards.length;++i){uint8card=cards[i];if(Deck.isAce(card)&&!bigAceUsed){scoreBig+=Deck.valueOf(card,true);bigAceUsed=true;}else{scoreBig+=Deck.valueOf(card,false);}score+=Deck.valueOf(card,false);}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 17
+content: ^
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 69
+column: 2
+content: if(games[msg.sender].player==0||games[msg.sender].state!=GameState.Ongoing){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 101
+column: 2
+content: if(games[msg.sender].player!=0&&games[msg.sender].state==GameState.Ongoing){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 105
+column: 2
+content: if(msg.value<minBet||msg.value>maxBet){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 170
+column: 4
+content: if(!msg.sender.send(game.bet))throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 183
+column: 5
+content: if(!msg.sender.send((game.bet*5)/2))throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 186
+column: 5
+content: if(!msg.sender.send(game.bet*2))throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 223
+column: 6
+content: if(!msg.sender.send(game.bet*2))throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 236
+column: 5
+content: if(!msg.sender.send(game.bet))throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 240
+column: 5
+content: if(!msg.sender.send(game.bet*2))throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 267
+column: 2
+content: if(id<0||id>games[msg.sender].playerCards.length){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 274
+column: 2
+content: if(id<0||id>games[msg.sender].houseCards.length){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 289
+column: 2
+content: if(games[msg.sender].player==0){throw;}
+
+ruleId: SOLIDITY_SHOULD_RETURN_STRUCT
+patternId: 7d54ca
+severity: 1
+line: 249
+column: 65
+content: (uint8,uint8)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 901eae
+severity: 1
+line: 21
+column: 23
+content: keccak256(block.blockhash(b),player,cardNumber,timestamp)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 159
+column: 26
+content: Gamegame
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 249
+column: 25
+content: uint8[]cards
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 441gim
+severity: 1
+line: 293
+column: 2
+content: Gamegame=games[msg.sender]
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 91
+column: 1
+content: functionBlackJack(){}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 95
+column: 1
+content: function()payable{}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 51
+column: 1
+content: uint8BLACKJACK=21;
+
+SOLIDITY_VISIBILITY :3
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :21
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_REVERT_REQUIRE :12
+SOLIDITY_EXTRA_GAS_IN_LOOPS :1
+SOLIDITY_UPGRADE_TO_050 :4
+SOLIDITY_GAS_LIMIT_IN_LOOPS :1
+SOLIDITY_SHOULD_RETURN_STRUCT :1
+"
+etheraffle.sol,bad_randomness,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\bad_randomness\etheraffle.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ARRAY_LENGTH_MANIPULATION
+patternId: 872bdd
+severity: 1
+line: 76
+column: 16
+content: gaps.length--
+
+ruleId: SOLIDITY_ARRAY_LENGTH_MANIPULATION
+patternId: 872bdd
+severity: 1
+line: 159
+column: 12
+content: gaps.length=0
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 128
+column: 8
+content: for(uinti=0;i<totalTickets;i++){if(msg.sender==contestants[i].addr&&raffleId==contestants[i].raffleId){refund+=pricePerTicket;contestants[i]=Contestant(address(0),0);gaps.push(i);TicketRefund(raffleId,msg.sender,i);}}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 147
+column: 12
+content: for(uinti=0;i<totalTickets;i++){if(raffleId==contestants[i].raffleId){TicketRefund(raffleId,contestants[i].addr,i);contestants[i].addr.transfer(pricePerTicket);}}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: k4o1l4
+severity: 1
+line: 72
+column: 8
+content: while(moneySent>=pricePerTicket&&nextTicket<totalTickets){uintcurrTicket=0;if(gaps.length>0){currTicket=gaps[gaps.length-1];gaps.length--;}else{currTicket=nextTicket++;}contestants[currTicket]=Contestant(msg.sender,raffleId);TicketPurchase(raffleId,msg.sender,currTicket);moneySent-=pricePerTicket;}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: 17f23a
+severity: 1
+line: 72
+column: 15
+content: moneySent>=pricePerTicket&&nextTicket<totalTickets
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 17
+content: ^
+
+ruleId: SOLIDITY_TRANSFER_IN_LOOP
+patternId: 8jdj43
+severity: 2
+line: 147
+column: 12
+content: for(uinti=0;i<totalTickets;i++){if(raffleId==contestants[i].raffleId){TicketRefund(raffleId,contestants[i].addr,i);contestants[i].addr.transfer(pricePerTicket);}}
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 901eae
+severity: 1
+line: 104
+column: 27
+content: keccak256(seed1,seed2,seed3)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 60
+column: 24
+content: public
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 43
+column: 4
+content: addressfeeAddress;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 50
+column: 4
+content: uintnextTicket=0;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 51
+column: 4
+content: mapping(uint=>Contestant)contestants;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 52
+column: 4
+content: uint[]gaps;
+
+SOLIDITY_VISIBILITY :4
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_ARRAY_LENGTH_MANIPULATION :2
+SOLIDITY_EXTRA_GAS_IN_LOOPS :3
+SOLIDITY_UPGRADE_TO_050 :2
+SOLIDITY_GAS_LIMIT_IN_LOOPS :1
+SOLIDITY_TRANSFER_IN_LOOP :1
+"
+guess_the_random_number.sol,bad_randomness,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\bad_randomness\guess_the_random_number.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_BALANCE_EQUALITY
+patternId: 5094ad
+severity: 1
+line: 19
+column: 15
+content: address(this).balance==0
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 901eae
+severity: 1
+line: 15
+column: 23
+content: keccak256(block.blockhash(block.number-1),now)
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 10
+column: 4
+content: uint8answer;
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :1
+SOLIDITY_BALANCE_EQUALITY :1
+"
+lottery.sol,bad_randomness,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\bad_randomness\lottery.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 27cb59
+severity: 1
+line: 66
+column: 9
+content: suicide
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 30
+column: 9
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 48
+column: 17
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 55
+column: 39
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 64
+column: 39
+content: throw
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 57
+column: 9
+content: for(uinti=0;i<bets.length;i++){GetBet(bets[i].betAmount,bets[i].blockNumber,bets[i].won);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 57
+column: 9
+content: for(uinti=0;i<bets.length;i++){GetBet(bets[i].betAmount,bets[i].blockNumber,bets[i].won);}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 9
+column: 18
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 20
+column: 13
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 21
+column: 11
+content: private
+
+ruleId: SOLIDITY_REDUNDANT_FALLBACK_REJECT
+patternId: b85a32
+severity: 1
+line: 29
+column: 16
+content: {throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 46
+column: 13
+content: if(!msg.sender.send(msg.value)){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 55
+column: 9
+content: if(msg.sender!=organizer){throw;}
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 64
+column: 9
+content: if(msg.sender!=organizer){throw;}
+
+ruleId: SOLIDITY_SEND
+patternId: 430636
+severity: 1
+line: 46
+column: 28
+content: send(msg.value)
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 24
+column: 5
+content: functionLottery(){organizer=msg.sender;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 29
+column: 5
+content: function(){throw;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 34
+column: 5
+content: functionmakeBet(){boolwon=(block.number%2)==0;bets.push(Bet(msg.value,block.number,won));if(won){if(!msg.sender.send(msg.value)){throw;}}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 54
+column: 5
+content: functiongetBets(){if(msg.sender!=organizer){throw;}for(uinti=0;i<bets.length;i++){GetBet(bets[i].betAmount,bets[i].blockNumber,bets[i].won);}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 63
+column: 5
+content: functiondestroy(){if(msg.sender!=organizer){throw;}suicide(organizer);}
+
+SOLIDITY_VISIBILITY :5
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :5
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_REVERT_REQUIRE :3
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :2
+SOLIDITY_SEND :1
+SOLIDITY_EXTRA_GAS_IN_LOOPS :1
+SOLIDITY_GAS_LIMIT_IN_LOOPS :1
+SOLIDITY_REDUNDANT_FALLBACK_REJECT :1
+"
+lucky_doubler.sol,bad_randomness,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\bad_randomness\lucky_doubler.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ADDRESS_HARDCODED
+patternId: c67a09
+severity: 1
+line: 172
+column: 38
+content: 0x0
+
+ruleId: SOLIDITY_ARRAY_LENGTH_MANIPULATION
+patternId: 872bdd
+severity: 1
+line: 111
+column: 12
+content: unpaidEntries.length--
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 142
+column: 40
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 149
+column: 12
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 127
+column: 4
+content: functionrand(uintmax)constantprivatereturns(uint256result){uint256factor=FACTOR*100/max;uint256lastBlockNumber=block.number-1;uint256hashVal=uint256(block.blockhash(lastBlockNumber));returnuint256((uint256(hashVal)/factor))%max;}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 155
+column: 4
+content: functionmultiplierFactor()constantreturns(uintfactor,stringinfo){factor=multiplier;info='The current multiplier applied to all deposits. Min 110%, max 150%.';}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 160
+column: 4
+content: functioncurrentFee()constantreturns(uintfeePercentage,stringinfo){feePercentage=fee;info='The fee percentage applied to all deposits. It can change to speed payouts (max 5%).';}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 165
+column: 4
+content: functiontotalEntries()constantreturns(uintcount,stringinfo){count=entries.length;info='The number of deposits.';}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 170
+column: 4
+content: functionuserStats(addressuser)constantreturns(uintdeposits,uintpayouts,stringinfo){if(users[user].id!=address(0x0)){deposits=users[user].deposits;payouts=users[user].payoutsReceived;info='Users stats: total deposits, payouts received.';}}
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 180
+column: 4
+content: functionentryDetails(uintindex)constantreturns(addressuser,uintpayout,boolpaid,stringinfo){if(index<entries.length){user=entries[index].entryAddress;payout=entries[index].payout/1finney;paid=entries[index].paid;info='Entry info: user address, expected payout in Finneys, payout status.';}}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 9
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 21
+column: 12
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 24
+column: 9
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 25
+column: 9
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 26
+column: 9
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 28
+column: 30
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 29
+column: 12
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 30
+column: 11
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 125
+column: 21
+content: private
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 142
+column: 8
+content: if(multi<110||multi>150)throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 148
+column: 8
+content: if(fee>5)throw;
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 441gim
+severity: 1
+line: 95
+column: 8
+content: EntrytheEntry=entries[unpaidEntries[index]]
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 33
+column: 4
+content: functionLuckyDoubler(){owner=msg.sender;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 53
+column: 4
+content: function(){init();}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 137
+column: 4
+content: functionchangeOwner(addressnewOwner)onlyowner{owner=newOwner;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 141
+column: 4
+content: functionchangeMultiplier(uintmulti)onlyowner{if(multi<110||multi>150)throw;multiplier=multi;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 147
+column: 4
+content: functionchangeFee(uintnewFee)onlyowner{if(fee>5)throw;fee=newFee;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 155
+column: 4
+content: functionmultiplierFactor()constantreturns(uintfactor,stringinfo){factor=multiplier;info='The current multiplier applied to all deposits. Min 110%, max 150%.';}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 160
+column: 4
+content: functioncurrentFee()constantreturns(uintfeePercentage,stringinfo){feePercentage=fee;info='The fee percentage applied to all deposits. It can change to speed payouts (max 5%).';}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 165
+column: 4
+content: functiontotalEntries()constantreturns(uintcount,stringinfo){count=entries.length;info='The number of deposits.';}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 170
+column: 4
+content: functionuserStats(addressuser)constantreturns(uintdeposits,uintpayouts,stringinfo){if(users[user].id!=address(0x0)){deposits=users[user].deposits;payouts=users[user].payoutsReceived;info='Users stats: total deposits, payouts received.';}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 180
+column: 4
+content: functionentryDetails(uintindex)constantreturns(addressuser,uintpayout,boolpaid,stringinfo){if(index<entries.length){user=entries[index].entryAddress;payout=entries[index].payout/1finney;paid=entries[index].paid;info='Entry info: user address, expected payout in Finneys, payout status.';}}
+
+SOLIDITY_VISIBILITY :10
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :8
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_ARRAY_LENGTH_MANIPULATION :1
+SOLIDITY_REVERT_REQUIRE :2
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :8
+SOLIDITY_ADDRESS_HARDCODED :1
+SOLIDITY_UPGRADE_TO_050 :1
+"
+auction.sol,denial_of_service,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\denial_of_service\auction.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_SEND
+patternId: 430636
+severity: 1
+line: 23
+column: 33
+content: send(currentBid)
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 15
+column: 2
+content: functionbid()payable{require(msg.value>currentBid);if(currentFrontrunner!=0){require(currentFrontrunner.send(currentBid));}currentFrontrunner=msg.sender;currentBid=msg.value;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 11
+column: 2
+content: addresscurrentFrontrunner;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 12
+column: 2
+content: uintcurrentBid;
+
+SOLIDITY_VISIBILITY :3
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_SEND :1
+"
+dos_address.sol,denial_of_service,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\denial_of_service\dos_address.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 11
+column: 4
+content: address[]creditorAddresses;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 12
+column: 4
+content: boolwin=false;
+
+SOLIDITY_VISIBILITY :2
+SOLIDITY_PRAGMAS_VERSION :1
+"
+dos_number.sol,denial_of_service,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\denial_of_service\dos_number.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ARRAY_LENGTH_MANIPULATION
+patternId: 872bdd
+severity: 1
+line: 20
+column: 16
+content: array.length+=1
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 11
+column: 4
+content: uintnumElements=0;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 12
+column: 4
+content: uint[]array;
+
+SOLIDITY_VISIBILITY :2
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_ARRAY_LENGTH_MANIPULATION :1
+"
+dos_simple.sol,denial_of_service,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\denial_of_service\dos_simple.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 12
+column: 4
+content: address[]listAddresses;
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+"
+list_dos.sol,denial_of_service,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\denial_of_service\list_dos.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 94
+column: 9
+content: for(uinti=lastCreditorPayedOut;i<creditorAmounts.length;i++){debt+=creditorAmounts[i];}
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 100
+column: 9
+content: for(uinti=0;i<lastCreditorPayedOut;i++){payout+=creditorAmounts[i];}
+
+ruleId: SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN
+patternId: 58bdd3
+severity: 1
+line: 93
+column: 5
+content: functiontotalDebt()returns(uintdebt){for(uinti=lastCreditorPayedOut;i<creditorAmounts.length;i++){debt+=creditorAmounts[i];}}
+
+ruleId: SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN
+patternId: 58bdd3
+severity: 1
+line: 99
+column: 5
+content: functiontotalPayedOut()returns(uintpayout){for(uinti=0;i<lastCreditorPayedOut;i++){payout+=creditorAmounts[i];}}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 23
+column: 5
+content: functionGovernment(){profitFromCrash=msg.value;corruptElite=msg.sender;lastTimeOfNewCredit=block.timestamp;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 31
+column: 5
+content: functionlendGovernmentMoney(addressbuddy)returns(bool){uintamount=msg.value;if(lastTimeOfNewCredit+TWELVE_HOURS<block.timestamp){msg.sender.send(amount);creditorAddresses[creditorAddresses.length-1].send(profitFromCrash);corruptElite.send(this.balance);lastCreditorPayedOut=0;lastTimeOfNewCredit=block.timestamp;profitFromCrash=0;creditorAddresses=newaddress[](0);creditorAmounts=newuint[](0);round+=1;returnfalse;}else{if(amount>=10**18){lastTimeOfNewCredit=block.timestamp;creditorAddresses.push(msg.sender);creditorAmounts.push(amount*110/100);corruptElite.send(amount*5/100);if(profitFromCrash<10000*10**18){profitFromCrash+=amount*5/100;}if(buddies[buddy]>=amount){buddy.send(amount*5/100);}buddies[msg.sender]+=amount*110/100;if(creditorAmounts[lastCreditorPayedOut]<=address(this).balance-profitFromCrash){creditorAddresses[lastCreditorPayedOut].send(creditorAmounts[lastCreditorPayedOut]);buddies[creditorAddresses[lastCreditorPayedOut]]-=creditorAmounts[lastCreditorPayedOut];lastCreditorPayedOut+=1;}returntrue;}else{msg.sender.send(amount);returnfalse;}}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 89
+column: 5
+content: function(){lendGovernmentMoney(0);}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 93
+column: 5
+content: functiontotalDebt()returns(uintdebt){for(uinti=lastCreditorPayedOut;i<creditorAmounts.length;i++){debt+=creditorAmounts[i];}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 99
+column: 5
+content: functiontotalPayedOut()returns(uintpayout){for(uinti=0;i<lastCreditorPayedOut;i++){payout+=creditorAmounts[i];}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 106
+column: 5
+content: functioninvestInTheSystem(){profitFromCrash+=msg.value;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 111
+column: 5
+content: functioninheritToNextGeneration(addressnextGeneration){if(msg.sender==corruptElite){corruptElite=nextGeneration;}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 117
+column: 5
+content: functiongetCreditorAddresses()returns(address[]){returncreditorAddresses;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 121
+column: 5
+content: functiongetCreditorAmounts()returns(uint[]){returncreditorAmounts;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 19
+column: 5
+content: mapping(address=>uint)buddies;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 20
+column: 5
+content: uintconstantTWELVE_HOURS=43200;
+
+SOLIDITY_VISIBILITY :11
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN :2
+SOLIDITY_EXTRA_GAS_IN_LOOPS :2
+"
+ERC20.sol,front_running,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\front_running\ERC20.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ERC20_APPROVE
+patternId: af782c
+severity: 2
+line: 110
+column: 2
+content: functionapprove(addressspender,uint256value)publicreturns(bool){require(spender!=address(0));_allowed[msg.sender][spender]=value;emitApproval(msg.sender,spender,value);returntrue;}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 80
+column: 31
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 82
+column: 52
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 84
+column: 10
+content: private
+
+ruleId: SOLIDITY_SAFEMATH
+patternId: 837cac
+severity: 1
+line: 78
+column: 2
+content: usingSafeMathfor*;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 86
+column: 2
+content: constructor(uinttotalSupply){_balances[msg.sender]=totalSupply;}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_SAFEMATH :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :3
+SOLIDITY_ERC20_APPROVE :1
+"
+eth_tx_order_dependence_minimal.sol,front_running,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 27
+column: 4
+content: functionclaimReward(uint256submission){require(!claimed);require(submission<10);msg.sender.transfer(reward);claimed=true;}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+"
+FindThisHash.sol,front_running,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\front_running\FindThisHash.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 187b5a
+severity: 1
+line: 17
+column: 24
+content: sha3
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 14
+column: 19
+content: stringsolution
+
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :1
+"
+odds_and_evens.sol,front_running,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\front_running\odds_and_evens.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 26
+column: 30
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 49
+column: 26
+content: throw
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 26
+column: 4
+content: if(msg.value!=1ether)throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 49
+column: 4
+content: if(msg.sender!=owner)throw;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 21
+column: 2
+content: functionOddsAndEvens(){owner=msg.sender;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 25
+column: 2
+content: functionplay(uintnumber)payable{if(msg.value!=1ether)throw;players[tot]=Player(msg.sender,number);tot++;if(tot==2)andTheWinnerIs();}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 48
+column: 2
+content: functiongetProfit(){if(msg.sender!=owner)throw;boolres=msg.sender.send(this.balance);}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 18
+column: 2
+content: uint8tot;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 19
+column: 2
+content: addressowner;
+
+SOLIDITY_VISIBILITY :5
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :2
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_REVERT_REQUIRE :2
+"
+reentrance.sol,reentrancy,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\reentrancy\reentrance.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_CALL_WITHOUT_DATA
+patternId: om991k
+severity: 2
+line: 24
+column: 20
+content: call.value(_amount)()
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 83k1no
+severity: 1
+line: 24
+column: 20
+content: call.value(_amount)()
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 31
+column: 13
+content: public
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :2
+SOLIDITY_CALL_WITHOUT_DATA :1
+"
+reentrancy_bonus.sol,reentrancy,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\reentrancy\reentrancy_bonus.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_CALL_WITHOUT_DATA
+patternId: 111ppp
+severity: 2
+line: 19
+column: 37
+content: call.value(amountToWithdraw)("""")
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 12
+column: 30
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 13
+column: 30
+content: private
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 14
+column: 30
+content: private
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 19
+column: 37
+content: call.value(amountToWithdraw)("""")
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :3
+SOLIDITY_UNCHECKED_CALL :1
+SOLIDITY_CALL_WITHOUT_DATA :1
+"
+reentrancy_cross_function.sol,reentrancy,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_CALL_WITHOUT_DATA
+patternId: 111ppp
+severity: 2
+line: 24
+column: 38
+content: call.value(amountToWithdraw)("""")
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 12
+column: 30
+content: private
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 24
+column: 38
+content: call.value(amountToWithdraw)("""")
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 14
+column: 4
+content: functiontransfer(addressto,uintamount){if(userBalances[msg.sender]>=amount){userBalances[to]+=amount;userBalances[msg.sender]-=amount;}}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1
+SOLIDITY_UNCHECKED_CALL :1
+SOLIDITY_CALL_WITHOUT_DATA :1
+"
+reentrancy_dao.sol,reentrancy,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\reentrancy\reentrancy_dao.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_CALL_WITHOUT_DATA
+patternId: om991k
+severity: 2
+line: 18
+column: 41
+content: call.value(oCredit)()
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 83k1no
+severity: 1
+line: 18
+column: 41
+content: call.value(oCredit)()
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 10
+column: 4
+content: mapping(address=>uint)credit;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 11
+column: 4
+content: uintbalance;
+
+SOLIDITY_VISIBILITY :2
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :1
+SOLIDITY_CALL_WITHOUT_DATA :1
+"
+reentrancy_insecure.sol,reentrancy,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\reentrancy\reentrancy_insecure.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_CALL_WITHOUT_DATA
+patternId: 111ppp
+severity: 2
+line: 17
+column: 38
+content: call.value(amountToWithdraw)("""")
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA
+patternId: 5616b2
+severity: 1
+line: 12
+column: 30
+content: private
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 17
+column: 38
+content: call.value(amountToWithdraw)("""")
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA :1
+SOLIDITY_UNCHECKED_CALL :1
+SOLIDITY_CALL_WITHOUT_DATA :1
+"
+short_address_example.sol,short_addresses,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\short_addresses\short_address_example.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 26
+column: 5
+content: functiongetBalance(addressaddr)constantreturns(uint){returnbalances[addr];}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 17
+content: ^
+
+ruleId: SOLIDITY_TX_ORIGIN
+patternId: 12e802
+severity: 2
+line: 15
+column: 18
+content: tx.origin
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 14
+column: 5
+content: functionMyToken(){balances[tx.origin]=10000;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 18
+column: 5
+content: functionsendCoin(addressto,uintamount)returns(boolsufficient){if(balances[msg.sender]<amount)returnfalse;balances[msg.sender]-=amount;balances[to]+=amount;Transfer(msg.sender,to,amount);returntrue;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 26
+column: 5
+content: functiongetBalance(addressaddr)constantreturns(uint){returnbalances[addr];}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 10
+column: 5
+content: mapping(address=>uint)balances;
+
+SOLIDITY_VISIBILITY :4
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_TX_ORIGIN :1
+"
+ether_lotto.sol,time_manipulation,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\time_manipulation\ether_lotto.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 187b5a
+severity: 1
+line: 43
+column: 26
+content: sha3
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 17
+content: ^
+
+ruleId: SOLIDITY_VAR
+patternId: d28aa7
+severity: 2
+line: 43
+column: 8
+content: varrandom=uint(sha3(block.timestamp))%2
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 27
+column: 4
+content: functionEtherLotto(){bank=msg.sender;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 33
+column: 4
+content: functionplay()payable{assert(msg.value==TICKET_AMOUNT);pot+=msg.value;varrandom=uint(sha3(block.timestamp))%2;if(random==0){bank.transfer(FEE_AMOUNT);msg.sender.transfer(pot-FEE_AMOUNT);pot=0;}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 15
+column: 4
+content: uintconstantTICKET_AMOUNT=10;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 18
+column: 4
+content: uintconstantFEE_AMOUNT=1;
+
+SOLIDITY_VISIBILITY :4
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_VAR :1
+"
+governmental_survey.sol,time_manipulation,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\time_manipulation\governmental_survey.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 19
+column: 27
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 23
+column: 29
+content: throw
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 49bd2a
+severity: 1
+line: 32
+column: 6
+content: throw
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 8
+column: 16
+content: ^
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 19
+column: 4
+content: if(msg.value<1ether)throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 23
+column: 4
+content: if(msg.value<jackpot/2)throw;
+
+ruleId: SOLIDITY_REVERT_REQUIRE
+patternId: c56b12
+severity: 1
+line: 31
+column: 4
+content: if(block.timestamp<lastInvestmentTimestamp+ONE_MINUTE)throw;
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 34
+column: 17
+content: send(jackpot)
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 35
+column: 10
+content: send(this.balance-1ether)
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 17
+column: 2
+content: functionGovernmental(){owner=msg.sender;if(msg.value<1ether)throw;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 22
+column: 2
+content: functioninvest(){if(msg.value<jackpot/2)throw;lastInvestor=msg.sender;jackpot+=msg.value/2;lastInvestmentTimestamp=block.timestamp;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 30
+column: 2
+content: functionresetInvestment(){if(block.timestamp<lastInvestmentTimestamp+ONE_MINUTE)throw;lastInvestor.send(jackpot);owner.send(this.balance-1ether);lastInvestor=0;jackpot=1ether;lastInvestmentTimestamp=0;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 45
+column: 2
+content: functionattack(addresstarget,uintcount){if(0<=count&&count<1023){this.attack.gas(msg.gas-2000)(target,count+1);}else{Governmental(target).resetInvestment();}}
+
+SOLIDITY_VISIBILITY :4
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :3
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_REVERT_REQUIRE :3
+SOLIDITY_UNCHECKED_CALL :2
+"
+lottopollo.sol,time_manipulation,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\time_manipulation\lottopollo.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 25
+column: 2
+content: functionrandomGen()constantreturns(uintrandomNumber){returnblock.timestamp;}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 25
+column: 2
+content: functionrandomGen()constantreturns(uintrandomNumber){returnblock.timestamp;}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 29
+column: 2
+content: functiondraw(uintseed){uintrandomNumber=randomGen();payOut(randomNumber);}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 9
+column: 2
+content: addressleader;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 10
+column: 2
+content: uinttimestamp;
+
+SOLIDITY_VISIBILITY :4
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :1
+SOLIDITY_PRAGMAS_VERSION :1
+"
+roulette.sol,time_manipulation,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\time_manipulation\roulette.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_EXACT_TIME
+patternId: 1955d9
+severity: 2
+line: 18
+column: 16
+content: now!=pastBlockTime
+
+ruleId: SOLIDITY_EXACT_TIME
+patternId: 1955d9
+severity: 2
+line: 21
+column: 11
+content: now%15==0
+
+ruleId: SOLIDITY_LOCKED_MONEY
+patternId: 30281d
+severity: 3
+line: 9
+column: 0
+content: contractRoulette{uintpublicpastBlockTime;constructor()publicpayable{}function()publicpayable{require(msg.value==10ether);require(now!=pastBlockTime);pastBlockTime=now;if(now%15==0){msg.sender.transfer(this.balance);}}}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 15
+column: 16
+content: public
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_LOCKED_MONEY :1
+SOLIDITY_UPGRADE_TO_050 :1
+SOLIDITY_EXACT_TIME :2
+"
+timed_crowdsale.sol,time_manipulation,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\time_manipulation\timed_crowdsale.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+SOLIDITY_PRAGMAS_VERSION :1
+"
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,unchecked_low_level_calls,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_CALL_WITHOUT_DATA
+patternId: om991k
+severity: 2
+line: 12
+column: 10
+content: call()
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 12
+column: 10
+content: call()
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 83k1no
+severity: 1
+line: 12
+column: 10
+content: call()
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 10
+column: 4
+content: functioncallAddress(addressa){a.call();}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :1
+SOLIDITY_UNCHECKED_CALL :1
+SOLIDITY_CALL_WITHOUT_DATA :1
+"
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,unchecked_low_level_calls,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 187b5a
+severity: 1
+line: 44
+column: 26
+content: sha3
+
+ruleId: SOLIDITY_DEPRECATED_CONSTRUCTIONS
+patternId: 28fa69
+severity: 1
+line: 103
+column: 4
+content: functionBal()publicconstantreturns(uint){returnthis.balance;}
+
+ruleId: SOLIDITY_LOCKED_MONEY
+patternId: 30281d
+severity: 3
+line: 48
+column: 0
+content: contractTokenBankisToken{uintpublicMinDeposit;mapping(address=>uint)publicHolders;functioninitTokenBank()public{owner=msg.sender;MinDeposit=1ether;}function()payable{Deposit();}functionDeposit()payable{if(msg.value>MinDeposit){Holders[msg.sender]+=msg.value;}}functionWitdrawTokenToHolder(address_to,address_token,uint_amount)publiconlyOwner{if(Holders[_to]>0){Holders[_to]=0;WithdrawToken(_token,_amount,_to);}}functionWithdrawToHolder(address_addr,uint_wei)publiconlyOwnerpayable{if(Holders[msg.sender]>0){if(Holders[_addr]>=_wei){_addr.call.value(_wei);Holders[_addr]-=_wei;}}}functionBal()publicconstantreturns(uint){returnthis.balance;}}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 44
+column: 14
+content: call(bytes4(sha3(""transfer(address,uint256)"")),to,amount)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 83k1no
+severity: 1
+line: 44
+column: 14
+content: call(bytes4(sha3(""transfer(address,uint256)"")),to,amount)
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 61
+column: 4
+content: function()payable{Deposit();}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 67
+column: 4
+content: functionDeposit()payable{if(msg.value>MinDeposit){Holders[msg.sender]+=msg.value;}}
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 11
+column: 4
+content: addressnewOwner;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 12
+column: 4
+content: addressowner=msg.sender;
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: b51ce0
+severity: 1
+line: 38
+column: 4
+content: addressowner=msg.sender;
+
+SOLIDITY_VISIBILITY :5
+SOLIDITY_DEPRECATED_CONSTRUCTIONS :2
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_LOCKED_MONEY :1
+SOLIDITY_UPGRADE_TO_050 :1
+SOLIDITY_UNCHECKED_CALL :1
+"
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,unchecked_low_level_calls,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 17
+content: ^
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 29
+column: 12
+content: call.value(msg.value)(data)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 13
+column: 15
+content: public
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 23
+column: 33
+content: bytesdata
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_UPGRADE_TO_050 :2
+SOLIDITY_UNCHECKED_CALL :1
+"
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,unchecked_low_level_calls,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ADDRESS_HARDCODED
+patternId: adc165
+severity: 1
+line: 34
+column: 1212
+content: 0x7a617c2B05d2A74Ff9bABC9d81E5225C1e01004b
+
+ruleId: SOLIDITY_ADDRESS_HARDCODED
+patternId: adc165
+severity: 1
+line: 34
+column: 1262
+content: 0x7a617c2B05d2A74Ff9bABC9d81E5225C1e01004b
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 45
+column: 12
+content: call.value(msg.value)(data)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 91h3sa
+severity: 1
+line: 15
+column: 4
+content: public
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 39
+column: 33
+content: bytesdata
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_ADDRESS_HARDCODED :2
+SOLIDITY_UPGRADE_TO_050 :2
+SOLIDITY_UNCHECKED_CALL :1
+"
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,unchecked_low_level_calls,"C:\Users\Mayas\summer-training-smart-contract\dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol
+jar:file:/C:/Users/Mayas/AppData/Roaming/npm/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_ADDRESS_HARDCODED
+patternId: adc165
+severity: 1
+line: 10
+column: 26
+content: 0x9797055B68C5DadDE6b3c7d5D80C9CFE2eecE6c9
+
+ruleId: SOLIDITY_ADDRESS_HARDCODED
+patternId: adc165
+severity: 1
+line: 11
+column: 30
+content: 0x1f844685f7Bf86eFcc0e74D8642c54A257111923
+
+ruleId: SOLIDITY_ADDRESS_HARDCODED
+patternId: adc165
+severity: 1
+line: 14
+column: 30
+content: 0x9797055B68C5DadDE6b3c7d5D80C9CFE2eecE6c9
+
+ruleId: SOLIDITY_EXTRA_GAS_IN_LOOPS
+patternId: d3j11j
+severity: 1
+line: 17
+column: 8
+content: for(uinti=0;i<_tos.length;i++){caddress.call(id,from,_tos[i],v[i]*1000000000000000000);}
+
+ruleId: SOLIDITY_GAS_LIMIT_IN_LOOPS
+patternId: f6f853
+severity: 2
+line: 17
+column: 8
+content: for(uinti=0;i<_tos.length;i++){caddress.call(id,from,_tos[i],v[i]*1000000000000000000);}
+
+ruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 7
+column: 16
+content: ^
+
+ruleId: SOLIDITY_UNCHECKED_CALL
+patternId: f39eed
+severity: 3
+line: 19
+column: 21
+content: call(id,from,_tos[i],v[i]*1000000000000000000)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 83k1no
+severity: 1
+line: 19
+column: 21
+content: call(id,from,_tos[i],v[i]*1000000000000000000)
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 13
+column: 22
+content: address[]_tos
+
+ruleId: SOLIDITY_UPGRADE_TO_050
+patternId: 341gim
+severity: 1
+line: 13
+column: 37
+content: uint[]v
+
+SOLIDITY_PRAGMAS_VERSION :1
+SOLIDITY_EXTRA_GAS_IN_LOOPS :1
+SOLIDITY_ADDRESS_HARDCODED :3
+SOLIDITY_UPGRADE_TO_050 :3
+SOLIDITY_GAS_LIMIT_IN_LOOPS :1
+SOLIDITY_UNCHECKED_CALL :1
+"

@@ -1,0 +1,34 @@
+contract,rule,severity,message,line
+dataset\selected_contracts\access_control\FibonacciBalance.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,31.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,19.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,15.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,28.0
+dataset\selected_contracts\reentrancy\reentrance.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,24.0
+dataset\selected_contracts\reentrancy\reentrance.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",24.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,19.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",19.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,24.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",24.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,18.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",18.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,17.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",17.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,avoid-tx-origin,Error,Avoid to use tx.origin,15.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,43.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,27.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,13.0
+dataset\selected_contracts\time_manipulation\roulette.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,18.0
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,13.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,12.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,12.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,44.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,44.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",97.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,29.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",29.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,29.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,45.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",45.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,45.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,19.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,19.0

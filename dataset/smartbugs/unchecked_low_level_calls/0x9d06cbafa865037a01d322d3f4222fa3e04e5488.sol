@@ -1,4 +1,4 @@
-/*
+git remote -v/*
  * @source: etherscan.io 
  * @author: -
  * @vulnerable_at_lines: 54,65

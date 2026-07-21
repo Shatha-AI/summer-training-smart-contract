@@ -1,0 +1,356 @@
+contract,rule,severity,message,line
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,compiler-version,Error,Compiler version ^0.4.25 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,use-natspec,Warning,Missing @title tag in contract 'Wallet',9.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],10.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,func-name-mixedcase,Warning,Function name must be in mixedCase,21.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,reason-string,Warning,Provide an error message for require,27.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,27.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,gas-increment-by-one,Warning,"GC: For [ bonusCodes ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",28.0
+dataset\selected_contracts\access_control\arbitrary_location_write_simple.sol,,,,
+dataset\selected_contracts\access_control\FibonacciBalance.sol,one-contract-per-file,Warning,Found more than One contract per file. 2 contracts found!,8.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,compiler-version,Error,Compiler version ^0.4.22 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,use-natspec,Warning,Missing @title tag in contract 'FibonacciBalance',10.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],14.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,state-visibility,Warning,Explicitly mark visibility of state,19.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,const-name-snakecase,Warning,Constant name must be in capitalized SNAKE_CASE,19.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,avoid-sha3,Warning,"Use ""keccak256"" instead of deprecated ""sha3""",19.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,func-visibility,Warning,Explicitly mark visibility in function,26.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,gas-increment-by-one,Warning,"GC: For [ withdrawalCounter ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",27.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,reason-string,Warning,Provide an error message for require,31.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,31.0
+dataset\selected_contracts\access_control\FibonacciBalance.sol,,,,
+dataset\selected_contracts\access_control\incorrect_constructor_name1.sol,compiler-version,Error,Compiler version ^0.4.24 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\access_control\incorrect_constructor_name1.sol,use-natspec,Warning,Missing @title tag in contract 'Missing',9.0
+dataset\selected_contracts\access_control\incorrect_constructor_name1.sol,reason-string,Warning,Provide an error message for require,13.0
+dataset\selected_contracts\access_control\incorrect_constructor_name1.sol,func-name-mixedcase,Warning,Function name must be in mixedCase,20.0
+dataset\selected_contracts\access_control\incorrect_constructor_name1.sol,func-visibility,Warning,Explicitly mark visibility in function,26.0
+dataset\selected_contracts\access_control\incorrect_constructor_name1.sol,,,,
+dataset\selected_contracts\access_control\incorrect_constructor_name2.sol,compiler-version,Error,Compiler version ^0.4.24 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\access_control\incorrect_constructor_name2.sol,use-natspec,Warning,Missing @title tag in contract 'Missing',10.0
+dataset\selected_contracts\access_control\incorrect_constructor_name2.sol,reason-string,Warning,Provide an error message for require,14.0
+dataset\selected_contracts\access_control\incorrect_constructor_name2.sol,func-visibility,Warning,Explicitly mark visibility in function,24.0
+dataset\selected_contracts\access_control\incorrect_constructor_name2.sol,,,,
+dataset\selected_contracts\access_control\incorrect_constructor_name3.sol,compiler-version,Error,Compiler version ^0.4.24 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\access_control\incorrect_constructor_name3.sol,use-natspec,Warning,Missing @title tag in contract 'Missing',9.0
+dataset\selected_contracts\access_control\incorrect_constructor_name3.sol,reason-string,Warning,Provide an error message for require,13.0
+dataset\selected_contracts\access_control\incorrect_constructor_name3.sol,func-name-mixedcase,Warning,Function name must be in mixedCase,17.0
+dataset\selected_contracts\access_control\incorrect_constructor_name3.sol,func-visibility,Warning,Explicitly mark visibility in function,23.0
+dataset\selected_contracts\access_control\incorrect_constructor_name3.sol,,,,
+dataset\selected_contracts\arithmetic\BECToken.sol,one-contract-per-file,Warning,Found more than One contract per file. 9 contracts found!,7.0
+dataset\selected_contracts\arithmetic\BECToken.sol,compiler-version,Error,Compiler version ^0.4.16 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\arithmetic\BECToken.sol,use-natspec,Warning,Missing @author tag in contract 'SafeMath',13.0
+dataset\selected_contracts\arithmetic\BECToken.sol,reason-string,Warning,Provide an error message for require,16.0
+dataset\selected_contracts\arithmetic\BECToken.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,28.0
+dataset\selected_contracts\arithmetic\BECToken.sol,gas-indexed-events,Warning,GC: [value] on Event [Transfer] could be Indexed,48.0
+dataset\selected_contracts\arithmetic\BECToken.sol,state-visibility,Warning,Explicitly mark visibility of state,58.0
+dataset\selected_contracts\arithmetic\BECToken.sol,visibility-modifier-order,Warning,Visibility modifier must be first in list of modifiers,189.0
+dataset\selected_contracts\arithmetic\BECToken.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],262.0
+dataset\selected_contracts\arithmetic\BECToken.sol,gas-increment-by-one,Warning,"GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",269.0
+dataset\selected_contracts\arithmetic\BECToken.sol,quotes,Error,Use double quotes for string literals,291.0
+dataset\selected_contracts\arithmetic\BECToken.sol,func-visibility,Warning,Explicitly mark visibility in function,302.0
+dataset\selected_contracts\arithmetic\BECToken.sol,,,,
+dataset\selected_contracts\arithmetic\insecure_transfer.sol,compiler-version,Error,Compiler version ^0.4.10 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\arithmetic\insecure_transfer.sol,use-natspec,Warning,Missing @title tag in contract 'IntegerOverflowAdd',9.0
+dataset\selected_contracts\arithmetic\insecure_transfer.sol,reason-string,Warning,Provide an error message for require,15.0
+dataset\selected_contracts\arithmetic\insecure_transfer.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,15.0
+dataset\selected_contracts\arithmetic\insecure_transfer.sol,,,,
+dataset\selected_contracts\arithmetic\integer_overflow_1.sol,compiler-version,Error,Compiler version ^0.4.15 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\arithmetic\integer_overflow_1.sol,use-natspec,Warning,Missing @title tag in contract 'Overflow',9.0
+dataset\selected_contracts\arithmetic\integer_overflow_1.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],10.0
+dataset\selected_contracts\arithmetic\integer_overflow_1.sol,func-visibility,Warning,Explicitly mark visibility in function,12.0
+dataset\selected_contracts\arithmetic\integer_overflow_1.sol,,,,
+dataset\selected_contracts\arithmetic\integer_overflow_add.sol,compiler-version,Error,Compiler version ^0.4.19 does not satisfy the ^0.8.0 semver requirement,10.0
+dataset\selected_contracts\arithmetic\integer_overflow_add.sol,use-natspec,Warning,Missing @title tag in contract 'IntegerOverflowAdd',12.0
+dataset\selected_contracts\arithmetic\integer_overflow_add.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],13.0
+dataset\selected_contracts\arithmetic\integer_overflow_add.sol,,,,
+dataset\selected_contracts\arithmetic\integer_overflow_benign_1.sol,compiler-version,Error,Compiler version ^0.4.19 does not satisfy the ^0.8.0 semver requirement,10.0
+dataset\selected_contracts\arithmetic\integer_overflow_benign_1.sol,use-natspec,Warning,Missing @title tag in contract 'IntegerOverflowBenign1',12.0
+dataset\selected_contracts\arithmetic\integer_overflow_benign_1.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],13.0
+dataset\selected_contracts\arithmetic\integer_overflow_benign_1.sol,no-unused-vars,Warning,"Variable ""res"" is unused",17.0
+dataset\selected_contracts\arithmetic\integer_overflow_benign_1.sol,,,,
+dataset\selected_contracts\bad_randomness\blackjack.sol,one-contract-per-file,Warning,Found more than One contract per file. 2 contracts found!,8.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,compiler-version,Error,Compiler version ^0.4.9 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,use-natspec,Warning,Missing @title tag in contract 'Deck',10.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],17.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,19.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,not-rely-on-block-hash,Warning,"Do not rely on ""block.blockhash"". Miners can influence its value.",21.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,state-visibility,Warning,Explicitly mark visibility of state,51.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,var-name-mixedcase,Warning,Variable name must be in mixedCase BLACKJACK,51.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,avoid-throw,Warning,"""throw"" is deprecated, avoid to use it",70.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,gas-indexed-events,Warning,GC: [isUser] on Event [Deal] could be Indexed,75.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,constructor-syntax,Warning,Constructors should use the new constructor keyword.,91.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,no-empty-blocks,Warning,Code contains empty blocks,91.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,func-visibility,Warning,Explicitly mark visibility in function,95.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,no-unused-vars,Warning,"Variable ""houseScore"" is unused",144.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,function-max-lines,Warning,Function body contains 87 lines but allowed no more than 50 lines,159.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,171.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,multiple-sends,Warning,"Avoid multiple calls of ""send"" method in single transaction",183.0
+dataset\selected_contracts\bad_randomness\blackjack.sol,,,,
+dataset\selected_contracts\bad_randomness\etheraffle.sol,compiler-version,Error,Compiler version ^0.4.16 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,use-natspec,Warning,Missing @title tag in contract 'Ethraffle_v4b',10.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,contract-name-capwords,Warning,"Contract, Structs and Enums should be in CapWords",10.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],13.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,gas-indexed-events,Warning,GC: [raffleId] on Event [RaffleResult] could be Indexed,16.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,const-name-snakecase,Warning,Constant name must be in capitalized SNAKE_CASE,39.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,state-visibility,Warning,Explicitly mark visibility of state,43.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,visibility-modifier-order,Warning,Visibility modifier must be first in list of modifiers,60.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,72.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,gas-increment-by-one,Warning,"GC: For [ gaps ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",76.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,81.0
+dataset\selected_contracts\bad_randomness\etheraffle.sol,,,,
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,compiler-version,Error,Compiler version ^0.4.21 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,use-natspec,Warning,Missing @title tag in contract 'GuessTheRandomNumberChallenge',9.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,state-visibility,Warning,Explicitly mark visibility of state,10.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,reason-string,Warning,Provide an error message for require,13.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,not-rely-on-block-hash,Warning,"Do not rely on ""block.blockhash"". Miners can influence its value.",15.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,15.0
+dataset\selected_contracts\bad_randomness\guess_the_random_number.sol,,,,
+dataset\selected_contracts\bad_randomness\lottery.sol,compiler-version,Error,Compiler version ^0.4.0 does not satisfy the ^0.8.0 semver requirement,9.0
+dataset\selected_contracts\bad_randomness\lottery.sol,use-natspec,Warning,Missing @title tag in contract 'Lottery',11.0
+dataset\selected_contracts\bad_randomness\lottery.sol,gas-indexed-events,Warning,GC: [betAmount] on Event [GetBet] could be Indexed,12.0
+dataset\selected_contracts\bad_randomness\lottery.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\bad_randomness\lottery.sol,func-visibility,Warning,Explicitly mark visibility in function,29.0
+dataset\selected_contracts\bad_randomness\lottery.sol,avoid-throw,Warning,"""throw"" is deprecated, avoid to use it",30.0
+dataset\selected_contracts\bad_randomness\lottery.sol,gas-increment-by-one,Warning,"GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",57.0
+dataset\selected_contracts\bad_randomness\lottery.sol,avoid-suicide,Warning,"Use ""selfdestruct"" instead of deprecated ""suicide""",66.0
+dataset\selected_contracts\bad_randomness\lottery.sol,,,,
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,compiler-version,Error,Compiler version ^0.4.0 does not satisfy the ^0.8.0 semver requirement,9.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,use-natspec,Warning,Missing @title tag in contract 'LuckyDoubler',11.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],24.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,func-visibility,Warning,Explicitly mark visibility in function,53.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,check-send-result,Warning,"Check result of ""send"" call",60.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,function-max-lines,Warning,Function body contains 54 lines but allowed no more than 50 lines,67.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,81.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,gas-increment-by-one,Warning,"GC: For [ users ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",88.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,multiple-sends,Warning,"Avoid multiple calls of ""send"" method in single transaction",102.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,visibility-modifier-order,Warning,Visibility modifier must be first in list of modifiers,127.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,not-rely-on-block-hash,Warning,"Do not rely on ""block.blockhash"". Miners can influence its value.",130.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,avoid-throw,Warning,"""throw"" is deprecated, avoid to use it",142.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,gas-small-strings,Warning,GC: String exceeds 32 bytes,157.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,quotes,Error,Use double quotes for string literals,157.0
+dataset\selected_contracts\bad_randomness\lucky_doubler.sol,,,,
+dataset\selected_contracts\denial_of_service\auction.sol,compiler-version,Error,Compiler version ^0.4.15 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\denial_of_service\auction.sol,use-natspec,Warning,Missing @title tag in contract 'DosAuction',10.0
+dataset\selected_contracts\denial_of_service\auction.sol,state-visibility,Warning,Explicitly mark visibility of state,11.0
+dataset\selected_contracts\denial_of_service\auction.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\denial_of_service\auction.sol,func-visibility,Warning,Explicitly mark visibility in function,15.0
+dataset\selected_contracts\denial_of_service\auction.sol,reason-string,Warning,Provide an error message for require,16.0
+dataset\selected_contracts\denial_of_service\auction.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,26.0
+dataset\selected_contracts\denial_of_service\auction.sol,,,,
+dataset\selected_contracts\denial_of_service\dos_address.sol,compiler-version,Error,Compiler version ^0.4.25 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\denial_of_service\dos_address.sol,use-natspec,Warning,Missing @title tag in contract 'DosGas',9.0
+dataset\selected_contracts\denial_of_service\dos_address.sol,state-visibility,Warning,Explicitly mark visibility of state,11.0
+dataset\selected_contracts\denial_of_service\dos_address.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],23.0
+dataset\selected_contracts\denial_of_service\dos_address.sol,gas-increment-by-one,Warning,"GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",23.0
+dataset\selected_contracts\denial_of_service\dos_address.sol,,,,
+dataset\selected_contracts\denial_of_service\dos_number.sol,compiler-version,Error,Compiler version ^0.4.25 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\denial_of_service\dos_number.sol,use-natspec,Warning,Missing @title tag in contract 'DosNumber',9.0
+dataset\selected_contracts\denial_of_service\dos_number.sol,state-visibility,Warning,Explicitly mark visibility of state,11.0
+dataset\selected_contracts\denial_of_service\dos_number.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],11.0
+dataset\selected_contracts\denial_of_service\dos_number.sol,gas-increment-by-one,Warning,"GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",18.0
+dataset\selected_contracts\denial_of_service\dos_number.sol,reason-string,Warning,Provide an error message for require,27.0
+dataset\selected_contracts\denial_of_service\dos_number.sol,,,,
+dataset\selected_contracts\denial_of_service\dos_simple.sol,compiler-version,Error,Compiler version ^0.4.25 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\denial_of_service\dos_simple.sol,use-natspec,Warning,Missing @title tag in contract 'DosOneFunc',10.0
+dataset\selected_contracts\denial_of_service\dos_simple.sol,state-visibility,Warning,Explicitly mark visibility of state,12.0
+dataset\selected_contracts\denial_of_service\dos_simple.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],17.0
+dataset\selected_contracts\denial_of_service\dos_simple.sol,gas-increment-by-one,Warning,"GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",17.0
+dataset\selected_contracts\denial_of_service\dos_simple.sol,,,,
+dataset\selected_contracts\denial_of_service\list_dos.sol,compiler-version,Error,Compiler version ^0.4.0 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,use-natspec,Warning,Missing @title tag in contract 'Government',10.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],14.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,state-visibility,Warning,Explicitly mark visibility of state,19.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,28.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,function-max-lines,Warning,Function body contains 54 lines but allowed no more than 50 lines,31.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,func-visibility,Warning,Explicitly mark visibility in function,31.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,check-send-result,Warning,"Check result of ""send"" call",37.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,multiple-sends,Warning,"Avoid multiple calls of ""send"" method in single transaction",39.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,42.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,gas-increment-by-one,Warning,"GC: For [ round ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",49.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,54.0
+dataset\selected_contracts\denial_of_service\list_dos.sol,,,,
+dataset\selected_contracts\front_running\ERC20.sol,one-contract-per-file,Warning,Found more than One contract per file. 2 contracts found!,7.0
+dataset\selected_contracts\front_running\ERC20.sol,compiler-version,Error,Compiler version ^0.4.24 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\front_running\ERC20.sol,use-natspec,Warning,Missing @author tag in contract 'SafeMath',13.0
+dataset\selected_contracts\front_running\ERC20.sol,reason-string,Warning,Provide an error message for require,27.0
+dataset\selected_contracts\front_running\ERC20.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,47.0
+dataset\selected_contracts\front_running\ERC20.sol,gas-indexed-events,Warning,GC: [value] on Event [Transfer] could be Indexed,76.0
+dataset\selected_contracts\front_running\ERC20.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],86.0
+dataset\selected_contracts\front_running\ERC20.sol,,,,
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,compiler-version,Error,Compiler version ^0.4.16 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,use-natspec,Warning,Missing @title tag in contract 'EthTxOrderDependenceMinimal',9.0
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,reason-string,Warning,Provide an error message for require,19.0
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,24.0
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,func-visibility,Warning,Explicitly mark visibility in function,27.0
+dataset\selected_contracts\front_running\eth_tx_order_dependence_minimal.sol,,,,
+dataset\selected_contracts\front_running\FindThisHash.sol,compiler-version,Error,Compiler version ^0.4.22 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\front_running\FindThisHash.sol,use-natspec,Warning,Missing @title tag in contract 'FindThisHash',9.0
+dataset\selected_contracts\front_running\FindThisHash.sol,const-name-snakecase,Warning,Constant name must be in capitalized SNAKE_CASE,10.0
+dataset\selected_contracts\front_running\FindThisHash.sol,no-empty-blocks,Warning,Code contains empty blocks,12.0
+dataset\selected_contracts\front_running\FindThisHash.sol,reason-string,Warning,Provide an error message for require,17.0
+dataset\selected_contracts\front_running\FindThisHash.sol,avoid-sha3,Warning,"Use ""keccak256"" instead of deprecated ""sha3""",17.0
+dataset\selected_contracts\front_running\FindThisHash.sol,,,,
+dataset\selected_contracts\front_running\odds_and_evens.sol,compiler-version,Error,Compiler version ^0.4.2 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,use-natspec,Warning,Missing @title tag in contract 'OddsAndEvens',9.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],13.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,state-visibility,Warning,Explicitly mark visibility of state,18.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,func-visibility,Warning,Explicitly mark visibility in function,25.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,avoid-throw,Warning,"""throw"" is deprecated, avoid to use it",26.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,gas-increment-by-one,Warning,"GC: For [ tot ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",29.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,check-send-result,Warning,"Check result of ""send"" call",38.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,multiple-sends,Warning,"Avoid multiple calls of ""send"" method in single transaction",41.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,45.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,no-unused-vars,Warning,"Variable ""res"" is unused",50.0
+dataset\selected_contracts\front_running\odds_and_evens.sol,,,,
+dataset\selected_contracts\reentrancy\reentrance.sol,compiler-version,Error,Compiler version ^0.4.18 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\reentrancy\reentrance.sol,use-natspec,Warning,Missing @title tag in contract 'Reentrance',9.0
+dataset\selected_contracts\reentrancy\reentrance.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],11.0
+dataset\selected_contracts\reentrancy\reentrance.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,22.0
+dataset\selected_contracts\reentrancy\reentrance.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,24.0
+dataset\selected_contracts\reentrancy\reentrance.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",24.0
+dataset\selected_contracts\reentrancy\reentrance.sol,,,,
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,compiler-version,Error,Compiler version ^0.4.24 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,use-natspec,Warning,Missing @title tag in contract 'Reentrancy_bonus',9.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,contract-name-capwords,Warning,"Contract, Structs and Enums should be in CapWords",9.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,19.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",19.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,reason-string,Warning,Provide an error message for require,20.0
+dataset\selected_contracts\reentrancy\reentrancy_bonus.sol,,,,
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,compiler-version,Error,Compiler version ^0.4.24 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,use-natspec,Warning,Missing @title tag in contract 'Reentrancy_cross_function',9.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,contract-name-capwords,Warning,"Contract, Structs and Enums should be in CapWords",9.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,func-visibility,Warning,Explicitly mark visibility in function,14.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,15.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,24.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",24.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,reason-string,Warning,Provide an error message for require,25.0
+dataset\selected_contracts\reentrancy\reentrancy_cross_function.sol,,,,
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,compiler-version,Error,Compiler version ^0.4.19 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,use-natspec,Warning,Missing @title tag in contract 'ReentrancyDAO',9.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,state-visibility,Warning,Explicitly mark visibility of state,10.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],10.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,18.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",18.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,reason-string,Warning,Provide an error message for require,19.0
+dataset\selected_contracts\reentrancy\reentrancy_dao.sol,,,,
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,compiler-version,Error,Compiler version ^0.5.0 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,use-natspec,Warning,Missing @title tag in contract 'Reentrancy_insecure',9.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,contract-name-capwords,Warning,"Contract, Structs and Enums should be in CapWords",9.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,17.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",17.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,reason-string,Warning,Provide an error message for require,18.0
+dataset\selected_contracts\reentrancy\reentrancy_insecure.sol,,,,
+dataset\selected_contracts\short_addresses\short_address_example.sol,compiler-version,Error,Compiler version ^0.4.11 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,use-natspec,Warning,Missing @title tag in contract 'MyToken',9.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,state-visibility,Warning,Explicitly mark visibility of state,10.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],10.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,gas-indexed-events,Warning,GC: [_value] on Event [Transfer] could be Indexed,12.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,avoid-tx-origin,Error,Avoid to use tx.origin,15.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,func-visibility,Warning,Explicitly mark visibility in function,18.0
+dataset\selected_contracts\short_addresses\short_address_example.sol,,,,
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,compiler-version,Error,Compiler version ^0.4.15 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,use-natspec,Warning,Missing @author tag in contract 'EtherLotto',12.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,state-visibility,Warning,Explicitly mark visibility of state,15.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],15.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,func-visibility,Warning,Explicitly mark visibility in function,33.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,avoid-sha3,Warning,"Use ""keccak256"" instead of deprecated ""sha3""",43.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,43.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,55.0
+dataset\selected_contracts\time_manipulation\ether_lotto.sol,,,,
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,one-contract-per-file,Warning,Found more than One contract per file. 2 contracts found!,8.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,compiler-version,Error,Compiler version ^0.4.0 does not satisfy the ^0.8.0 semver requirement,8.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,use-natspec,Warning,Missing @title tag in contract 'Governmental',10.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],13.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,var-name-mixedcase,Warning,Variable name must be in mixedCase ONE_MINUTE,15.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,avoid-throw,Warning,"""throw"" is deprecated, avoid to use it",19.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,func-visibility,Warning,Explicitly mark visibility in function,22.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,27.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,check-send-result,Warning,"Check result of ""send"" call",34.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,multiple-sends,Warning,"Avoid multiple calls of ""send"" method in single transaction",35.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,37.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,46.0
+dataset\selected_contracts\time_manipulation\governmental_survey.sol,,,,
+dataset\selected_contracts\time_manipulation\lottopollo.sol,compiler-version,Error,Compiler version ^0.4.0 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,use-natspec,Warning,Missing @title tag in contract 'lottopollo',8.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,contract-name-capwords,Warning,"Contract, Structs and Enums should be in CapWords",8.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,state-visibility,Warning,Explicitly mark visibility of state,9.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],10.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,13.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,check-send-result,Warning,"Check result of ""send"" call",14.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,multiple-sends,Warning,"Avoid multiple calls of ""send"" method in single transaction",17.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,20.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,reentrancy,Error,Possible reentrancy vulnerabilities. Avoid state changes after transfer.,21.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,func-visibility,Warning,Explicitly mark visibility in function,25.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,no-unused-vars,Warning,"Variable ""seed"" is unused",29.0
+dataset\selected_contracts\time_manipulation\lottopollo.sol,,,,
+dataset\selected_contracts\time_manipulation\roulette.sol,compiler-version,Error,Compiler version ^0.4.25 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\time_manipulation\roulette.sol,use-natspec,Warning,Missing @title tag in contract 'Roulette',9.0
+dataset\selected_contracts\time_manipulation\roulette.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],10.0
+dataset\selected_contracts\time_manipulation\roulette.sol,no-empty-blocks,Warning,Code contains empty blocks,12.0
+dataset\selected_contracts\time_manipulation\roulette.sol,no-complex-fallback,Warning,Fallback function must be simple,15.0
+dataset\selected_contracts\time_manipulation\roulette.sol,reason-string,Warning,Provide an error message for require,16.0
+dataset\selected_contracts\time_manipulation\roulette.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,18.0
+dataset\selected_contracts\time_manipulation\roulette.sol,,,,
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,compiler-version,Error,Compiler version ^0.4.25 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,use-natspec,Warning,Missing @title tag in contract 'TimedCrowdsale',9.0
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,visibility-modifier-order,Warning,Visibility modifier must be first in list of modifiers,11.0
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,13.0
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,not-rely-on-time,Warning,Avoid making time-based decisions in your business logic,13.0
+dataset\selected_contracts\time_manipulation\timed_crowdsale.sol,,,,
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,compiler-version,Error,Compiler version ^0.4.10 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,use-natspec,Warning,Missing @title tag in contract 'Caller',9.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,func-visibility,Warning,Explicitly mark visibility in function,10.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,12.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,12.0
+dataset\selected_contracts\unchecked_low_level_calls\0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol,,,,
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,one-contract-per-file,Warning,Found more than One contract per file. 3 contracts found!,7.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,compiler-version,Error,Compiler version ^0.4.18 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,use-natspec,Warning,Missing @title tag in contract 'Ownable',9.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,state-visibility,Warning,Explicitly mark visibility of state,11.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,func-name-mixedcase,Warning,Function name must be in mixedCase,39.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,44.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,44.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,avoid-sha3,Warning,"Use ""keccak256"" instead of deprecated ""sha3""",44.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],50.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,var-name-mixedcase,Warning,Variable name must be in mixedCase MinDeposit,50.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,func-visibility,Warning,Explicitly mark visibility in function,61.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,94.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",97.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol,,,,
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,compiler-version,Error,Compiler version ^0.4.18 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,use-natspec,Warning,Missing @title tag in contract 'MultiplicatorX4',9.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,var-name-mixedcase,Warning,Variable name must be in mixedCase Owner,11.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,visibility-modifier-order,Warning,Visibility modifier must be first in list of modifiers,17.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,reason-string,Warning,Provide an error message for require,19.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,func-name-mixedcase,Warning,Function name must be in mixedCase,23.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,29.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",29.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,29.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,36.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol,,,,
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,compiler-version,Error,Compiler version ^0.4.19 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,use-natspec,Warning,Missing @title tag in contract 'WhaleGiveaway2',9.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,var-name-mixedcase,Warning,Variable name must be in mixedCase Owner,11.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],12.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,const-name-snakecase,Warning,Constant name must be in capitalized SNAKE_CASE,12.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,gas-strict-inequalities,Warning,GC: Non strict inequality found. Try converting to a strict one,25.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,visibility-modifier-order,Warning,Visibility modifier must be first in list of modifiers,33.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,reason-string,Warning,Provide an error message for require,35.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,func-name-mixedcase,Warning,Function name must be in mixedCase,39.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,45.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,avoid-call-value,Warning,"Avoid to use "".call.value()()""",45.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,45.0
+dataset\selected_contracts\unchecked_low_level_calls\0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol,,,,
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,compiler-version,Error,Compiler version ^0.4.18 does not satisfy the ^0.8.0 semver requirement,7.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,use-natspec,Warning,Missing @title tag in contract 'EBU',9.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,explicit-types,Warning,Rule is set with explicit type [var/s: uint],13.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,reason-string,Warning,Provide an error message for require,14.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,gas-small-strings,Warning,GC: String exceeds 32 bytes,16.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,gas-increment-by-one,Warning,"GC: For [ i ] variable, increment/decrement by 1 using: [ ++variable ] to save gas",17.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,avoid-low-level-calls,Warning,Avoid to use low level calls.,19.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,no-unchecked-calls,Warning,Return value of low-level call is not checked.,19.0
+dataset\selected_contracts\unchecked_low_level_calls\0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol,,,,

@@ -6,7 +6,7 @@ import re
 #  إذا تغير مكان الداتا
 DATASET_DIR = r"C:\Users\LN\Documents\summer-training-smart-contract\dataset\smartbugs"
 
-OUTPUT_CSV = r"C:\Users\LN\Documents\summer-training-smart-contract\results\securify_results.csv"
+OUTPUT_CSV = r"C:\Users\LN\Documents\summer-training-smart-contract\results\securify_results_check.csv"
 
 IMAGE = "securify:latest"
 
@@ -28,8 +28,8 @@ for root, dirs, files in os.walk(DATASET_DIR):
 
         docker_path = contract_path.replace("\\", "/")
         docker_path = docker_path.replace(
-            "C:/Users/LN/Documents/summer-training-smart-contract",
-            "/src"
+            "C:\Users\LN\Documents\summer-training-smart-contract",
+            "\src"
         )
 
         command = [
@@ -37,7 +37,7 @@ for root, dirs, files in os.walk(DATASET_DIR):
             "run",
             "--rm",
             "-v",
-            "C:\\Users\\LN\\Documents\\summer-training-smart-contract:/src",
+            "C:\\Users\\LN\\Documents\\summer-training-smart-contract:\src",
             IMAGE,
             docker_path
         ]

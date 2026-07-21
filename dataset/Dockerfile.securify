@@ -1,0 +1,9 @@
+# Securify 2.0 environment with automatic solc version resolution.
+# Build:  docker build -t securify-anyver -f Dockerfile.securify .
+FROM securify:latest
+
+USER root
+
+RUN pip3 install py-solc-x
+
+WORKDIR /repo

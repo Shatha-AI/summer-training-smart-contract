@@ -1,0 +1,191 @@
+contract,contract_name,tool,rule,category,swc,severity,line,column,code,mode
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-101,Integer Overflow,101,High,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+arbitrary_location_write_simple,Wallet,ConFuzzius,SWC-124,Arbitrary Memory Access,124,High,,,,onchain
+FibonacciBalance,FibonacciLib,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FibonacciBalance,FibonacciLib,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FibonacciBalance,FibonacciLib,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FibonacciBalance,FibonacciLib,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FibonacciBalance,FibonacciLib,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FibonacciBalance,FibonacciLib,ConFuzzius,SWC-101,Integer Overflow,101,High,,,,onchain
+incorrect_constructor_name1,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name1,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name1,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name1,Missing,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+incorrect_constructor_name1,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name1,Missing,ConFuzzius,SWC-105,Leaking Ether,105,High,,,,onchain
+incorrect_constructor_name2,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name2,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name2,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name2,Missing,ConFuzzius,SWC-105,Leaking Ether,105,High,,,,onchain
+incorrect_constructor_name2,Missing,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+incorrect_constructor_name2,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name3,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name3,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name3,Missing,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+incorrect_constructor_name3,Missing,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+incorrect_constructor_name3,Missing,ConFuzzius,SWC-105,Leaking Ether,105,High,,,,onchain
+BECToken,BecToken,ConFuzzius,SWC-101,Integer Overflow,101,High,264,1,uint256(cnt) * _value,offline
+insecure_transfer,IntegerOverflowAdd,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+insecure_transfer,IntegerOverflowAdd,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+insecure_transfer,IntegerOverflowAdd,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+insecure_transfer,IntegerOverflowAdd,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+integer_overflow_1,Overflow,ConFuzzius,SWC-101,Integer Overflow,101,High,14,1,sellerBalance += value,offline
+integer_overflow_add,IntegerOverflowAdd,ConFuzzius,SWC-101,Integer Overflow,101,High,17,1,count += input,offline
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+blackjack,BlackJack,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+etheraffle,Ethraffle_v4b,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,158,1,blockNumber = block.number,offline
+etheraffle,Ethraffle_v4b,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,81,1,"contestants[currTicket] = Contestant(msg.sender, raffleId)",offline
+etheraffle,Ethraffle_v4b,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,150,1,contestants[i].addr.transfer(pricePerTicket),offline
+guess_the_random_number,GuessTheRandomNumberChallenge,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+guess_the_random_number,GuessTheRandomNumberChallenge,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+guess_the_random_number,GuessTheRandomNumberChallenge,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+lottery,Lottery,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+lottery,Lottery,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+lucky_doubler,LuckyDoubler,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+lucky_doubler,LuckyDoubler,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+lucky_doubler,LuckyDoubler,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+lucky_doubler,LuckyDoubler,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+lucky_doubler,LuckyDoubler,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+lucky_doubler,LuckyDoubler,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+dos_address,DosGas,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_address,DosGas,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_address,DosGas,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_address,DosGas,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_address,DosGas,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_number,DosNumber,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_simple,DosOneFunc,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+dos_simple,DosOneFunc,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+list_dos,Government,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+list_dos,Government,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+list_dos,Government,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+list_dos,Government,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+list_dos,Government,ConFuzzius,SWC-101,Integer Overflow,101,High,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+ERC20,ERC20,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+eth_tx_order_dependence_minimal,EthTxOrderDependenceMinimal,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,24,1,reward = msg.value,offline
+eth_tx_order_dependence_minimal,EthTxOrderDependenceMinimal,ConFuzzius,SWC-105,Leaking Ether,105,High,31,1,msg.sender.transfer(reward),offline
+FindThisHash,FindThisHash,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FindThisHash,FindThisHash,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FindThisHash,FindThisHash,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+FindThisHash,FindThisHash,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+odds_and_evens,OddsAndEvens,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+odds_and_evens,OddsAndEvens,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+odds_and_evens,OddsAndEvens,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+odds_and_evens,OddsAndEvens,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+reentrance,Reentrance,ConFuzzius,SWC-107,Reentrancy,107,High,24,1,msg.sender.call.value(_amount)(),offline
+reentrance,Reentrance,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,24,1,msg.sender.call.value(_amount)(),offline
+reentrancy_bonus,Reentrancy_bonus,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_bonus,Reentrancy_bonus,ConFuzzius,SWC-107,Reentrancy,107,High,,,,onchain
+reentrancy_bonus,Reentrancy_bonus,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_bonus,Reentrancy_bonus,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_cross_function,Reentrancy_cross_function,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_cross_function,Reentrancy_cross_function,ConFuzzius,SWC-107,Reentrancy,107,High,,,,onchain
+reentrancy_cross_function,Reentrancy_cross_function,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_cross_function,Reentrancy_cross_function,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_cross_function,Reentrancy_cross_function,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+reentrancy_cross_function,Reentrancy_cross_function,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,,,,onchain
+reentrancy_dao,ReentrancyDAO,ConFuzzius,SWC-107,Reentrancy,107,High,18,1,msg.sender.call.value(oCredit)(),offline
+reentrancy_dao,ReentrancyDAO,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,25,1,credit[msg.sender] += msg.value,offline
+reentrancy_insecure,Reentrancy_insecure,ConFuzzius,SWC-107,Reentrancy,107,High,,,,onchain
+reentrancy_insecure,Reentrancy_insecure,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+reentrancy_insecure,Reentrancy_insecure,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+short_address_example,MyToken,ConFuzzius,SWC-110,Assertion Failure,110,Medium,9,1,"contract MyToken {
+     mapping (address => uint) balances;
+
+     event Transfer(address indexed _from, address indexed _to, uint256 _value);
+
+     function MyToken() {
+         balances[tx.origin] = 10000;
+     }
+     // <yes> <report> SHORT_ADDRESSES
+     function sendCoin(address to, uint amount) returns(bool sufficient) {
+         if (balances[msg.sender] < amount) return false;
+         balances[msg.sender] -= amount;
+         balances[to] += amount;
+         Transfer(msg.sender, to, amount);
+         return true;
+     }
+
+     function getBalance(address addr) constant returns(uint) {
+         return balances[addr];
+     }
+ }",offline
+short_address_example,MyToken,ConFuzzius,SWC-110,Assertion Failure,110,Medium,18,1,"function sendCoin(address to, uint amount) returns(bool sufficient) {
+         if (balances[msg.sender] < amount) return false;
+         balances[msg.sender] -= amount;
+         balances[to] += amount;
+         Transfer(msg.sender, to, amount);
+         return true;
+     }",offline
+short_address_example,MyToken,ConFuzzius,SWC-110,Assertion Failure,110,Medium,26,1,"function getBalance(address addr) constant returns(uint) {
+         return balances[addr];
+     }",offline
+ether_lotto,EtherLotto,ConFuzzius,SWC-110,Assertion Failure,110,Medium,36,1,assert(msg.value == TICKET_AMOUNT),offline
+ether_lotto,EtherLotto,ConFuzzius,SWC-120,Block Dependency,120,Low,43,1,block.timestamp,offline
+ether_lotto,EtherLotto,ConFuzzius,SWC-114,Transaction Order Dependency,114,Medium,39,1,pot += msg.value,offline
+lottopollo,lottopollo,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+lottopollo,lottopollo,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+roulette,Roulette,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+roulette,Roulette,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+roulette,Roulette,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+roulette,Roulette,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+roulette,Roulette,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+timed_crowdsale,TimedCrowdsale,ConFuzzius,SWC-120,Block Dependency,120,Low,,,,onchain
+timed_crowdsale,TimedCrowdsale,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+timed_crowdsale,TimedCrowdsale,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,Caller,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,Caller,ConFuzzius,SWC-110,Assertion Failure,110,Medium,,,,onchain
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,Caller,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,,,,onchain
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,TokenBank,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,44,9,"token.call(bytes4(sha3(""transfer(address,uint256)"")),to,amount)",offline
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,TokenBank,ConFuzzius,SWC-107,Reentrancy,107,High,44,9,"token.call(bytes4(sha3(""transfer(address,uint256)"")),to,amount)",offline
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,MultiplicatorX4,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,2,1," * @source: etherscan.io 
+ * @author: -
+ * @vulnerable_at_lines: 29
+ */
+
+ pragma solidity ^0.4.18;
+
+contract ",offline
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,MultiplicatorX4,ConFuzzius,SWC-105,Leaking Ether,105,High,38,1,adr.transfer(this.balance+msg.value),offline
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,WhaleGiveaway2,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,2,1," * @source: etherscan.io 
+ * @author: -
+ * @vulnerable_at_lines: 45
+ */
+
+pragma solidity ^0.4.19;
+
+contract W",offline
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,EBU,ConFuzzius,SWC-104,Unhandled Exception,104,Medium,19,1,"caddress.call(id,from,_tos[i],v[i]*1000000000000000000)",offline
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,EBU,ConFuzzius,SWC-110,Assertion Failure,110,Medium,19,1,v[i],offline

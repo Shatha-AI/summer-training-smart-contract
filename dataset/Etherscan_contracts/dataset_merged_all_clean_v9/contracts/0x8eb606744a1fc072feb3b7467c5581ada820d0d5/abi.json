@@ -1,0 +1,118 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "metaRegistry",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "pool",
+        "type": "address"
+      }
+    ],
+    "name": "stableswapPoolState",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "bool",
+            "name": "is_registered",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "is_meta",
+            "type": "bool"
+          },
+          {
+            "internalType": "address",
+            "name": "base_pool",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "base_pool_lp_token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "base_pool_total_supply",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "meta_pool_redemption_price",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "meta_pool_n_coins",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "base_pool_n_coins",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address[8]",
+            "name": "meta_pool_coin_addresses",
+            "type": "address[8]"
+          },
+          {
+            "internalType": "address[8]",
+            "name": "base_pool_coin_addresses",
+            "type": "address[8]"
+          },
+          {
+            "internalType": "uint256[8]",
+            "name": "meta_pool_balances",
+            "type": "uint256[8]"
+          },
+          {
+            "internalType": "uint256[8]",
+            "name": "base_pool_balances",
+            "type": "uint256[8]"
+          },
+          {
+            "internalType": "uint8[8]",
+            "name": "meta_pool_coin_decimals",
+            "type": "uint8[8]"
+          },
+          {
+            "internalType": "uint8[8]",
+            "name": "base_pool_coin_decimals",
+            "type": "uint8[8]"
+          },
+          {
+            "internalType": "uint256",
+            "name": "meta_pool_A",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "base_pool_A",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "meta_pool_fee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "base_pool_fee",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct CurvePoolState",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

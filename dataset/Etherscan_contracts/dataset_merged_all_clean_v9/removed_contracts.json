@@ -1,0 +1,2272 @@
+[
+  {
+    "address": "0x0171252c8c67ca3049f8fdd3e8f6292b4c5322bb",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x01aeea62ef580c4bcf54e9ca0856104fe3f01b3b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0319354cd21d875407ae5cc8c6d8b77266524728",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0372d603d3b5aa106c1165fbfa81b4c66c20b5ea",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x04655b7bd11f7759e67c5d9b2eaa381a0eba2374",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x05c58db2e0c52b22c10f1fb3d881bfb0e091086d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x07330a546d1ab803f16654a0180b1c908bd2e49f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0a201bf1544ad4f32b92281ba489b97541497a96",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0be43f078299515268cdf29894b62417d80d6f5c",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x10ec729bc6db54bf2a8510fa589472ad5cf0bcd4",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x112c7f04bcb8e79b7bee1e2cb2ebd7b3c03f8065",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x11718e0210f49ab8f43c5ce750f917e13bbc7a44",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x11ae2cd2c9758c4c2a5cd0677826b6f593cf5466",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x132a6b5de29019b0f4aa67251ea345c418753e5d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x14a1781b6e2e76e36d2a20e76963e4a3304a4071",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1529d4d603eaab906b19a4cfe60c748c8a952ec0",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x16427c5ac93537b6c692bd68534c474eac8a22c4",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1afe3cc2d06d53e1d181bec43a377c415593f045",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1e653f74cee5390586ecd15d916be001b4d176cc",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1f21d09c65bc8af92634dcd5a100b6d04f0c81c3",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2141eaa836013d4fee0c32ec6165e281b6726fa6",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x248872d0c3b43428d23cd8562f15df0f49d0c460",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2885fb1a77800f6c46640372652289c42046530f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x29f35f79a31b40acfb749972e669bef67bd41a65",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x29f862997a0ea12994d2040fbd6a70a0d4768f84",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2ad333585a464ebd5b160007de5b4ea733726b6b",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x2d2a1ddab33dcf15fc0f0c73b3b5466641191304",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2ef7336bd5205bc1ac938621bfa3b97743ac3544",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2f47e71d65c46d919963bf1e0ae534cdd9b62780",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x319124b7299758d42fec82ba6aafd75adc972601",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x340da5a1d63fd8f8ad906f4763c6106eef53f90f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x36a33b3e409da2090d4a64c612a58bea9839d983",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3c4b8476765d1720409e3d37e372695710e24286",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3d2c254abbc9455787f9a44f0e37f32f19c18e15",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3df1fc566b90c75be2654704d89362bda37250c3",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4001363444be000fa20c678a3e356f6f647a8722",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x40318a6297c89c5c124a351d2efea006194c39be",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x44cca067ac53cf792347611ab5cf7bc7fd935475",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x460cff7e818f66e35233baefa31b5848c629b665",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x463dd36f0c4d076ff92a05595a469f0831141d3b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x463e82359e1d04456b630aa62005ef4b06142700",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4664088338ac4b018a379638b33f5df45f84120c",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x476047958e400eefcb5f308e0ee9f020b83a4d1a",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x48da69968a3aae0b7654bb65bd4a0d76a3e820e9",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4a92e7286309494422346556e87a0dd0c2563517",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4baab53c606b3926b6b1388385ba621f72fc714c",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4bfbf8057c1c9afaa9b6be7685760d7a8ed95b50",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4d4c2556a310010e285b5e9ab32138860c425cb0",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4e18f9d2fa09d5627c0d35b44bb921921be2f0e7",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x52693ab8aeb499cef59f03e617ec932bf68061c5",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5552e4748385b8122e005c9865d10aacb33995a6",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5705f253ffcd899be7c61953ef2b6f8c8a079c5e",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x574f95e5a567f97725970235263fc66db7039233",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5a192354086e7a097f942d09b30342075d95d734",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5aaffaf14bff54dce21304056d3156ebfb67720c",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5c2c972de4ef50f51265e1fc06d17edf4dd2afaf",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5d3318aabd481d5ab2927a118d9dbdc94a4b129b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5e5a587835462d06f6842ca4262a90674352f787",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x625f5ca8a019364b09a09d598fa64c7e1e22b4fd",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x62b7c16a6a5bd77b79c2ebd2fdd821c8b142a1da",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x633249381c427a2d20d3890e65cae65c39862a34",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x64702507afbb61ccb5e116eb5664b4cdc8e45100",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6699fb33dec7b63622bef01645596c5c5aea908f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x67e35295b9cf56ddb3919840e77b4958fa4d5b61",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x687e17d400a0e5b7226c4655d3d20f1d08e89986",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x68dc4404e2857369d61d2ef9ad86a08b3c475a5b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6af7868d8481e1692fd3ba833989818515236093",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6afbac52cb4f1b97aecf41a892ffbbb0d4c71fde",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6b80084aef2c3f205077e37ba64d50ea332c6ae2",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6ca97db1b70f2b9b59a2d7b6ac30061261a20f1a",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6d516dd1058ca0da9dd5a302fc48f5e24f1d882d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6d7bfbfad68ea48c423493c92026e920931d343d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6dc10ae17d8fd22eba6ba59143219c48262bb5a9",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6e034c02b959ade4a89b053a9ec0c829c46c681b",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x6ea8a0e00cfc0b21c820036cf48149219a7517f5",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6f8455d857cad5d60d376729482ad2305cb9609c",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6fe73611514247ea4a607e94fa2fff804ffb5f54",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x709754750e5cd6703b5c1fefe891f13ab757e845",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x715455a43b491352d91ba1b65f90f3051fbbbf7d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x73476f9431cffc95144496173cefa9762b7b66cc",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x735806779f1ff9c4ad117f5855ad66e3c96acea2",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x7615e8a700a4c9d724cf66e355831a11499f35fa",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x76e9936366cd4a7f71f079d964e3e8ce55004869",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x76fd23c3ffb0508577a2e5db8dd80f0e6299aa05",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x78211376fee8f8bf3cfed1210b99dd92a8f1bc02",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x7c0ea50965fd9dadda40f47e569e2681c5772aae",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x7f4e706083a14a384599b6eacad81a7955c922f4",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x80edd5a8927aa002c2849330336a31fe11d76186",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x81748ae3466f9797cbce8c2ba430593944e7591a",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x81a1575c28ae6fe625bf8e2b58c5e027887ce933",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x83a0946f1b5fa8f048591cefb973d01c8a479b60",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x85ca9731357fdf4034964912aad5b4a8dffd8143",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x876dffafbf8581d81bed378c42a3d16973464096",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x87d336511760583b11b87866654c6f7253c1cb0d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x888be4a705964c9e1f46455519a173dfe87359fc",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x894ad5767efee4dab82677bac2b625a34f463ae7",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x896dcc2456bee1ef61c9821e9a5d8d8e7508004b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8ae35e091df16ced536f200f2dcc305f6a914157",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8b132d2a92d65cd0a9d8e0f416398c705d1c1f75",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8d6b51c69b09491dd6964918797359f42514bf50",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8eb606744a1fc072feb3b7467c5581ada820d0d5",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x93536701275a6d0ae9ddf190ba4ef6c1a2b1022e",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x940b0c1d1fc0407ecc8b7083676688629e1c8a89",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x98104d2a0f54483b440761eac1ac22372211f629",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x98a85bde22f47ea84aba91b37a52d51226a74225",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x98ab23d478fce5a4f4b102962318ace3e758dc83",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9b00c93a00cb18c2518cf3447001eb90f86206ab",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9b91eabe8afdc36f881d4c9dd89145a2e235c8f8",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9d690186b7a16ef191b2086d504fba898e129547",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x9e3f3f7f3b619d33d0195ea7a51cde1128d204be",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa0d5d980c6cd07d2cde8d4b6bbe8a9cfc6ef39b1",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa22dce25f9caa99e61ca28551f830b6d27fea2f3",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa2330490499e66b9e0f02d6448e2ad0856eb304b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa24b4409c0bf02c57f1f18f838f321d0f131e961",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa46e1268802b36634563067c9e146e400a853994",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xa4aabfe9175e8395ae2be2f5ed7a22650a134014",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa51fc028bd92dea83df0b5cb2af51a51fc0ef716",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa7d9ac459c68ff04d363ade88f60e691a05ee135",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa7eb492e0818a2d5daddc0a4d3d28ec67bcccbc0",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xaa95adc5ced4a0d6dd4d01b5c7c3ab14cdc0a897",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xabca8f71ba5f0e500a7e9c470048472c0b982b35",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xac40d202aea4a863773372961596dc629b1fce46",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xaf8e18f38d15feb3a33cdb0141fceaf49aa211c5",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb0a5baece8b0c88da89889ea03511b5bbb082778",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb28a89d059cfb407649eb6e307a7e12106bfa7eb",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb305773874f73feae36c46742daacdf42051eaf3",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb3080874cb4e863f3cb646de31015d67d396c3b1",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb374f966d75d0dfbdc8e620f670eab7f89598a14",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb44aad57c44fcf9cfc90306e00c5bc6afb8f19b7",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb44b7a83b37ed880b972e13328fc0b9a16c76613",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb4dbc1993e2f6b19baa82e7c2d8c5ed00185c986",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb67f48b022a7aac1ef2f3584e1bf635eeb50bac9",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb6902a30025542fec04bc10fd829c41592f42428",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb8f32f64322ad5c4a4a40ca570f98af8bba2635a",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb96860fdb0a5450e414a3677dc3fb94446322faf",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb9e9f8de030be4585c65cb4b14af3a3acf1f92b1",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbbeebf2a38f7bed6dbb58c503d35eef9253910e1",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbc494b74df439fa6ac3ad304169dd6dc8a0ca77d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbc97d0b65d2457c6eb32a6321b1bd543583c8be0",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbfb2ff883183d2170a3ddc0e3945407993b6e531",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc179c330514bd5bd661cf6cec3cac21b18d95bb7",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc1a8d8e336d3bfc7de787d0c5d84e16dedec87c2",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc28a0d97d1bba2c9622013b94594f83dcd7e467f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc58985689a183934a6990f060a647a59d2a1b85e",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc5c93d361a18a4aa6308a660836cedb0b128deba",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc6636897e842675a516fbe27072462dde1667362",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc84ae189a8ffbe0d158ddb707c687829555ae8e6",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc85dbb62ff1475592ab58d2d77693baf6e520a12",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc8726ed5a24eab3e1f0a0b3a7922f53829849426",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcacac855b2c8a15309dc18a0dd499fe9f30bdf54",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcb1390c40861ef31c8c7736685e4a487d193b3d9",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcd6b79c295196d34d78259582baa350a8c4501bf",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcdbda00b4120ab76f8a27b99854e21e3db7ce5f3",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xce9617330b70c9079ec0fee327fddcf96932a414",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd19fe432dbdd1f7a603c8f198006ad3b1ff567cb",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd33f10222a9783d30cb3a4dab51fed1a045c81e0",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd3a7362a7c02227b2ba7dba4bb30c9092ee744b9",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd460243decf44194111bdfe4aff9766e85707d5e",
+    "dataset": "246dataset",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xd698c8a3b592bfab63c69b181ea497c7aa68a892",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd7dad0c704bbbc2b2487d65986d9e79603866d60",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xda23800a2fc8d345af55d9bf88a7a910b2f90a6d",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xdab59a629854b55c7e002cfaae361e8456e58ddf",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xdf5853b584f9b31192549804dfee0bd881793ed6",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xe20ef2738f79d11cb74b1c0f2892bec581917caa",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xe6f643e1c6f9af0c9b482f7fad82f1250e152476",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xea069ae13359a42a11ff5b03f596dbf27ffb320f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xebcdd2d2876909298e382b91db5218a2201a61b6",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xebeaee12ee31dd861ded9d3b9ff9917e438ed72a",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xecf0abcbad9a239d2d5d2ae7891b80d28f5988ab",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xed1cd879505941f0c4fbbcd23e05102609e68b89",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xed25ce3c0adf25a461be386c514be94c30fa6223",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xee716c183d6805923ba4ef6a1ee67a834838555b",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xeed6d05fb29b8a8e61bfb7709b476497a5756197",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf07ecaf77499999891f114dab21447ea396733d4",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf12e9b3f18b0fd945b2f45c82a800cf1b5670732",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf1b6107a428a2caaa8a77f8fee8c7bf72d11a381",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf2f0ad37d319a1dfc3b8b962f65cde0332e6195a",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf5ce5ae645b9cded86dd1eef162c419b0382b8e6",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf6e713f2bd9576e3d40d676619443bcde50ac192",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfabd8d91c9c0cd3f852466bada03673918de5284",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfc15662fadbaef71b808ce5ee29905d2995ef992",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xffb27c654126988e9db938b6953d1b94a7c9b4e2",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xffd4e26f4ce5e9bdd019545fed0b9c3c2f27843f",
+    "dataset": "246dataset",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0171252c8c67ca3049f8fdd3e8f6292b4c5322bb",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x01aeea62ef580c4bcf54e9ca0856104fe3f01b3b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x01bc2ad6104232fa2a3bbf103309b8203f91d6d6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0319354cd21d875407ae5cc8c6d8b77266524728",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0372d603d3b5aa106c1165fbfa81b4c66c20b5ea",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x04655b7bd11f7759e67c5d9b2eaa381a0eba2374",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x05c58db2e0c52b22c10f1fb3d881bfb0e091086d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x05e60b5264302d195fb839b004a99193c134e5bc",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x07330a546d1ab803f16654a0180b1c908bd2e49f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x092ff51db436637643ebd66785bfcd62ac797a33",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0a201bf1544ad4f32b92281ba489b97541497a96",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0be43f078299515268cdf29894b62417d80d6f5c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x0f63ebdf4e2cc35bc395dda17326a08518796da2",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x10ec729bc6db54bf2a8510fa589472ad5cf0bcd4",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x112c7f04bcb8e79b7bee1e2cb2ebd7b3c03f8065",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x11718e0210f49ab8f43c5ce750f917e13bbc7a44",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x11ae2cd2c9758c4c2a5cd0677826b6f593cf5466",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x129d37c59df693066ee8d551a9bba3488fa69c31",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x132a6b5de29019b0f4aa67251ea345c418753e5d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x14a1781b6e2e76e36d2a20e76963e4a3304a4071",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1529d4d603eaab906b19a4cfe60c748c8a952ec0",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x16427c5ac93537b6c692bd68534c474eac8a22c4",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1afe3cc2d06d53e1d181bec43a377c415593f045",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1c233c04fe3140150d943a525243fdf58d6f161e",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1cd5335b2bac8e6fe8776bba5c187375677f6b03",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1e653f74cee5390586ecd15d916be001b4d176cc",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x1f21d09c65bc8af92634dcd5a100b6d04f0c81c3",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2141eaa836013d4fee0c32ec6165e281b6726fa6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x218de33c6347b6df003e487e46ea0f70c9d4db13",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x21bd8de21030ddd83dd1b858940581d8966f45dd",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x248872d0c3b43428d23cd8562f15df0f49d0c460",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x248fa2ca2d287f2668d1799394b8d953179eab98",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x254f76330874e556ec377edc9b37b4287984c6f2",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2885fb1a77800f6c46640372652289c42046530f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x29f35f79a31b40acfb749972e669bef67bd41a65",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x29f862997a0ea12994d2040fbd6a70a0d4768f84",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2a221b269d49732856f4c7a6ebc31da4875104f9",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2ad333585a464ebd5b160007de5b4ea733726b6b",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x2bdbb85c1e867a131bd7b2b87750de08dcfee816",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2cbb872b6d806207d668a9ee253230742a49beab",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2d2a1ddab33dcf15fc0f0c73b3b5466641191304",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2ef7336bd5205bc1ac938621bfa3b97743ac3544",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x2f47e71d65c46d919963bf1e0ae534cdd9b62780",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x311399f8f1c6f04a8be0300b94136eb05edcc697",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x319124b7299758d42fec82ba6aafd75adc972601",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x340da5a1d63fd8f8ad906f4763c6106eef53f90f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x36a33b3e409da2090d4a64c612a58bea9839d983",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x376bfcdb2ca43f748aa723b757eba4cd2d0b6d4e",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3c4b8476765d1720409e3d37e372695710e24286",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3d2c254abbc9455787f9a44f0e37f32f19c18e15",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3df1fc566b90c75be2654704d89362bda37250c3",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4001363444be000fa20c678a3e356f6f647a8722",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x40318a6297c89c5c124a351d2efea006194c39be",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x44cca067ac53cf792347611ab5cf7bc7fd935475",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x460cff7e818f66e35233baefa31b5848c629b665",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x463dd36f0c4d076ff92a05595a469f0831141d3b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x463e82359e1d04456b630aa62005ef4b06142700",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4664088338ac4b018a379638b33f5df45f84120c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4741a38ca250b1e28067b36613ff9aa1cf8e6846",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x476047958e400eefcb5f308e0ee9f020b83a4d1a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x47b94c6d660bfa299a28b9c2015c5cba45ac7885",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x48da69968a3aae0b7654bb65bd4a0d76a3e820e9",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4a92e7286309494422346556e87a0dd0c2563517",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4baab53c606b3926b6b1388385ba621f72fc714c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4bfbf8057c1c9afaa9b6be7685760d7a8ed95b50",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4d4c2556a310010e285b5e9ab32138860c425cb0",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x4e18f9d2fa09d5627c0d35b44bb921921be2f0e7",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x52693ab8aeb499cef59f03e617ec932bf68061c5",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5552e4748385b8122e005c9865d10aacb33995a6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5705f253ffcd899be7c61953ef2b6f8c8a079c5e",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x574f95e5a567f97725970235263fc66db7039233",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5a192354086e7a097f942d09b30342075d95d734",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5aaffaf14bff54dce21304056d3156ebfb67720c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5c2c972de4ef50f51265e1fc06d17edf4dd2afaf",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5d3318aabd481d5ab2927a118d9dbdc94a4b129b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5e5a587835462d06f6842ca4262a90674352f787",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x625f5ca8a019364b09a09d598fa64c7e1e22b4fd",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x62b7c16a6a5bd77b79c2ebd2fdd821c8b142a1da",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x633249381c427a2d20d3890e65cae65c39862a34",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x64702507afbb61ccb5e116eb5664b4cdc8e45100",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6699fb33dec7b63622bef01645596c5c5aea908f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x67b3e7441a9512ee26b243801a259d20b717dca7",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x67e35295b9cf56ddb3919840e77b4958fa4d5b61",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x687e17d400a0e5b7226c4655d3d20f1d08e89986",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x68dc4404e2857369d61d2ef9ad86a08b3c475a5b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6af7868d8481e1692fd3ba833989818515236093",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6afbac52cb4f1b97aecf41a892ffbbb0d4c71fde",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6b80084aef2c3f205077e37ba64d50ea332c6ae2",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6bce651bc4352b4a7ce774d1e2729a951cfe9ece",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6ca97db1b70f2b9b59a2d7b6ac30061261a20f1a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6d516dd1058ca0da9dd5a302fc48f5e24f1d882d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6d7bfbfad68ea48c423493c92026e920931d343d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6dc10ae17d8fd22eba6ba59143219c48262bb5a9",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6e034c02b959ade4a89b053a9ec0c829c46c681b",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x6ea8a0e00cfc0b21c820036cf48149219a7517f5",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6f8455d857cad5d60d376729482ad2305cb9609c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6fe73611514247ea4a607e94fa2fff804ffb5f54",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x709754750e5cd6703b5c1fefe891f13ab757e845",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x70f248a94b14fa08bf8e129ceff90e3c0d17dd7c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x715455a43b491352d91ba1b65f90f3051fbbbf7d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x73476f9431cffc95144496173cefa9762b7b66cc",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x735806779f1ff9c4ad117f5855ad66e3c96acea2",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x7615e8a700a4c9d724cf66e355831a11499f35fa",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x76e9936366cd4a7f71f079d964e3e8ce55004869",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x76fb1de29f12c87f2f739f2e91892086c0cb76ec",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x76fd23c3ffb0508577a2e5db8dd80f0e6299aa05",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x774013983827058fd2b23fee88b93fc4ac03f19d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x78211376fee8f8bf3cfed1210b99dd92a8f1bc02",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x7b5c51c37f295b6c9af1aa9fac3a5fa61c471972",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x7c0ea50965fd9dadda40f47e569e2681c5772aae",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x7c26837076ecdb68a13f12b6deefe8d550f169b4",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x7f4e706083a14a384599b6eacad81a7955c922f4",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8077c429401a25d6aa1029ee502ac0d0af3ff0f7",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x80edd5a8927aa002c2849330336a31fe11d76186",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x81748ae3466f9797cbce8c2ba430593944e7591a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x81a1575c28ae6fe625bf8e2b58c5e027887ce933",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x82442004ea45fcb257146b825e3bd63361f05491",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x83a0946f1b5fa8f048591cefb973d01c8a479b60",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x85ca9731357fdf4034964912aad5b4a8dffd8143",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x876dffafbf8581d81bed378c42a3d16973464096",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x87d336511760583b11b87866654c6f7253c1cb0d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x888be4a705964c9e1f46455519a173dfe87359fc",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x894ad5767efee4dab82677bac2b625a34f463ae7",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x896dcc2456bee1ef61c9821e9a5d8d8e7508004b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x898fdb23cf1b4ac89718f711348f2a571f13b30f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8a0457b7a2a4fe045ef76b95b8e5ffcaaa6a8ee6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8ae35e091df16ced536f200f2dcc305f6a914157",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8b132d2a92d65cd0a9d8e0f416398c705d1c1f75",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8d6b51c69b09491dd6964918797359f42514bf50",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8eb606744a1fc072feb3b7467c5581ada820d0d5",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x90e55ff0c18e3fa6b3d6cc9f4d014daeda9d2f94",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x93536701275a6d0ae9ddf190ba4ef6c1a2b1022e",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x940b0c1d1fc0407ecc8b7083676688629e1c8a89",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x96a31af9ecda34c71e737030d09263c7b40fb879",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x98104d2a0f54483b440761eac1ac22372211f629",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x98a85bde22f47ea84aba91b37a52d51226a74225",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x98ab23d478fce5a4f4b102962318ace3e758dc83",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9b00c93a00cb18c2518cf3447001eb90f86206ab",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9b91eabe8afdc36f881d4c9dd89145a2e235c8f8",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9cd53739cafc891b2ee0117b093d5143c4bc4107",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9d1b9c84d41dc99c07a5b3632d9d8329e0910825",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9d68b41bb9f9e9ac1e1ee49d3566cad4624886ba",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9d690186b7a16ef191b2086d504fba898e129547",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x9e0f6fb7587c28dcab02bfab9382e08568bfa4e4",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9e3f3f7f3b619d33d0195ea7a51cde1128d204be",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa0d5d980c6cd07d2cde8d4b6bbe8a9cfc6ef39b1",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa22dce25f9caa99e61ca28551f830b6d27fea2f3",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa2330490499e66b9e0f02d6448e2ad0856eb304b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa24b4409c0bf02c57f1f18f838f321d0f131e961",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa46e1268802b36634563067c9e146e400a853994",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xa48e358f8839f69493d0f41694ad42fbdc5749ec",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa4aabfe9175e8395ae2be2f5ed7a22650a134014",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa51fc028bd92dea83df0b5cb2af51a51fc0ef716",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa7d9ac459c68ff04d363ade88f60e691a05ee135",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa7eb492e0818a2d5daddc0a4d3d28ec67bcccbc0",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xaa95adc5ced4a0d6dd4d01b5c7c3ab14cdc0a897",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xabca8f71ba5f0e500a7e9c470048472c0b982b35",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xac40d202aea4a863773372961596dc629b1fce46",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xae689fdd0bfffc362d7a1ae34d35ff4738ead50d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xaf8e18f38d15feb3a33cdb0141fceaf49aa211c5",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xaf9a41f7b4c7ff2abd8541515b1eaef1ead1db3b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb0a5baece8b0c88da89889ea03511b5bbb082778",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb28a89d059cfb407649eb6e307a7e12106bfa7eb",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb305773874f73feae36c46742daacdf42051eaf3",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb306d63df5386ac5e12af64e98bc52ed4439bba1",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb3080874cb4e863f3cb646de31015d67d396c3b1",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb374f966d75d0dfbdc8e620f670eab7f89598a14",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb44aad57c44fcf9cfc90306e00c5bc6afb8f19b7",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb44b7a83b37ed880b972e13328fc0b9a16c76613",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb4dbc1993e2f6b19baa82e7c2d8c5ed00185c986",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb67f48b022a7aac1ef2f3584e1bf635eeb50bac9",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb6902a30025542fec04bc10fd829c41592f42428",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb8f32f64322ad5c4a4a40ca570f98af8bba2635a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb931f416cd3c3dd0feccd7c61c62fc4ccbbd173d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb96860fdb0a5450e414a3677dc3fb94446322faf",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb9754fa2d85c99732abab84f04ab12e4f828ad3b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb9e9f8de030be4585c65cb4b14af3a3acf1f92b1",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbabbeb41a2d2e8186f3498b0a0b23dc5eb99101a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbbeebf2a38f7bed6dbb58c503d35eef9253910e1",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbc494b74df439fa6ac3ad304169dd6dc8a0ca77d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbc97d0b65d2457c6eb32a6321b1bd543583c8be0",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbd20f87d696cc70d175b5ea46c16fba74bb9ef76",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbea097f9f35b4183b27220ebedb3bcbc2b47bb87",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xbfb2ff883183d2170a3ddc0e3945407993b6e531",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc179c330514bd5bd661cf6cec3cac21b18d95bb7",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc1a8d8e336d3bfc7de787d0c5d84e16dedec87c2",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc28a0d97d1bba2c9622013b94594f83dcd7e467f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc2a5df0a339fe5187776ae84b967a1e606df86bc",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc58985689a183934a6990f060a647a59d2a1b85e",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc5c93d361a18a4aa6308a660836cedb0b128deba",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc6636897e842675a516fbe27072462dde1667362",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc72147c933d598b86d926aa0e0b4bab8ab75eb04",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc84ae189a8ffbe0d158ddb707c687829555ae8e6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc85dbb62ff1475592ab58d2d77693baf6e520a12",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc8726ed5a24eab3e1f0a0b3a7922f53829849426",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc970a9330e622003cd0817e169564c06a152a571",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xc9819b941900e57dd703ad746d5f74b0431a37be",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcacac855b2c8a15309dc18a0dd499fe9f30bdf54",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcb1390c40861ef31c8c7736685e4a487d193b3d9",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcc93975784b9fadb0ef5eaf31a49e25d57ba1e54",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcd6b79c295196d34d78259582baa350a8c4501bf",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xcdbda00b4120ab76f8a27b99854e21e3db7ce5f3",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xce9617330b70c9079ec0fee327fddcf96932a414",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd1217d8f3a31d50d92ff1265dbbded559710e3c1",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd19fe432dbdd1f7a603c8f198006ad3b1ff567cb",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd28ba7625e0a9d7a613e9fe242db7a3dfbc5c12f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd33f10222a9783d30cb3a4dab51fed1a045c81e0",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd3a7362a7c02227b2ba7dba4bb30c9092ee744b9",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd460243decf44194111bdfe4aff9766e85707d5e",
+    "dataset": "289contracts",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xd698c8a3b592bfab63c69b181ea497c7aa68a892",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd6c60b365d414268e73dca267d2c73845c540a1c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd7dad0c704bbbc2b2487d65986d9e79603866d60",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xda23800a2fc8d345af55d9bf88a7a910b2f90a6d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xda8e09cc3acaa39cbfbe4287a6d1ef74bf93299b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xdab59a629854b55c7e002cfaae361e8456e58ddf",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xdbe38afd476ffe6241978d3beefd82bdfc1a2873",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xdd722431a559eb54ca542223b98ac5196131921a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xdf5853b584f9b31192549804dfee0bd881793ed6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xe20ef2738f79d11cb74b1c0f2892bec581917caa",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xe6f643e1c6f9af0c9b482f7fad82f1250e152476",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xe9cabccc65b92937cc002d9438188c2d4b80247d",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xea069ae13359a42a11ff5b03f596dbf27ffb320f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xebcdd2d2876909298e382b91db5218a2201a61b6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xebeaee12ee31dd861ded9d3b9ff9917e438ed72a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xecf0abcbad9a239d2d5d2ae7891b80d28f5988ab",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xed1cd879505941f0c4fbbcd23e05102609e68b89",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xed25ce3c0adf25a461be386c514be94c30fa6223",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xee716c183d6805923ba4ef6a1ee67a834838555b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xeed6d05fb29b8a8e61bfb7709b476497a5756197",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf07ecaf77499999891f114dab21447ea396733d4",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf11c8b11b6901b52f3d8a07457897a66cf0bb34b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf12e9b3f18b0fd945b2f45c82a800cf1b5670732",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf1b6107a428a2caaa8a77f8fee8c7bf72d11a381",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf21922df7de704afdfaecd07be67f970b5acca71",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf2f0ad37d319a1dfc3b8b962f65cde0332e6195a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf3bf82e2feadac506d640ac1a2d411ee39231a1a",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf3d7c7e8f5154c669eaa0de996cde0575d7d3a00",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf5ce5ae645b9cded86dd1eef162c419b0382b8e6",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf6e713f2bd9576e3d40d676619443bcde50ac192",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf840e4ecddcc214dbfc95d12c8de5d47d3e85c5c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf8b2cdb70be77c8abc990c19dcbd980674adbd2c",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfabd8d91c9c0cd3f852466bada03673918de5284",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfc15662fadbaef71b808ce5ee29905d2995ef992",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfc2c64ce1c098a7328874dd09d9a71e306d1a948",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfcd9dcd6991d95bd1b1d931c04a64dda74f2e43b",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xffb27c654126988e9db938b6953d1b94a7c9b4e2",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xffc8167f0ea3d9ae89c1fc68046226f3e8579aa8",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xffd4e26f4ce5e9bdd019545fed0b9c3c2f27843f",
+    "dataset": "289contracts",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x28a02d053b59c5ba771695bae6f667e97811b373",
+    "dataset": "dataset_26",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x391b88351974592a8f5e1cc1b87e7d6b2eaeea6c",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x3feb624dfe5d8209a21be1514ece7a7b9534723e",
+    "dataset": "dataset_26",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x4667e76f65ab9d4b2c145def66bdf922efac2d96",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x513c73c07d8ca8f612f527c6b871e139e1ac4c17",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x5d2f9b8ee0d2fff3b13a5f624331b1ede21e6779",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x6865aa81421f40b204f2030fb7c5df99738cd6e9",
+    "dataset": "dataset_26",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0x7b62739897f458428ee7d3ad83c99ca07fcad5ff",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x89ae93a3734d66e77264cc8eb3c8cacc163e878f",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x8f60e26a9038b21eedd1d0c9af8a653055c947a7",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9c9014d556f5cc006087e324d8551bcec761d26c",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9ca7dddcdcc1ce726de021d4c306fb541bb0346b",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0x9d3f45b8d933f6409ca1a8cbfb99a26ae1133d1f",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa1801556d0e7cfb513351733d378be7aefcec884",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa5bcbe6646519d7b94118e9540f054c1e625d8b8",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xa63e8b34b20fb22e3825ec73277df636b77b446c",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb27b5d63501880343273d44319f3a1fc0b7c29f2",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xb6e06ea6983baf77debc1134cc924b352d08d36f",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xd8046270436f2c0750b85ce2289c7219540a8dfc",
+    "dataset": "dataset_26",
+    "reason": "duplicate_source_hash"
+  },
+  {
+    "address": "0xda6881041c12972fb6afd662596f513a5ac7ebf1",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xe541f2b0c67a99f1be82cf5d398573350a9515c0",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xf9ac5342208616777407e3b6b85380ca1df2b536",
+    "dataset": "dataset_26",
+    "reason": "duplicate_address"
+  },
+  {
+    "address": "0xfdf86b1bf1a22b3569b66a5926a84229ce7bd336",
+    "dataset": "dataset_26",
+    "reason": "duplicate_source_hash"
+  }
+]

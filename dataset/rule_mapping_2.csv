@@ -1,0 +1,109 @@
+tool,rule,maping
+confuzzius,SWC-101,Arithmetic Issues
+confuzzius,SWC-104,Unchecked Return Values For Low Level Calls
+confuzzius,SWC-105,Access Control
+confuzzius,SWC-107,Reentrancy
+confuzzius,SWC-110,Unknown Unknowns
+confuzzius,SWC-114,Front-Running
+confuzzius,SWC-120,Bad Randomness
+confuzzius,SWC-124,Access Control
+mythril,SWC-101,Arithmetic
+mythril,SWC-104,Unchecked Low Level Calls
+mythril,SWC-105,Access Control
+mythril,SWC-107,Reentrancy
+mythril,SWC-110,Unknown Unknowns
+mythril,SWC-112,Access Control
+mythril,SWC-113,Denial of Service
+mythril,SWC-114,Front-Running
+mythril,SWC-116,Time manipulation
+mythril,SWC-124,Access Control
+slither,arbitrary-send-eth,Access Control
+slither,cache-array-length,Non-Security
+slither,calls-loop,Denial of Service
+slither,constable-states,Non-Security
+slither,controlled-array-length,Access Control
+slither,controlled-delegatecall,Access Control
+slither,costly-loop,Non-Security
+slither,dead-code,Non-Security
+slither,deprecated-standards,Non-Security
+slither,erc20-interface,Unknown Unknowns
+slither,events-access,Access Control
+slither,events-maths,Unknown Unknowns
+slither,external-function,Non-Security
+slither,incorrect-equality,Denial of Service
+slither,incorrect-modifier,Access Control
+slither,locked-ether,Unknown Unknowns
+slither,low-level-calls,Unchecked Low Level Calls
+slither,missing-zero-check,Access Control
+slither,naming-convention,Non-Security
+slither,redundant-statements,Non-Security
+slither,reentrancy-eth,Reentrancy
+slither,reentrancy-unlimited-gas,Reentrancy
+slither,shadowing-state,Access Control
+slither,solc-version,Non-Security
+slither,tautology,Unknown Unknowns
+slither,timestamp,Bad Randomness
+slither,too-many-digits,Non-Security
+slither,unchecked-lowlevel,Unchecked Low Level Calls
+slither,unchecked-send,Unchecked Low Level Calls
+slither,uninitialized-state,Unknown Unknowns
+slither,unused-state,Non-Security
+slither,weak-prng,Bad Randomness
+smartcheck,SOLIDITY_ADDRESS_HARDCODED,Denial of Service
+smartcheck,SOLIDITY_ARRAY_LENGTH_MANIPULATION,Access Control
+smartcheck,SOLIDITY_BALANCE_EQUALITY,Denial of Service
+smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls
+smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns
+smartcheck,SOLIDITY_ERC20_APPROVE,Front-Running
+smartcheck,SOLIDITY_EXACT_TIME,Time Manipulation
+smartcheck,SOLIDITY_EXTRA_GAS_IN_LOOPS,Denial of Service
+smartcheck,SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN,Unknown Unknowns
+smartcheck,SOLIDITY_GAS_LIMIT_IN_LOOPS,Denial of Service
+smartcheck,SOLIDITY_LOCKED_MONEY,Denial of Service
+smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns
+smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness
+smartcheck,SOLIDITY_REDUNDANT_FALLBACK_REJECT,Unknown Unknowns
+smartcheck,SOLIDITY_REVERT_REQUIRE,Unknown Unknowns
+smartcheck,SOLIDITY_SAFEMATH,Arithmetic
+smartcheck,SOLIDITY_SEND,Unchecked Low Level Calls
+smartcheck,SOLIDITY_SHOULD_RETURN_STRUCT,Non-Security
+smartcheck,SOLIDITY_TRANSFER_IN_LOOP,Denial of Service
+smartcheck,SOLIDITY_TX_ORIGIN,Access Control
+smartcheck,SOLIDITY_UNCHECKED_CALL,Unchecked Low Level Calls
+smartcheck,SOLIDITY_UPGRADE_TO_050,Unknown Unknowns
+smartcheck,SOLIDITY_VAR,Arithmetic
+smartcheck,SOLIDITY_VISIBILITY,Access Control
+solhint,avoid-call-value,Unchecked Low Level Calls
+solhint,avoid-low-level-calls,Unchecked Low Level Calls
+solhint,avoid-sha3,Non-security 
+solhint,avoid-suicide,Non-security 
+solhint,avoid-throw,Non-security 
+solhint,avoid-tx-origin,Access Control
+solhint,check-send-result,Unchecked Low Level Calls
+solhint,compiler-version,Unknown Unknowns
+solhint,const-name-snakecase,Non-security 
+solhint,constructor-syntax,Access Control
+solhint,contract-name-capwords,Non-security 
+solhint,explicit-types,Non-security 
+solhint,func-name-mixedcase,Non-security 
+solhint,func-visibility,Access Control
+solhint,function-max-lines,Non-security 
+solhint,gas-increment-by-one,Non-Security
+solhint,gas-indexed-events,Non-Security
+solhint,gas-small-strings,Non-Security
+solhint,gas-strict-inequalities,Non-Security
+solhint,multiple-sends,Denial of Service
+solhint,no-complex-fallback,Denial of Service
+solhint,no-empty-blocks,Non-Security
+solhint,no-unchecked-calls,Unchecked Low Level Calls
+solhint,no-unused-vars,Non-Security
+solhint,not-rely-on-block-hash,Bad Randomness
+solhint,not-rely-on-time,Time Manipulation
+solhint,one-contract-per-file,Non-Security
+solhint,quotes,Non-Security
+solhint,reason-string,Non-security 
+solhint,reentrancy,Reentrancy
+solhint,state-visibility,Access Control
+solhint,use-natspec,Non-Security
+solhint,var-name-mixedcase,Non-Security 
+solhint,visibility-modifier-order,Non-Security

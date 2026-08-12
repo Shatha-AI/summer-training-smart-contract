@@ -1,0 +1,56 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address payable",
+        "name": "recipient_",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "ForwardFailed",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "RecipientCannotBeSelf",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ZeroRecipient",
+    "type": "error"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "fallback"
+  },
+  {
+    "inputs": [],
+    "name": "recipient",
+    "outputs": [
+      {
+        "internalType": "address payable",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "sweep",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "receive"
+  }
+]

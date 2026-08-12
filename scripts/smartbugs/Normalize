@@ -1,0 +1,171 @@
+
+import csv
+import re
+from pathlib import Path
+from collections import Counter
+
+BASE = Path(__file__).resolve().parent
+
+BASE = Path(__file__).resolve().parent         
+PROJECT_ROOT = BASE.parent.parent                 
+
+SLITHER_FILE = PROJECT_ROOT / "results/smartBugs_results/Slither_results.csv"
+SMARTCHECK_FILE = PROJECT_ROOT / "results/smartBugs_results/smartcheck_results.csv"
+SOLHINT_FILE = PROJECT_ROOT / "results/smartBugs_results/solhint_results.csv"
+MYTHRIL_FILE = PROJECT_ROOT / "results/smartBugs_results/mythril_results.csv"
+CONFUZZIUS_FILE = PROJECT_ROOT / "results/smartBugs_results/confuzzius_results.csv"
+
+OUT_FINDINGS = PROJECT_ROOT / "results/smartBugs_results/extracted_findings.csv"
+OUT_RULES_SEEN = PROJECT_ROOT / "results/smartBugs_results/rules_seen.csv"
+
+
+def clean_contract_key(raw: str) -> str:
+    if not raw:
+        return ""
+    name = raw.replace("\\", "/").rsplit("/", 1)[-1]
+    if name.lower().endswith(".sol"):
+        name = name[:-4]
+    return name.strip().lower()
+
+
+def normalize_swc(raw) -> str:
+    if raw is None:
+        return ""
+    s = str(raw).strip()
+    if not s:
+        return ""
+    return s if s.upper().startswith("SWC-") else f"SWC-{s}"
+
+
+def build_ground_truth():
+    gt = {}
+    with SLITHER_FILE.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            gt[clean_contract_key(row["Contract"])] = row["Category"]
+    with SOLHINT_FILE.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            parts = row["contract"].replace("\\", "/").split("/")
+            if len(parts) >= 2:
+                gt.setdefault(clean_contract_key(parts[-1]), parts[-2])
+    print(f"[ground_truth] known contracts: {len(gt)}")
+    return gt
+
+
+def extract_slither(gt):
+    with SLITHER_FILE.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    seen, out = set(), []
+    for r in rows:
+        sig = tuple(r.values())
+        if sig in seen:
+            continue
+        seen.add(sig)
+        out.append({
+            "contract": clean_contract_key(r["Contract"]),
+            "ground_truth_category": gt.get(clean_contract_key(r["Contract"]), ""),
+            "tool": "slither", "rule": r["Vulnerability Type"], "severity": r["Severity"],
+        })
+    print(f"[slither] raw: {len(rows)} | after dedup: {len(out)}")
+    return out
+
+
+def extract_smartcheck(gt):
+    with SMARTCHECK_FILE.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    block_re = re.compile(
+        r"ruleId:\s*(?P<rule>\S+)\s*(?:patternId:\s*\S+\s*)?severity:\s*(?P<severity>\S+)\s*line:\s*(?P<line>\d+)?",
+        re.MULTILINE,
+    )
+    out = []
+    for r in rows:
+        key = clean_contract_key(r["contract"])
+        for m in block_re.finditer(r["output"]):
+            out.append({
+                "contract": key, "ground_truth_category": gt.get(key, ""),
+                "tool": "smartcheck", "rule": m.group("rule"), "severity": m.group("severity"),
+            })
+    print(f"[smartcheck] extracted: {len(out)}")
+    return out
+
+
+def extract_solhint(gt):
+    with SOLHINT_FILE.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    out, skipped = [], 0
+    for r in rows:
+        if not r["rule"]:
+            skipped += 1
+            continue
+        key = clean_contract_key(r["contract"])
+        out.append({
+            "contract": key, "ground_truth_category": gt.get(key, ""),
+            "tool": "solhint", "rule": r["rule"], "severity": r.get("severity", ""),
+        })
+    print(f"[solhint] raw: {len(rows)} | empty skipped: {skipped} | extracted: {len(out)}")
+    return out
+
+
+def extract_mythril(gt):
+    with MYTHRIL_FILE.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    out, skipped = [], 0
+    for r in rows:
+        if not r.get("rule"):
+            skipped += 1
+            continue
+        key = clean_contract_key(r["contract"])
+        out.append({
+            "contract": key, "ground_truth_category": gt.get(key, ""),
+            "tool": "mythril", "rule": normalize_swc(r["rule"]), "severity": r.get("severity", ""),
+        })
+    print(f"[mythril] raw: {len(rows)} | skipped: {skipped} | extracted: {len(out)}")
+    return out
+
+
+def extract_confuzzius(gt):
+    with CONFUZZIUS_FILE.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    out, skipped = [], 0
+    for r in rows:
+        if not r.get("swc"):
+            skipped += 1
+            continue
+        key = clean_contract_key(r["contract"])
+        out.append({
+            "contract": key, "ground_truth_category": gt.get(key, ""),
+            "tool": "confuzzius", "rule": normalize_swc(r["swc"]), "severity": r.get("severity", ""),
+        })
+    print(f"[confuzzius] raw: {len(rows)} | skipped: {skipped} | extracted: {len(out)}")
+    return out
+
+
+def main():
+    gt = build_ground_truth()
+
+    all_findings = []
+    all_findings += extract_slither(gt)
+    all_findings += extract_smartcheck(gt)
+    all_findings += extract_solhint(gt)
+    all_findings += extract_mythril(gt)
+    all_findings += extract_confuzzius(gt)
+
+    fields = ["contract", "ground_truth_category", "tool", "rule", "severity"]
+    with OUT_FINDINGS.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerows(all_findings)
+    unique_rules = sorted(set((f["tool"], f["rule"]) for f in all_findings))
+    with OUT_RULES_SEEN.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["tool", "rule"])
+        w.writeheader()
+        for tool, rule in unique_rules:
+            w.writerow({"tool": tool, "rule": rule})
+
+    print(f"\n[+] Total extracted findings: {len(all_findings)}")
+    print(f"[+] Unique (tool, rule) combinations: {len(unique_rules)}")
+    print(f"[+] {OUT_FINDINGS}")
+    print(f"[+] {OUT_RULES_SEEN}  ")
+
+
+if __name__ == "__main__":
+    main()

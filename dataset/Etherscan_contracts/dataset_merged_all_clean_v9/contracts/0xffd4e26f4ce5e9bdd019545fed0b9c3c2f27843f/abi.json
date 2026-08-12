@@ -1,0 +1,243 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "marketId_",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "received",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "minExpected",
+        "type": "uint256"
+      }
+    ],
+    "name": "BeefyVaultSupplyFuseInsufficientMooShares",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "received",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "minExpected",
+        "type": "uint256"
+      }
+    ],
+    "name": "BeefyVaultSupplyFuseInsufficientWantOut",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "action",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "vault",
+        "type": "address"
+      }
+    ],
+    "name": "BeefyVaultSupplyFuseUnsupportedVault",
+    "type": "error"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "version",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "want",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "wantAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "mooSharesReceived",
+        "type": "uint256"
+      }
+    ],
+    "name": "BeefyVaultSupplyFuseEnter",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "version",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "vault",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "want",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "mooSharesBurned",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "wantAmountReceived",
+        "type": "uint256"
+      }
+    ],
+    "name": "BeefyVaultSupplyFuseExit",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "MARKET_ID",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "VERSION",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "vault",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "wantAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minMooSharesOut",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct BeefyVaultSupplyFuseEnterData",
+        "name": "data_",
+        "type": "tuple"
+      }
+    ],
+    "name": "enter",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "finalWantAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "mooSharesReceived",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "vault",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "mooSharesAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minWantAmountOut",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct BeefyVaultSupplyFuseExitData",
+        "name": "data_",
+        "type": "tuple"
+      }
+    ],
+    "name": "exit",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "finalMooSharesBurned",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "wantAmountReceived",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

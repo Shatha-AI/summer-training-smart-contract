@@ -1,0 +1,391 @@
+contract,ground_truth_category,tool,rule,detected_category,severity
+fibonaccibalance,access_control,slither,arbitrary-send-eth,Access Control,High
+fibonaccibalance,access_control,slither,uninitialized-state,Unknown Unknowns,High
+fibonaccibalance,access_control,slither,low-level-calls,Unchecked Low Level Calls,Informational
+arbitrary_location_write_simple,access_control,slither,controlled-array-length,Access Control,High
+arbitrary_location_write_simple,access_control,slither,tautology,Unknown Unknowns,Medium
+insecure_transfer,arithmetic,slither,erc20-interface,Unknown Unknowns,Medium
+blackjack,bad_randomness,slither,controlled-array-length,Access Control,High
+blackjack,bad_randomness,slither,weak-prng,Bad Randomness,High
+blackjack,bad_randomness,slither,tautology,Unknown Unknowns,Medium
+blackjack,bad_randomness,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+etheraffle,bad_randomness,slither,calls-loop,Denial of Service,Low
+etheraffle,bad_randomness,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+guess_the_random_number,bad_randomness,slither,arbitrary-send-eth,Access Control,High
+guess_the_random_number,bad_randomness,slither,incorrect-equality,Denial of Service,Medium
+guess_the_random_number,bad_randomness,slither,timestamp,Bad Randomness,Low
+lottery,bad_randomness,slither,controlled-array-length,Access Control,High
+lottery,bad_randomness,slither,incorrect-equality,Denial of Service,Medium
+lucky_doubler,bad_randomness,slither,controlled-array-length,Access Control,High
+lucky_doubler,bad_randomness,slither,weak-prng,Bad Randomness,High
+lucky_doubler,bad_randomness,slither,unchecked-send,Unchecked Low Level Calls,Medium
+lucky_doubler,bad_randomness,slither,events-maths,Unknown Unknowns,Low
+lucky_doubler,bad_randomness,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+auction,denial_of_service,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+dos_address,denial_of_service,slither,controlled-array-length,Access Control,High
+list_dos,denial_of_service,slither,controlled-array-length,Access Control,High
+list_dos,denial_of_service,slither,unchecked-send,Unchecked Low Level Calls,Medium
+list_dos,denial_of_service,slither,timestamp,Bad Randomness,Low
+list_dos,denial_of_service,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+findthishash,front_running,slither,arbitrary-send-eth,Access Control,High
+eth_tx_order_dependence_minimal,front_running,slither,events-maths,Unknown Unknowns,Low
+eth_tx_order_dependence_minimal,front_running,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+odds_and_evens,front_running,slither,arbitrary-send-eth,Access Control,High
+odds_and_evens,front_running,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+reentrance,reentrancy,slither,reentrancy-eth,Reentrancy,High
+reentrance,reentrancy,slither,low-level-calls,Unchecked Low Level Calls,Informational
+reentrancy_dao,reentrancy,slither,reentrancy-eth,Reentrancy,High
+reentrancy_dao,reentrancy,slither,low-level-calls,Unchecked Low Level Calls,Informational
+reentrancy_insecure,reentrancy,slither,reentrancy-eth,Reentrancy,High
+reentrancy_insecure,reentrancy,slither,low-level-calls,Unchecked Low Level Calls,Informational
+ether_lotto,time_manipulation,slither,arbitrary-send-eth,Access Control,High
+ether_lotto,time_manipulation,slither,weak-prng,Bad Randomness,High
+ether_lotto,time_manipulation,slither,incorrect-equality,Denial of Service,Medium
+ether_lotto,time_manipulation,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+governmental_survey,time_manipulation,slither,arbitrary-send-eth,Access Control,High
+governmental_survey,time_manipulation,slither,tautology,Unknown Unknowns,Medium
+governmental_survey,time_manipulation,slither,unchecked-send,Unchecked Low Level Calls,Medium
+governmental_survey,time_manipulation,slither,timestamp,Bad Randomness,Low
+governmental_survey,time_manipulation,slither,reentrancy-unlimited-gas,Reentrancy,Informational
+lottopollo,time_manipulation,slither,arbitrary-send-eth,Access Control,High
+lottopollo,time_manipulation,slither,unchecked-send,Unchecked Low Level Calls,Medium
+lottopollo,time_manipulation,slither,timestamp,Bad Randomness,Low
+roulette,time_manipulation,slither,arbitrary-send-eth,Access Control,High
+roulette,time_manipulation,slither,weak-prng,Bad Randomness,High
+roulette,time_manipulation,slither,incorrect-equality,Denial of Service,Medium
+timed_crowdsale,time_manipulation,slither,timestamp,Bad Randomness,Low
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,slither,unchecked-lowlevel,Unchecked Low Level Calls,Medium
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,slither,missing-zero-check,Access Control,Low
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,slither,shadowing-state,Access Control,High
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,slither,locked-ether,Unknown Unknowns,Medium
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,slither,unchecked-lowlevel,Unchecked Low Level Calls,Medium
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,slither,unchecked-lowlevel,Unchecked Low Level Calls,Medium
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,slither,missing-zero-check,Access Control,Low
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,slither,arbitrary-send-eth,Access Control,High
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,slither,unchecked-lowlevel,Unchecked Low Level Calls,Medium
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,slither,unchecked-lowlevel,Unchecked Low Level Calls,Medium
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,slither,calls-loop,Denial of Service,Low
+arbitrary_location_write_simple,access_control,smartcheck,SOLIDITY_ARRAY_LENGTH_MANIPULATION,Access Control,1
+arbitrary_location_write_simple,access_control,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+arbitrary_location_write_simple,access_control,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+fibonaccibalance,access_control,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+fibonaccibalance,access_control,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+incorrect_constructor_name1,access_control,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+incorrect_constructor_name1,access_control,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+incorrect_constructor_name1,access_control,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+incorrect_constructor_name2,access_control,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+incorrect_constructor_name2,access_control,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+incorrect_constructor_name2,access_control,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+incorrect_constructor_name3,access_control,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+incorrect_constructor_name3,access_control,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+incorrect_constructor_name3,access_control,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+bectoken,arithmetic,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+bectoken,arithmetic,smartcheck,SOLIDITY_ERC20_APPROVE,Front-Running,2
+bectoken,arithmetic,smartcheck,SOLIDITY_GAS_LIMIT_IN_LOOPS,Denial of Service,2
+bectoken,arithmetic,smartcheck,SOLIDITY_SAFEMATH,Arithmetic,1
+bectoken,arithmetic,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+insecure_transfer,arithmetic,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+integer_overflow_1,arithmetic,smartcheck,SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN,Unknown Unknowns,1
+integer_overflow_1,arithmetic,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+integer_overflow_1,arithmetic,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+integer_overflow_add,arithmetic,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+integer_overflow_benign_1,arithmetic,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+blackjack,bad_randomness,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+blackjack,bad_randomness,smartcheck,SOLIDITY_EXTRA_GAS_IN_LOOPS,Denial of Service,1
+blackjack,bad_randomness,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+etheraffle,bad_randomness,smartcheck,SOLIDITY_ARRAY_LENGTH_MANIPULATION,Access Control,1
+etheraffle,bad_randomness,smartcheck,SOLIDITY_EXTRA_GAS_IN_LOOPS,Denial of Service,1
+etheraffle,bad_randomness,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+guess_the_random_number,bad_randomness,smartcheck,SOLIDITY_BALANCE_EQUALITY,Denial of Service,1
+guess_the_random_number,bad_randomness,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+guess_the_random_number,bad_randomness,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+lottery,bad_randomness,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+lottery,bad_randomness,smartcheck,SOLIDITY_EXTRA_GAS_IN_LOOPS,Denial of Service,1
+lottery,bad_randomness,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+lottery,bad_randomness,smartcheck,SOLIDITY_SEND,Unchecked Low Level Calls,1
+lottery,bad_randomness,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+lucky_doubler,bad_randomness,smartcheck,SOLIDITY_ADDRESS_HARDCODED,Denial of Service,1
+lucky_doubler,bad_randomness,smartcheck,SOLIDITY_ARRAY_LENGTH_MANIPULATION,Access Control,1
+lucky_doubler,bad_randomness,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+lucky_doubler,bad_randomness,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+auction,denial_of_service,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+auction,denial_of_service,smartcheck,SOLIDITY_SEND,Unchecked Low Level Calls,1
+auction,denial_of_service,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+dos_address,denial_of_service,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+dos_address,denial_of_service,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+dos_number,denial_of_service,smartcheck,SOLIDITY_ARRAY_LENGTH_MANIPULATION,Access Control,1
+dos_number,denial_of_service,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+dos_simple,denial_of_service,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+dos_simple,denial_of_service,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+list_dos,denial_of_service,smartcheck,SOLIDITY_EXTRA_GAS_IN_LOOPS,Denial of Service,1
+list_dos,denial_of_service,smartcheck,SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN,Unknown Unknowns,1
+list_dos,denial_of_service,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+erc20,front_running,smartcheck,SOLIDITY_ERC20_APPROVE,Front-Running,2
+erc20,front_running,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+erc20,front_running,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+erc20,front_running,smartcheck,SOLIDITY_SAFEMATH,Arithmetic,1
+erc20,front_running,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+eth_tx_order_dependence_minimal,front_running,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+eth_tx_order_dependence_minimal,front_running,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+findthishash,front_running,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+odds_and_evens,front_running,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+odds_and_evens,front_running,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+reentrance,reentrancy,smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls,2
+reentrance,reentrancy,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+reentrancy_bonus,reentrancy,smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls,2
+reentrancy_bonus,reentrancy,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+reentrancy_bonus,reentrancy,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+reentrancy_cross_function,reentrancy,smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls,2
+reentrancy_cross_function,reentrancy,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+reentrancy_cross_function,reentrancy,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+reentrancy_cross_function,reentrancy,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+reentrancy_dao,reentrancy,smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls,2
+reentrancy_dao,reentrancy,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+reentrancy_dao,reentrancy,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+reentrancy_insecure,reentrancy,smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls,2
+reentrancy_insecure,reentrancy,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+reentrancy_insecure,reentrancy,smartcheck,SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA,Bad Randomness,1
+short_address_example,short_addresses,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+short_address_example,short_addresses,smartcheck,SOLIDITY_TX_ORIGIN,Access Control,2
+ether_lotto,time_manipulation,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+ether_lotto,time_manipulation,smartcheck,SOLIDITY_VAR,Arithmetic,2
+ether_lotto,time_manipulation,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+governmental_survey,time_manipulation,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+governmental_survey,time_manipulation,smartcheck,SOLIDITY_UNCHECKED_CALL,Unchecked Low Level Calls,3
+governmental_survey,time_manipulation,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+lottopollo,time_manipulation,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+lottopollo,time_manipulation,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+roulette,time_manipulation,smartcheck,SOLIDITY_EXACT_TIME,Time Manipulation,2
+roulette,time_manipulation,smartcheck,SOLIDITY_LOCKED_MONEY,Denial of Service,3
+roulette,time_manipulation,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+timed_crowdsale,time_manipulation,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,smartcheck,SOLIDITY_CALL_WITHOUT_DATA,Unchecked Low Level Calls,2
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,smartcheck,SOLIDITY_DEPRECATED_CONSTRUCTIONS,Unknown Unknowns,1
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,smartcheck,SOLIDITY_LOCKED_MONEY,Denial of Service,3
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,smartcheck,SOLIDITY_UNCHECKED_CALL,Unchecked Low Level Calls,3
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,smartcheck,SOLIDITY_VISIBILITY,Access Control,1
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,smartcheck,SOLIDITY_UNCHECKED_CALL,Unchecked Low Level Calls,3
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,smartcheck,SOLIDITY_ADDRESS_HARDCODED,Denial of Service,1
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,smartcheck,SOLIDITY_UNCHECKED_CALL,Unchecked Low Level Calls,3
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,smartcheck,SOLIDITY_ADDRESS_HARDCODED,Denial of Service,1
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,smartcheck,SOLIDITY_PRAGMAS_VERSION,Unknown Unknowns,1
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,smartcheck,SOLIDITY_UNCHECKED_CALL,Unchecked Low Level Calls,3
+arbitrary_location_write_simple,access_control,solhint,compiler-version,Unknown Unknowns,Error
+fibonaccibalance,access_control,solhint,compiler-version,Unknown Unknowns,Error
+fibonaccibalance,access_control,solhint,state-visibility,Access Control,Warning
+fibonaccibalance,access_control,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+incorrect_constructor_name1,access_control,solhint,compiler-version,Unknown Unknowns,Error
+incorrect_constructor_name1,access_control,solhint,func-visibility,Access Control,Warning
+incorrect_constructor_name2,access_control,solhint,compiler-version,Unknown Unknowns,Error
+incorrect_constructor_name2,access_control,solhint,func-visibility,Access Control,Warning
+incorrect_constructor_name3,access_control,solhint,compiler-version,Unknown Unknowns,Error
+incorrect_constructor_name3,access_control,solhint,func-visibility,Access Control,Warning
+bectoken,arithmetic,solhint,compiler-version,Unknown Unknowns,Error
+bectoken,arithmetic,solhint,state-visibility,Access Control,Warning
+insecure_transfer,arithmetic,solhint,compiler-version,Unknown Unknowns,Error
+integer_overflow_1,arithmetic,solhint,compiler-version,Unknown Unknowns,Error
+integer_overflow_1,arithmetic,solhint,func-visibility,Access Control,Warning
+integer_overflow_add,arithmetic,solhint,compiler-version,Unknown Unknowns,Error
+integer_overflow_benign_1,arithmetic,solhint,compiler-version,Unknown Unknowns,Error
+blackjack,bad_randomness,solhint,compiler-version,Unknown Unknowns,Error
+blackjack,bad_randomness,solhint,not-rely-on-time,Time Manipulation,Warning
+blackjack,bad_randomness,solhint,not-rely-on-block-hash,Bad Randomness,Warning
+blackjack,bad_randomness,solhint,state-visibility,Access Control,Warning
+blackjack,bad_randomness,solhint,reentrancy,Reentrancy,Error
+blackjack,bad_randomness,solhint,multiple-sends,Denial of Service,Warning
+etheraffle,bad_randomness,solhint,compiler-version,Unknown Unknowns,Error
+etheraffle,bad_randomness,solhint,state-visibility,Access Control,Warning
+etheraffle,bad_randomness,solhint,reentrancy,Reentrancy,Error
+guess_the_random_number,bad_randomness,solhint,compiler-version,Unknown Unknowns,Error
+guess_the_random_number,bad_randomness,solhint,state-visibility,Access Control,Warning
+guess_the_random_number,bad_randomness,solhint,not-rely-on-block-hash,Bad Randomness,Warning
+guess_the_random_number,bad_randomness,solhint,not-rely-on-time,Time Manipulation,Warning
+lottery,bad_randomness,solhint,compiler-version,Unknown Unknowns,Error
+lottery,bad_randomness,solhint,func-visibility,Access Control,Warning
+lucky_doubler,bad_randomness,solhint,compiler-version,Unknown Unknowns,Error
+lucky_doubler,bad_randomness,solhint,func-visibility,Access Control,Warning
+lucky_doubler,bad_randomness,solhint,check-send-result,Unchecked Low Level Calls,Warning
+lucky_doubler,bad_randomness,solhint,reentrancy,Reentrancy,Error
+lucky_doubler,bad_randomness,solhint,multiple-sends,Denial of Service,Warning
+lucky_doubler,bad_randomness,solhint,not-rely-on-block-hash,Bad Randomness,Warning
+auction,denial_of_service,solhint,compiler-version,Unknown Unknowns,Error
+auction,denial_of_service,solhint,state-visibility,Access Control,Warning
+auction,denial_of_service,solhint,reentrancy,Reentrancy,Error
+dos_address,denial_of_service,solhint,compiler-version,Unknown Unknowns,Error
+dos_address,denial_of_service,solhint,state-visibility,Access Control,Warning
+dos_number,denial_of_service,solhint,compiler-version,Unknown Unknowns,Error
+dos_number,denial_of_service,solhint,state-visibility,Access Control,Warning
+dos_simple,denial_of_service,solhint,compiler-version,Unknown Unknowns,Error
+dos_simple,denial_of_service,solhint,state-visibility,Access Control,Warning
+list_dos,denial_of_service,solhint,compiler-version,Unknown Unknowns,Error
+list_dos,denial_of_service,solhint,state-visibility,Access Control,Warning
+list_dos,denial_of_service,solhint,not-rely-on-time,Time Manipulation,Warning
+list_dos,denial_of_service,solhint,check-send-result,Unchecked Low Level Calls,Warning
+list_dos,denial_of_service,solhint,multiple-sends,Denial of Service,Warning
+list_dos,denial_of_service,solhint,reentrancy,Reentrancy,Error
+erc20,front_running,solhint,compiler-version,Unknown Unknowns,Error
+eth_tx_order_dependence_minimal,front_running,solhint,compiler-version,Unknown Unknowns,Error
+eth_tx_order_dependence_minimal,front_running,solhint,reentrancy,Reentrancy,Error
+eth_tx_order_dependence_minimal,front_running,solhint,func-visibility,Access Control,Warning
+findthishash,front_running,solhint,compiler-version,Unknown Unknowns,Error
+odds_and_evens,front_running,solhint,compiler-version,Unknown Unknowns,Error
+odds_and_evens,front_running,solhint,state-visibility,Access Control,Warning
+odds_and_evens,front_running,solhint,check-send-result,Unchecked Low Level Calls,Warning
+odds_and_evens,front_running,solhint,multiple-sends,Denial of Service,Warning
+odds_and_evens,front_running,solhint,reentrancy,Reentrancy,Error
+reentrance,reentrancy,solhint,compiler-version,Unknown Unknowns,Error
+reentrance,reentrancy,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+reentrancy_bonus,reentrancy,solhint,compiler-version,Unknown Unknowns,Error
+reentrancy_bonus,reentrancy,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+reentrancy_cross_function,reentrancy,solhint,compiler-version,Unknown Unknowns,Error
+reentrancy_cross_function,reentrancy,solhint,func-visibility,Access Control,Warning
+reentrancy_cross_function,reentrancy,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+reentrancy_dao,reentrancy,solhint,compiler-version,Unknown Unknowns,Error
+reentrancy_dao,reentrancy,solhint,state-visibility,Access Control,Warning
+reentrancy_dao,reentrancy,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+reentrancy_insecure,reentrancy,solhint,compiler-version,Unknown Unknowns,Error
+reentrancy_insecure,reentrancy,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+short_address_example,short_addresses,solhint,compiler-version,Unknown Unknowns,Error
+short_address_example,short_addresses,solhint,avoid-tx-origin,Access Control,Error
+ether_lotto,time_manipulation,solhint,compiler-version,Unknown Unknowns,Error
+ether_lotto,time_manipulation,solhint,state-visibility,Access Control,Warning
+ether_lotto,time_manipulation,solhint,not-rely-on-time,Time Manipulation,Warning
+ether_lotto,time_manipulation,solhint,reentrancy,Reentrancy,Error
+governmental_survey,time_manipulation,solhint,compiler-version,Unknown Unknowns,Error
+governmental_survey,time_manipulation,solhint,func-visibility,Access Control,Warning
+governmental_survey,time_manipulation,solhint,not-rely-on-time,Time Manipulation,Warning
+governmental_survey,time_manipulation,solhint,check-send-result,Unchecked Low Level Calls,Warning
+governmental_survey,time_manipulation,solhint,multiple-sends,Denial of Service,Warning
+governmental_survey,time_manipulation,solhint,reentrancy,Reentrancy,Error
+lottopollo,time_manipulation,solhint,compiler-version,Unknown Unknowns,Error
+lottopollo,time_manipulation,solhint,state-visibility,Access Control,Warning
+lottopollo,time_manipulation,solhint,not-rely-on-time,Time Manipulation,Warning
+lottopollo,time_manipulation,solhint,check-send-result,Unchecked Low Level Calls,Warning
+lottopollo,time_manipulation,solhint,multiple-sends,Denial of Service,Warning
+lottopollo,time_manipulation,solhint,reentrancy,Reentrancy,Error
+roulette,time_manipulation,solhint,compiler-version,Unknown Unknowns,Error
+roulette,time_manipulation,solhint,no-complex-fallback,Denial of Service,Warning
+roulette,time_manipulation,solhint,not-rely-on-time,Time Manipulation,Warning
+timed_crowdsale,time_manipulation,solhint,compiler-version,Unknown Unknowns,Error
+timed_crowdsale,time_manipulation,solhint,not-rely-on-time,Time Manipulation,Warning
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,solhint,compiler-version,Unknown Unknowns,Error
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,solhint,func-visibility,Access Control,Warning
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,solhint,compiler-version,Unknown Unknowns,Error
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,solhint,state-visibility,Access Control,Warning
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,solhint,compiler-version,Unknown Unknowns,Error
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,solhint,compiler-version,Unknown Unknowns,Error
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,solhint,compiler-version,Unknown Unknowns,Error
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,solhint,avoid-low-level-calls,Unchecked Low Level Calls,Warning
+fibonaccibalance,access_control,mythril,SWC-112,Access Control,High
+fibonaccibalance,access_control,mythril,SWC-101,Arithmetic,High
+fibonaccibalance,access_control,mythril,SWC-107,Reentrancy,Medium
+fibonaccibalance,access_control,mythril,SWC-113,Denial of Service,Low
+fibonaccibalance,access_control,mythril,SWC-114,Front-Running,Medium
+arbitrary_location_write_simple,access_control,mythril,SWC-124,Access Control,High
+arbitrary_location_write_simple,access_control,mythril,SWC-101,Arithmetic,High
+incorrect_constructor_name1,access_control,mythril,SWC-114,Front-Running,Medium
+incorrect_constructor_name1,access_control,mythril,SWC-105,Access Control,High
+incorrect_constructor_name2,access_control,mythril,SWC-114,Front-Running,Medium
+incorrect_constructor_name2,access_control,mythril,SWC-105,Access Control,High
+incorrect_constructor_name3,access_control,mythril,SWC-114,Front-Running,Medium
+incorrect_constructor_name3,access_control,mythril,SWC-105,Access Control,High
+integer_overflow_1,arithmetic,mythril,SWC-101,Arithmetic,High
+integer_overflow_add,arithmetic,mythril,SWC-101,Arithmetic,High
+guess_the_random_number,bad_randomness,mythril,SWC-105,Access Control,High
+auction,denial_of_service,mythril,SWC-114,Front-Running,Medium
+eth_tx_order_dependence_minimal,front_running,mythril,SWC-114,Front-Running,Medium
+eth_tx_order_dependence_minimal,front_running,mythril,SWC-105,Access Control,High
+reentrance,reentrancy,mythril,SWC-107,Reentrancy,Medium
+reentrance,reentrancy,mythril,SWC-104,Unchecked Low Level Calls,Medium
+reentrance,reentrancy,mythril,SWC-105,Access Control,High
+reentrancy_bonus,reentrancy,mythril,SWC-107,Reentrancy,Medium
+reentrancy_bonus,reentrancy,mythril,SWC-114,Front-Running,Medium
+reentrancy_bonus,reentrancy,mythril,SWC-105,Access Control,High
+reentrancy_cross_function,reentrancy,mythril,SWC-107,Reentrancy,Medium
+reentrancy_cross_function,reentrancy,mythril,SWC-114,Front-Running,Medium
+reentrancy_dao,reentrancy,mythril,SWC-107,Reentrancy,Medium
+reentrancy_dao,reentrancy,mythril,SWC-114,Front-Running,Medium
+reentrancy_insecure,reentrancy,mythril,SWC-107,Reentrancy,Medium
+reentrancy_insecure,reentrancy,mythril,SWC-114,Front-Running,Medium
+short_address_example,short_addresses,mythril,SWC-110,Unknown Unknowns,Medium
+ether_lotto,time_manipulation,mythril,SWC-110,Unknown Unknowns,Medium
+ether_lotto,time_manipulation,mythril,SWC-116,Time manipulation,Low
+ether_lotto,time_manipulation,mythril,SWC-113,Denial of Service,Low
+ether_lotto,time_manipulation,mythril,SWC-114,Front-Running,Medium
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,mythril,SWC-107,Reentrancy,Low
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,mythril,SWC-104,Unchecked Low Level Calls,Medium
+arbitrary_location_write_simple,access_control,confuzzius,SWC-101,Arithmetic Issues,High
+arbitrary_location_write_simple,access_control,confuzzius,SWC-110,Unknown Unknowns,Medium
+arbitrary_location_write_simple,access_control,confuzzius,SWC-124,Access Control,High
+fibonaccibalance,access_control,confuzzius,SWC-110,Unknown Unknowns,Medium
+fibonaccibalance,access_control,confuzzius,SWC-101,Arithmetic Issues,High
+incorrect_constructor_name1,access_control,confuzzius,SWC-110,Unknown Unknowns,Medium
+incorrect_constructor_name1,access_control,confuzzius,SWC-114,Front-Running,Medium
+incorrect_constructor_name1,access_control,confuzzius,SWC-105,Access Control,High
+incorrect_constructor_name2,access_control,confuzzius,SWC-110,Unknown Unknowns,Medium
+incorrect_constructor_name2,access_control,confuzzius,SWC-105,Access Control,High
+incorrect_constructor_name2,access_control,confuzzius,SWC-114,Front-Running,Medium
+incorrect_constructor_name3,access_control,confuzzius,SWC-110,Unknown Unknowns,Medium
+incorrect_constructor_name3,access_control,confuzzius,SWC-114,Front-Running,Medium
+incorrect_constructor_name3,access_control,confuzzius,SWC-105,Access Control,High
+bectoken,arithmetic,confuzzius,SWC-101,Arithmetic Issues,High
+insecure_transfer,arithmetic,confuzzius,SWC-110,Unknown Unknowns,Medium
+integer_overflow_1,arithmetic,confuzzius,SWC-101,Arithmetic Issues,High
+integer_overflow_add,arithmetic,confuzzius,SWC-101,Arithmetic Issues,High
+blackjack,bad_randomness,confuzzius,SWC-110,Unknown Unknowns,Medium
+blackjack,bad_randomness,confuzzius,SWC-114,Front-Running,Medium
+etheraffle,bad_randomness,confuzzius,SWC-114,Front-Running,Medium
+etheraffle,bad_randomness,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+guess_the_random_number,bad_randomness,confuzzius,SWC-110,Unknown Unknowns,Medium
+lottery,bad_randomness,confuzzius,SWC-120,Bad Randomness,Low
+lottery,bad_randomness,confuzzius,SWC-114,Front-Running,Medium
+lucky_doubler,bad_randomness,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+dos_address,denial_of_service,confuzzius,SWC-110,Unknown Unknowns,Medium
+dos_number,denial_of_service,confuzzius,SWC-110,Unknown Unknowns,Medium
+dos_simple,denial_of_service,confuzzius,SWC-110,Unknown Unknowns,Medium
+list_dos,denial_of_service,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+list_dos,denial_of_service,confuzzius,SWC-120,Bad Randomness,Low
+list_dos,denial_of_service,confuzzius,SWC-101,Arithmetic Issues,High
+erc20,front_running,confuzzius,SWC-110,Unknown Unknowns,Medium
+eth_tx_order_dependence_minimal,front_running,confuzzius,SWC-114,Front-Running,Medium
+eth_tx_order_dependence_minimal,front_running,confuzzius,SWC-105,Access Control,High
+findthishash,front_running,confuzzius,SWC-110,Unknown Unknowns,Medium
+odds_and_evens,front_running,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+odds_and_evens,front_running,confuzzius,SWC-114,Front-Running,Medium
+reentrance,reentrancy,confuzzius,SWC-107,Reentrancy,High
+reentrance,reentrancy,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+reentrancy_bonus,reentrancy,confuzzius,SWC-110,Unknown Unknowns,Medium
+reentrancy_bonus,reentrancy,confuzzius,SWC-107,Reentrancy,High
+reentrancy_cross_function,reentrancy,confuzzius,SWC-110,Unknown Unknowns,Medium
+reentrancy_cross_function,reentrancy,confuzzius,SWC-107,Reentrancy,High
+reentrancy_cross_function,reentrancy,confuzzius,SWC-114,Front-Running,Medium
+reentrancy_dao,reentrancy,confuzzius,SWC-107,Reentrancy,High
+reentrancy_dao,reentrancy,confuzzius,SWC-114,Front-Running,Medium
+reentrancy_insecure,reentrancy,confuzzius,SWC-107,Reentrancy,High
+reentrancy_insecure,reentrancy,confuzzius,SWC-110,Unknown Unknowns,Medium
+short_address_example,short_addresses,confuzzius,SWC-110,Unknown Unknowns,Medium
+ether_lotto,time_manipulation,confuzzius,SWC-110,Unknown Unknowns,Medium
+ether_lotto,time_manipulation,confuzzius,SWC-120,Bad Randomness,Low
+ether_lotto,time_manipulation,confuzzius,SWC-114,Front-Running,Medium
+lottopollo,time_manipulation,confuzzius,SWC-120,Bad Randomness,Low
+roulette,time_manipulation,confuzzius,SWC-110,Unknown Unknowns,Medium
+roulette,time_manipulation,confuzzius,SWC-120,Bad Randomness,Low
+timed_crowdsale,time_manipulation,confuzzius,SWC-120,Bad Randomness,Low
+timed_crowdsale,time_manipulation,confuzzius,SWC-110,Unknown Unknowns,Medium
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,confuzzius,SWC-110,Unknown Unknowns,Medium
+0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,unchecked_low_level_calls,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,unchecked_low_level_calls,confuzzius,SWC-107,Reentrancy,High
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,unchecked_low_level_calls,confuzzius,SWC-105,Access Control,High
+0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,unchecked_low_level_calls,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,confuzzius,SWC-104,Unchecked Return Values For Low Level Calls,Medium
+0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,unchecked_low_level_calls,confuzzius,SWC-110,Unknown Unknowns,Medium

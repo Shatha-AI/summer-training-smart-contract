@@ -1,0 +1,416 @@
+[
+  {
+    "inputs": [],
+    "name": "STATUS_NON_PAIR_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_NOT_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_PAIR_LIKE_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_PAIR_VALID",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_TOKEN_EMITTER",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_UNKNOWN",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_V3_POOL_LIKE_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_V3_POOL_VALID",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_ZERO_ADDRESS",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "pairAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getPairReservesByPairs",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint112",
+            "name": "reserve0",
+            "type": "uint112"
+          },
+          {
+            "internalType": "uint112",
+            "name": "reserve1",
+            "type": "uint112"
+          },
+          {
+            "internalType": "uint32",
+            "name": "blockTimestampLast",
+            "type": "uint32"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.PairReserveState[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "pairAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getPairsElementsHotByPairs",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "pairDecimals",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token0",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "token0Decimals",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token1",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "token1Decimals",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.PairElementHot[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "pairAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getPairsElementsPackedByPairs",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "word0",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "word1",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.PackedPairElement[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "tokenAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getTokenIdentitiesByTokens",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "symbol",
+            "type": "string"
+          },
+          {
+            "internalType": "uint8",
+            "name": "decimals",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.TokenIdentity[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "poolAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getV3PoolStatesByPools",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token0",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "token1",
+            "type": "address"
+          },
+          {
+            "internalType": "uint24",
+            "name": "fee",
+            "type": "uint24"
+          },
+          {
+            "internalType": "uint128",
+            "name": "liquidity",
+            "type": "uint128"
+          },
+          {
+            "internalType": "uint160",
+            "name": "sqrtPriceX96",
+            "type": "uint160"
+          },
+          {
+            "internalType": "int24",
+            "name": "tick",
+            "type": "int24"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.V3PoolState[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "poolAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getV3PoolStatesPackedByPools",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "word0",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "word1",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "word2",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.PackedV3PoolState[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "poolAddresses",
+        "type": "address[]"
+      },
+      {
+        "internalType": "uint32",
+        "name": "secondsAgo",
+        "type": "uint32"
+      }
+    ],
+    "name": "getV3PoolTwapStatesByPools",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "int24",
+            "name": "arithmeticMeanTick",
+            "type": "int24"
+          },
+          {
+            "internalType": "uint128",
+            "name": "harmonicMeanLiquidity",
+            "type": "uint128"
+          }
+        ],
+        "internalType": "struct SwapstrackerV3.V3PoolTwapState[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

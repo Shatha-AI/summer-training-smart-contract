@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-07-31T04:54:01.322496+00:00",
+  "input_datasets": [
+    {
+      "dataset": "dataset_merged_all_clean_v8",
+      "csv_records": 937,
+      "contract_folders": 937,
+      "duplicate_addresses_inside_csv": 0
+    },
+    {
+      "dataset": "246dataset",
+      "csv_records": 248,
+      "contract_folders": 248,
+      "duplicate_addresses_inside_csv": 0
+    },
+    {
+      "dataset": "289contracts",
+      "csv_records": 289,
+      "contract_folders": 289,
+      "duplicate_addresses_inside_csv": 0
+    },
+    {
+      "dataset": "dataset_26",
+      "csv_records": 26,
+      "contract_folders": 26,
+      "duplicate_addresses_inside_csv": 0
+    }
+  ],
+  "input_csv_records_total": 1500,
+  "input_contract_folders_total": 1500,
+  "accepted_record_count": 1046,
+  "unique_addresses": 1046,
+  "unique_source_hashes": 1046,
+  "unique_bytecode_hashes": 1046,
+  "removed_count": 454,
+  "removal_reasons": {
+    "duplicate_address": 433,
+    "duplicate_source_hash": 21
+  },
+  "passed": true
+}

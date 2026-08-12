@@ -1,0 +1,146 @@
+
+import csv
+from pathlib import Path
+from collections import Counter
+
+BASE = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE.parent.parent
+
+EXTRACTED_FILE = PROJECT_ROOT / "results/smartBugs_results/extracted_findings.csv"
+RULE_MAPPING_FILE = PROJECT_ROOT / "dataset/rule_mapping_2.csv"
+
+OUT_FILE = PROJECT_ROOT / "results/smartBugs_results/findings_validation.csv"
+OUT_FILE_ONE_PER_CONTRACT = PROJECT_ROOT / "results/smartBugs_results/findings_validation.csv"
+UNMAPPED_LOG_FILE = PROJECT_ROOT / "results/smartBugs_results/unmapped_rules.csv"
+
+
+SEVERITY_RANK = {
+    "high": 4, "critical": 4, "error": 4,
+    "medium": 3, "warning": 3, "warn": 3,
+    "low": 2,
+    "informational": 1, "info": 1, "note": 1,
+    "": 0,
+}
+
+
+def severity_rank(sev) -> int:
+    if sev is None:
+        return 0
+    return SEVERITY_RANK.get(str(sev).strip().lower(), 0)
+
+
+def collapse_same_category_duplicates(findings):
+    best = {}
+    for f in findings:
+        key = (f["contract"], f["tool"], f["detected_category"])
+        current = best.get(key)
+        if current is None or severity_rank(f["severity"]) > severity_rank(current["severity"]):
+            best[key] = f
+    return list(best.values())
+
+
+def detect_category_column(fieldnames):
+
+    for candidate in ("category", "maping"):
+        if candidate in fieldnames:
+            return candidate
+    raise KeyError(
+        f"Could not find a category column in {RULE_MAPPING_FILE}. "
+        f"Found columns: {fieldnames}. Expected 'category' or 'maping'."
+    )
+
+
+def normalize_category(raw: str) -> str:
+
+    val = raw.strip()
+    if val.lower().replace("-", " ").replace("_", " ") in ("non security",):
+        return "NON_SECURITY"
+    return val
+
+
+def load_rule_mapping(path):
+ 
+    mapping, excluded = {}, set()
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        cat_col = detect_category_column(reader.fieldnames)
+        for row in reader:
+            key = (row["tool"], row["rule"])
+            category = normalize_category(row[cat_col])
+            if category == "NON_SECURITY":
+                excluded.add(key)
+            else:
+                mapping[key] = category
+    return mapping, excluded
+
+
+def main():
+    print("Reading Rater B mapping from:", RULE_MAPPING_FILE, "->", RULE_MAPPING_FILE.exists())
+
+    mapping, excluded = load_rule_mapping(RULE_MAPPING_FILE)
+
+    with EXTRACTED_FILE.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+
+    out_rows = []
+    excluded_c, unmapped_c = Counter(), Counter()
+    unmapped_log = []
+
+    for r in rows:
+        tool, rule = r["tool"], r["rule"]
+        key = (tool, rule)
+
+        if key in excluded:
+            excluded_c[key] += 1
+            continue
+
+        category = mapping.get(key, "UNMAPPED")
+
+        if category == "UNMAPPED":
+            unmapped_c[key] += 1
+            unmapped_log.append({"tool": tool, "rule_or_swc": rule, "example_contract": r["contract"]})
+
+        out_rows.append({
+            "contract": r["contract"], "ground_truth_category": r["ground_truth_category"],
+            "tool": tool, "rule": rule, "detected_category": category, "severity": r["severity"],
+        })
+
+    fields = ["contract", "ground_truth_category", "tool", "rule", "detected_category", "severity"]
+    with OUT_FILE.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerows(out_rows)
+
+    seen, unique_unmapped = set(), []
+    for u in unmapped_log:
+        k = (u["tool"], u["rule_or_swc"])
+        if k not in seen:
+            seen.add(k)
+            unique_unmapped.append(u)
+    with UNMAPPED_LOG_FILE.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["tool", "rule_or_swc", "example_contract"])
+        w.writeheader()
+        w.writerows(unique_unmapped)
+
+    print(f"[+] Input findings: {len(rows)}")
+    print(f"[+] Excluded (NON_SECURITY): {sum(excluded_c.values())}")
+    print(f"[+] Unmapped: {sum(unmapped_c.values())}")
+    print(f"[+] Output findings: {len(out_rows)}")
+    print(f"[+] {OUT_FILE}")
+    if unique_unmapped:
+        print(f"[!!!] {len(unique_unmapped)} unique unmapped rule(s) -> {UNMAPPED_LOG_FILE}")
+    else:
+        print("[+] No unmapped rules.")
+
+    collapsed = collapse_same_category_duplicates(out_rows)
+    with OUT_FILE_ONE_PER_CONTRACT.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerows(collapsed)
+
+    print(f"\n[+] After removing same-category duplicates: {len(out_rows)} -> {len(collapsed)} rows")
+    print(f"[+] {OUT_FILE_ONE_PER_CONTRACT}")
+
+
+if __name__ == "__main__":
+    main()

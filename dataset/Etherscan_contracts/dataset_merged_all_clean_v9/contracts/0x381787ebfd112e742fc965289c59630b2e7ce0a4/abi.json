@@ -1,0 +1,11 @@
+[
+  {
+    "inputs": [],
+    "name": "CoinbasePaymentFailed",
+    "type": "error"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "receive"
+  }
+]

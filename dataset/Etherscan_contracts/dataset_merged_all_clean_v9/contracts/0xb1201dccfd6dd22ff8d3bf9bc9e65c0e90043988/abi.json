@@ -1,0 +1,117 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "hook",
+        "type": "address"
+      }
+    ],
+    "name": "nextFeeBps",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "hook",
+        "type": "address"
+      }
+    ],
+    "name": "read",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "bool",
+            "name": "unhooked",
+            "type": "bool"
+          },
+          {
+            "internalType": "bool",
+            "name": "tradingEnabled",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "currentFeeBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "hookedFeeBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unhookedFeeBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxFeeBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "triggerBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "anchorPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint64",
+            "name": "lastSpikeBlock",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "cooldownBlocks",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "blocksUntilRehook",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint256",
+            "name": "pendingFeeToken",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "pendingFeeEth",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "treasury",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "blockNumber",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct UnhookLens.State",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

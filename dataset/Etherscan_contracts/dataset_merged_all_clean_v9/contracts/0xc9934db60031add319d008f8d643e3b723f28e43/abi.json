@@ -1,0 +1,445 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRiscZeroVerifier",
+        "name": "_verifierContract",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_imageId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_configHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "Duration",
+        "name": "_permitDuration",
+        "type": "uint64"
+      },
+      {
+        "internalType": "Duration",
+        "name": "_permitDelay",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "AlreadyEliminated",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "BadTarget",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "BondTransferFailed",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ClockNotExpired",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "IncorrectBondAmount",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "NoCreditToClaim",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "NotProven",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "ProvenFaulty",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "FPVM_IMAGE_ID",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "PERMIT_DELAY",
+    "outputs": [
+      {
+        "internalType": "Duration",
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "PERMIT_DURATION",
+    "outputs": [
+      {
+        "internalType": "Duration",
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "RISC_ZERO_VERIFIER",
+    "outputs": [
+      {
+        "internalType": "contract IRiscZeroVerifier",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "ROLLUP_CONFIG_HASH",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IKailuaTournament",
+        "name": "proposalParent",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "proposalSignature",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numExpiredPermits",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numDelayedPermits",
+        "type": "uint64"
+      },
+      {
+        "internalType": "address",
+        "name": "payoutRecipient",
+        "type": "address"
+      }
+    ],
+    "name": "acquireFaultProofPermit",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "totalPermitsIssued_",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "proposalKey",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numExpiredPermits",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numDelayedPermits",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "timestamp",
+        "type": "uint64"
+      }
+    ],
+    "name": "countExpiredPermits",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IKailuaTournament",
+        "name": "proposalParent",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "proposalSignature",
+        "type": "bytes32"
+      }
+    ],
+    "name": "faultProofPermitBeneficiary",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IKailuaTreasury",
+        "name": "treasury",
+        "type": "address"
+      }
+    ],
+    "name": "faultProofPermitBond",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "bond",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IKailuaTournament",
+        "name": "proposalParent",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "proposalSignature",
+        "type": "bytes32"
+      }
+    ],
+    "name": "faultProofPermitKey",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IKailuaTournament",
+        "name": "proposalParent",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "proposalSignature",
+        "type": "bytes32"
+      }
+    ],
+    "name": "faultProofPermitProvenAt",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "faultProofPermits",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "aggregateCollateral",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "recipient",
+        "type": "address"
+      },
+      {
+        "internalType": "uint64",
+        "name": "timestamp",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bool",
+        "name": "released",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IKailuaTournament",
+        "name": "proposalParent",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "proposalSignature",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numExpiredPermits",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numDelayedPermits",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "permitIndex",
+        "type": "uint64"
+      }
+    ],
+    "name": "releaseFaultProofPermit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "payoutRecipient",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "preconditionHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "l1Head",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "agreedL2OutputRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "claimedL2OutputRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "claimedL2BlockNumber",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bytes",
+        "name": "encodedSeal",
+        "type": "bytes"
+      }
+    ],
+    "name": "verify",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "version",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

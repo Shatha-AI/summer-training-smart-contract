@@ -1,0 +1,199 @@
+"""
+compute_cohens_kappa_rules.py
+--------------------------------
+Computes Cohen's kappa between two independent classifications of the
+same (tool, rule) pairs:
+
+  Rater A = our classification (dataset/rule_mapping_A.csv + dataset/swc_to_dasp_A.csv)
+  Rater B = dataset/rule_mapping_B.csv
+
+Both raters may use different label formatting for the same categories
+(e.g. "Access Control" vs "access_control"), so labels are normalized
+to a common format before comparison. The category column name in
+Rater B's file is auto-detected (accepts "category" or "maping").
+
+Usage:
+    python "Compute cohens kappa rules.py"
+"""
+
+import csv
+from pathlib import Path
+from collections import Counter
+
+BASE = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE.parent.parent
+
+RULE_MAPPING_FILE = PROJECT_ROOT / "dataset/rule_mapping_1.csv"
+SWC_MAPPING_FILE = PROJECT_ROOT / "dataset/swc_to_dasp_A.csv"
+RATER_B_FILE = PROJECT_ROOT / "dataset/rule_mapping_2.csv"
+
+OUT_FILE = PROJECT_ROOT / "results/smartBugs_results/kappa_rule_comparison.csv"
+
+SWC_TOOLS = {"mythril", "confuzzius"}
+
+# Normalize Rater B's label formatting to match our category naming
+# convention (lowercase_underscore)
+LABEL_NORMALIZE = {
+    "non-security": "NON_SECURITY",
+    "non security": "NON_SECURITY",
+    "access control": "access_control",
+    "unknown unknowns": "unknown_unknowns",
+    "unchecked low level calls": "unchecked_low_level_calls",
+    "unchecked return values for low level calls": "unchecked_low_level_calls",
+    "denial of service": "denial_of_service",
+    "reentrancy": "reentrancy",
+    "bad randomness": "bad_randomness",
+    "front-running": "front_running",
+    "front running": "front_running",
+    "arithmetic": "arithmetic",
+    "arithmetic issues": "arithmetic",
+    "time manipulation": "time_manipulation",
+    "short addresses": "short_addresses",
+}
+
+
+def normalize_label(raw: str) -> str:
+    key = raw.strip().lower()
+    return LABEL_NORMALIZE.get(key, f"UNRECOGNIZED:{raw.strip()}")
+
+
+def load_our_classification():
+    """Builds a (tool, rule) -> category dict from our two reference
+    tables (rule_mapping_A + swc_to_dasp_A)."""
+    our = {}
+    with RULE_MAPPING_FILE.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            our[(row["tool"], row["rule"])] = row["category"]
+
+    swc_map = {}
+    with SWC_MAPPING_FILE.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            swc_map[row["swc_id"]] = row["category"]
+
+    return our, swc_map
+
+
+def get_our_category(our, swc_map, tool, rule):
+    if tool in SWC_TOOLS:
+        return swc_map.get(rule, "UNMAPPED")
+    return our.get((tool, rule), "UNMAPPED")
+
+
+def detect_category_column(fieldnames):
+    
+    for candidate in ("category", "maping"):
+        if candidate in fieldnames:
+            return candidate
+    raise KeyError(
+        f"Could not find a category column in {RATER_B_FILE}. "
+        f"Found columns: {fieldnames}. Expected 'category' or 'maping'."
+    )
+
+
+def cohen_kappa_multiclass(labels_a, labels_b):
+    """General Cohen's kappa for any number of categories (not just binary)."""
+    n = len(labels_a)
+    if n == 0:
+        return None
+
+    agree = sum(1 for a, b in zip(labels_a, labels_b) if a == b)
+    p_o = agree / n
+
+    count_a = Counter(labels_a)
+    count_b = Counter(labels_b)
+    categories = set(count_a) | set(count_b)
+
+    p_e = sum((count_a.get(c, 0) / n) * (count_b.get(c, 0) / n) for c in categories)
+
+    if p_e == 1:
+        return 1.0
+    return (p_o - p_e) / (1 - p_e)
+
+
+def interpret_kappa(k):
+    # Standard interpretation scale (Landis & Koch, 1977)
+    if k < 0:
+        return "Agreement worse than chance (methodological concern!)"
+    elif k < 0.20:
+        return "Very weak"
+    elif k < 0.40:
+        return "Weak"
+    elif k < 0.60:
+        return "Moderate"
+    elif k < 0.80:
+        return "Good"
+    else:
+        return "Very strong"
+
+
+def main():
+    print("Reading Rater A from:", RULE_MAPPING_FILE, "->", RULE_MAPPING_FILE.exists())
+    print("Reading Rater A (SWC) from:", SWC_MAPPING_FILE, "->", SWC_MAPPING_FILE.exists())
+    print("Reading Rater B from:", RATER_B_FILE, "->", RATER_B_FILE.exists())
+
+    our, swc_map = load_our_classification()
+
+    with RATER_B_FILE.open(newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        cat_col = detect_category_column(reader.fieldnames)
+        rows = list(reader)
+
+    print(f"[+] Rater B category column detected: '{cat_col}'\n")
+
+    comparison = []
+    unrecognized = []
+
+    for r in rows:
+        tool, rule = r["tool"], r["rule"]
+        cat_a = get_our_category(our, swc_map, tool, rule)
+        cat_b_raw = r[cat_col]
+        cat_b = normalize_label(cat_b_raw)
+
+        if cat_b.startswith("UNRECOGNIZED"):
+            unrecognized.append((tool, rule, cat_b_raw))
+
+        comparison.append({
+            "tool": tool, "rule": rule,
+            "our_category": cat_a, "rater_b_category_raw": cat_b_raw,
+            "rater_b_category_normalized": cat_b,
+            "agree": "yes" if cat_a == cat_b else "no",
+        })
+
+    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with OUT_FILE.open("w", newline="", encoding="utf-8") as f:
+        fields = ["tool", "rule", "our_category", "rater_b_category_raw", "rater_b_category_normalized", "agree"]
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerows(comparison)
+
+    if unrecognized:
+        print(f"[!] {len(unrecognized)} label(s) in Rater B could not be auto-normalized "
+              f"(check LABEL_NORMALIZE):")
+        for t, r, raw in unrecognized[:10]:
+            print(f"    {t}, {r}: '{raw}'")
+        print()
+
+    labels_a = [c["our_category"] for c in comparison]
+    labels_b = [c["rater_b_category_normalized"] for c in comparison]
+
+    kappa = cohen_kappa_multiclass(labels_a, labels_b)
+    agree_pct = sum(1 for a, b in zip(labels_a, labels_b) if a == b) / len(comparison)
+    n_disagree = sum(1 for a, b in zip(labels_a, labels_b) if a != b)
+
+    print(f"[+] Rules compared: {len(comparison)}")
+    print(f"[+] Raw agreement rate: {agree_pct:.1%}")
+    print(f"[+] Disagreement count: {n_disagree}")
+    print(f"[+] Cohen's kappa = {kappa:.3f}")
+    print(f"    Interpretation: {interpret_kappa(kappa)} (Landis & Koch scale)")
+    print(f"\n[+] Full comparison file: {OUT_FILE}")
+
+    print("\nExample disagreements (first 10):")
+    shown = 0
+    for c in comparison:
+        if c["agree"] == "no" and shown < 10:
+            print(f"   {c['tool']:12s} {c['rule']:15s} Us: {c['our_category']:25s} | Rater B: {c['rater_b_category_normalized']}")
+            shown += 1
+
+
+if __name__ == "__main__":
+    main()

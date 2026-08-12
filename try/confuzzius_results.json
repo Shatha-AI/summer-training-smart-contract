@@ -1,0 +1,2877 @@
+[
+  {
+    "n": 1,
+    "contract": "0x94642736a1fee42c8295a9d4b4d6c5d941cee4c6",
+    "contract_name": "RDLN",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x94642736a1fee42c8295a9d4b4d6c5d941cee4c6/sources/RDLN.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 3497,
+      "unique_transactions": 896,
+      "transactions_per_second": 77.17014317272667,
+      "code_coverage_percent": 88.56914468425259,
+      "code_coverage_covered": 1108,
+      "code_coverage_total": 1251,
+      "branch_coverage_percent": 105.71428571428572,
+      "branch_coverage_covered": 74,
+      "branch_coverage_total": 70,
+      "execution_time_seconds": 45.31545305252075,
+      "memory_consumption_mb": 78.60546875,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.09916317176913625
+    }
+  },
+  {
+    "n": 2,
+    "contract": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+    "contract_name": "AIipr0tocoI",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0xf2d329d4c08e412365614876a9164f22f465b4a0/sources/AIipr0tocoI.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.8415443897247314,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x70a08231000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x70a08231000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 328,
+      "unique_transactions": 157,
+      "transactions_per_second": 128.38502712522623,
+      "code_coverage_percent": 1.452599388379205,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 1308,
+      "branch_coverage_percent": 5.405405405405405,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 74,
+      "execution_time_seconds": 2.5548150539398193,
+      "memory_consumption_mb": 56.50390625,
+      "address_under_test": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+      "fuzzer_seed": 0.8560416475729694
+    }
+  },
+  {
+    "n": 2,
+    "contract": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+    "contract_name": "AIipr0tocoI",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0xf2d329d4c08e412365614876a9164f22f465b4a0/sources/AIipr0tocoI.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "25",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.8515756130218506,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x313ce567"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x313ce567"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 328,
+      "unique_transactions": 157,
+      "transactions_per_second": 128.38502712522623,
+      "code_coverage_percent": 1.452599388379205,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 1308,
+      "branch_coverage_percent": 5.405405405405405,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 74,
+      "execution_time_seconds": 2.5548150539398193,
+      "memory_consumption_mb": 56.50390625,
+      "address_under_test": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+      "fuzzer_seed": 0.8560416475729694
+    }
+  },
+  {
+    "n": 2,
+    "contract": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+    "contract_name": "AIipr0tocoI",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0xf2d329d4c08e412365614876a9164f22f465b4a0/sources/AIipr0tocoI.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "167",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.9058964252471924,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 328,
+      "unique_transactions": 157,
+      "transactions_per_second": 128.38502712522623,
+      "code_coverage_percent": 1.452599388379205,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 1308,
+      "branch_coverage_percent": 5.405405405405405,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 74,
+      "execution_time_seconds": 2.5548150539398193,
+      "memory_consumption_mb": 56.50390625,
+      "address_under_test": "0xf2d329d4c08e412365614876a9164f22f465b4a0",
+      "fuzzer_seed": 0.8560416475729694
+    }
+  },
+  {
+    "n": 3,
+    "contract": "0x8e7740d64a9276c33166e2f41d0b1b7fdd75bcea",
+    "contract_name": "TeamToken",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.6.12+commit.27d51765",
+    "source_file": "contracts/0x8e7740d64a9276c33166e2f41d0b1b7fdd75bcea/sources/TeamToken.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "1693",
+    "category": "SWC-101",
+    "swc_id": 101,
+    "swc_title": "Integer Overflow and Underflow",
+    "severity": "High",
+    "confidence": null,
+    "status": "Success",
+    "description": "Integer Overflow",
+    "detection_time_seconds": 9.195192813873291,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x8e7740d64a9276c33166e2f41d0b1b7fdd75bcea",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x095ea7b3000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x8e7740d64a9276c33166e2f41d0b1b7fdd75bcea",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x095ea7b3000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x8e7740d64a9276c33166e2f41d0b1b7fdd75bcea",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x39509351000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeefaaf1e8fb83da415362358f518f717a51398c106b21a7f5f5c3789eddc3b5cf91"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 2191,
+      "unique_transactions": 565,
+      "transactions_per_second": 76.51012091972896,
+      "code_coverage_percent": 85.59093362115489,
+      "code_coverage_covered": 1586,
+      "code_coverage_total": 1853,
+      "branch_coverage_percent": 78.4090909090909,
+      "branch_coverage_covered": 69,
+      "branch_coverage_total": 88,
+      "execution_time_seconds": 28.63673424720764,
+      "memory_consumption_mb": 71.6796875,
+      "address_under_test": "0x8e7740d64a9276c33166e2f41d0b1b7fdd75bcea",
+      "fuzzer_seed": 0.43953000491770744
+    }
+  },
+  {
+    "n": 4,
+    "contract": "0x0f6e7c08e95e5d88164015cbc75a0f463961ef35",
+    "contract_name": "ERC1967Proxy",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.18+commit.87f61d96",
+    "source_file": "contracts/0x0f6e7c08e95e5d88164015cbc75a0f463961ef35/sources/ERC1967Proxy.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 62,
+      "unique_transactions": 8,
+      "transactions_per_second": 15.910607306156223,
+      "code_coverage_percent": 14.622641509433961,
+      "code_coverage_covered": 62,
+      "code_coverage_total": 424,
+      "branch_coverage_percent": 18.75,
+      "branch_coverage_covered": 3,
+      "branch_coverage_total": 16,
+      "execution_time_seconds": 3.8967714309692383,
+      "memory_consumption_mb": 56.8515625,
+      "address_under_test": "0x0f6e7c08e95e5d88164015cbc75a0f463961ef35",
+      "fuzzer_seed": 0.2808485442566403
+    }
+  },
+  {
+    "n": 5,
+    "contract": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+    "contract_name": "PrivateMarketTokenFactory",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.33+commit.64118f21",
+    "source_file": "contracts/0x19e9b8d62db722a7b66831d4072b8f11156dde61/sources/PrivateMarketTokenFactory.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "25",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.628110647201538,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x2f2ff15dab32d76b59a4e04aef165e8fd6a37f3d1f3716e1f884dafc1e7869ac00000000000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x2f2ff15dab32d76b59a4e04aef165e8fd6a37f3d1f3716e1f884dafc1e7869ac00000000000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 831,
+      "unique_transactions": 369,
+      "transactions_per_second": 247.69726563194,
+      "code_coverage_percent": 0.35815268614514606,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 5305,
+      "branch_coverage_percent": 1.4285714285714286,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 280,
+      "execution_time_seconds": 3.3549017906188965,
+      "memory_consumption_mb": 58.70703125,
+      "address_under_test": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+      "fuzzer_seed": 0.8690031101000302
+    }
+  },
+  {
+    "n": 5,
+    "contract": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+    "contract_name": "PrivateMarketTokenFactory",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.33+commit.64118f21",
+    "source_file": "contracts/0x19e9b8d62db722a7b66831d4072b8f11156dde61/sources/PrivateMarketTokenFactory.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6316471099853516,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0xbc9ff138000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000000000000000000000000000000000000000000214141414141414141414141414141414141414141414141414141414141414141410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000204141414141414141414141414141414141414141414141414141414141414141"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0xbc9ff138000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000000000000000000000000000000000000000000214141414141414141414141414141414141414141414141414141414141414141410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000204141414141414141414141414141414141414141414141414141414141414141"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 831,
+      "unique_transactions": 369,
+      "transactions_per_second": 247.69726563194,
+      "code_coverage_percent": 0.35815268614514606,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 5305,
+      "branch_coverage_percent": 1.4285714285714286,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 280,
+      "execution_time_seconds": 3.3549017906188965,
+      "memory_consumption_mb": 58.70703125,
+      "address_under_test": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+      "fuzzer_seed": 0.8690031101000302
+    }
+  },
+  {
+    "n": 5,
+    "contract": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+    "contract_name": "PrivateMarketTokenFactory",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.33+commit.64118f21",
+    "source_file": "contracts/0x19e9b8d62db722a7b66831d4072b8f11156dde61/sources/PrivateMarketTokenFactory.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "455",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.9165561199188232,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 831,
+      "unique_transactions": 369,
+      "transactions_per_second": 247.69726563194,
+      "code_coverage_percent": 0.35815268614514606,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 5305,
+      "branch_coverage_percent": 1.4285714285714286,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 280,
+      "execution_time_seconds": 3.3549017906188965,
+      "memory_consumption_mb": 58.70703125,
+      "address_under_test": "0x19e9b8d62db722a7b66831d4072b8f11156dde61",
+      "fuzzer_seed": 0.8690031101000302
+    }
+  },
+  {
+    "n": 6,
+    "contract": "0x359d3a507418814f00755063ee49204121f8d3e1",
+    "contract_name": "Token",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.24+commit.e11b9ed9",
+    "source_file": "contracts/0x359d3a507418814f00755063ee49204121f8d3e1/sources/Token.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "13",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.8731741905212402,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x359d3a507418814f00755063ee49204121f8d3e1",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x81cbbcc9000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x359d3a507418814f00755063ee49204121f8d3e1",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x81cbbcc9000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 867,
+      "unique_transactions": 384,
+      "transactions_per_second": 196.08535661786848,
+      "code_coverage_percent": 0.2541757443718228,
+      "code_coverage_covered": 14,
+      "code_coverage_total": 5508,
+      "branch_coverage_percent": 0.847457627118644,
+      "branch_coverage_covered": 3,
+      "branch_coverage_total": 354,
+      "execution_time_seconds": 4.421543836593628,
+      "memory_consumption_mb": 58.4375,
+      "address_under_test": "0x359d3a507418814f00755063ee49204121f8d3e1",
+      "fuzzer_seed": 0.6320230343450414
+    }
+  },
+  {
+    "n": 7,
+    "contract": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+    "contract_name": "StandardERC20",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0x7288e516e161c6a2b5818aafd4f38aac14a06885/sources/StandardERC20.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6017353534698486,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x23b872dd000000000000000000000000cafebabecafebabecafebabecafebabecafebabe000000000000000000000000cafebabecafebabecafebabecafebabecafebabe1e0e907899818671eb3b20f0d85fd2366e09cae58962a5cd9f5feb767f103dd1"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x23b872dd000000000000000000000000cafebabecafebabecafebabecafebabecafebabe000000000000000000000000cafebabecafebabecafebabecafebabecafebabe1e0e907899818671eb3b20f0d85fd2366e09cae58962a5cd9f5feb767f103dd1"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 310,
+      "unique_transactions": 137,
+      "transactions_per_second": 140.22985788430836,
+      "code_coverage_percent": 1.5833333333333335,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 1200,
+      "branch_coverage_percent": 6.0606060606060606,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 66,
+      "execution_time_seconds": 2.21065616607666,
+      "memory_consumption_mb": 56.24609375,
+      "address_under_test": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+      "fuzzer_seed": 0.8783420942731701
+    }
+  },
+  {
+    "n": 7,
+    "contract": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+    "contract_name": "StandardERC20",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0x7288e516e161c6a2b5818aafd4f38aac14a06885/sources/StandardERC20.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "25",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6269104480743408,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x23b872dd000000000000000000000000cafebabecafebabecafebabecafebabecafebabe000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000002"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x23b872dd000000000000000000000000cafebabecafebabecafebabecafebabecafebabe000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000002"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 310,
+      "unique_transactions": 137,
+      "transactions_per_second": 140.22985788430836,
+      "code_coverage_percent": 1.5833333333333335,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 1200,
+      "branch_coverage_percent": 6.0606060606060606,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 66,
+      "execution_time_seconds": 2.21065616607666,
+      "memory_consumption_mb": 56.24609375,
+      "address_under_test": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+      "fuzzer_seed": 0.8783420942731701
+    }
+  },
+  {
+    "n": 7,
+    "contract": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+    "contract_name": "StandardERC20",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0x7288e516e161c6a2b5818aafd4f38aac14a06885/sources/StandardERC20.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "145",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6331353187561035,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 310,
+      "unique_transactions": 137,
+      "transactions_per_second": 140.22985788430836,
+      "code_coverage_percent": 1.5833333333333335,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 1200,
+      "branch_coverage_percent": 6.0606060606060606,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 66,
+      "execution_time_seconds": 2.21065616607666,
+      "memory_consumption_mb": 56.24609375,
+      "address_under_test": "0x7288e516e161c6a2b5818aafd4f38aac14a06885",
+      "fuzzer_seed": 0.8783420942731701
+    }
+  },
+  {
+    "n": 8,
+    "contract": "0x290c9ec4e68c3b6ab5ecf0d8e446c218f3c75c71",
+    "contract_name": "EIP20",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.4.21+commit.dfe3193c",
+    "source_file": "contracts/0x290c9ec4e68c3b6ab5ecf0d8e446c218f3c75c71/sources/EIP20.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 1893,
+      "unique_transactions": 502,
+      "transactions_per_second": 95.42321555987013,
+      "code_coverage_percent": 95.48919949174078,
+      "code_coverage_covered": 1503,
+      "code_coverage_total": 1574,
+      "branch_coverage_percent": 85.13513513513513,
+      "branch_coverage_covered": 63,
+      "branch_coverage_total": 74,
+      "execution_time_seconds": 19.837939739227295,
+      "memory_consumption_mb": 62.7890625,
+      "address_under_test": "0x290c9ec4e68c3b6ab5ecf0d8e446c218f3c75c71",
+      "fuzzer_seed": 0.2518505216233563
+    }
+  },
+  {
+    "n": 9,
+    "contract": "0xed7e27a1d9e6f33482627ffdc8f27eea1b9b2366",
+    "contract_name": "DEUTSCHEBANK",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.36+commit.8a079791",
+    "source_file": "contracts/0xed7e27a1d9e6f33482627ffdc8f27eea1b9b2366/sources/DEUTSCHEBANK.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "2296",
+    "category": "SWC-101",
+    "swc_id": 101,
+    "swc_title": "Integer Overflow and Underflow",
+    "severity": "High",
+    "confidence": null,
+    "status": "Success",
+    "description": "Integer Overflow",
+    "detection_time_seconds": 41.4262592792511,
+    "transaction": {
+      "from": "0x792187c1a358cc4e0ff5a4a9e1fad2108241b124",
+      "to": "0xed7e27a1d9e6f33482627ffdc8f27eea1b9b2366",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x40c10f19000000000000000000000000cafebabecafebabecafebabecafebabecafebabeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0x792187c1a358cc4e0ff5a4a9e1fad2108241b124",
+          "to": "0xed7e27a1d9e6f33482627ffdc8f27eea1b9b2366",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x40c10f19000000000000000000000000cafebabecafebabecafebabecafebabecafebabeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 2232,
+      "unique_transactions": 582,
+      "transactions_per_second": 45.700389898106536,
+      "code_coverage_percent": 90.49479166666666,
+      "code_coverage_covered": 1390,
+      "code_coverage_total": 1536,
+      "branch_coverage_percent": 101.08695652173914,
+      "branch_coverage_covered": 93,
+      "branch_coverage_total": 92,
+      "execution_time_seconds": 48.83984589576721,
+      "memory_consumption_mb": 71.0859375,
+      "address_under_test": "0xed7e27a1d9e6f33482627ffdc8f27eea1b9b2366",
+      "fuzzer_seed": 0.8471561652719076
+    }
+  },
+  {
+    "n": 10,
+    "contract": "0xd08c04237a3475160de6d790cd177833673b66f3",
+    "contract_name": "SafeVault",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0xd08c04237a3475160de6d790cd177833673b66f3/sources/SafeVault.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.5893421173095703,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0xd08c04237a3475160de6d790cd177833673b66f3",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x68c4ac26000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0xd08c04237a3475160de6d790cd177833673b66f3",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x68c4ac26000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 276,
+      "unique_transactions": 99,
+      "transactions_per_second": 87.59672818670063,
+      "code_coverage_percent": 0.6911604219716261,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 2749,
+      "branch_coverage_percent": 4.761904761904762,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 84,
+      "execution_time_seconds": 3.1508026123046875,
+      "memory_consumption_mb": 56.890625,
+      "address_under_test": "0xd08c04237a3475160de6d790cd177833673b66f3",
+      "fuzzer_seed": 0.024043017164278258
+    }
+  },
+  {
+    "n": 10,
+    "contract": "0xd08c04237a3475160de6d790cd177833673b66f3",
+    "contract_name": "SafeVault",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0xd08c04237a3475160de6d790cd177833673b66f3/sources/SafeVault.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "25",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.5931599140167236,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0xd08c04237a3475160de6d790cd177833673b66f3",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0xe7986466000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000001"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0xd08c04237a3475160de6d790cd177833673b66f3",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0xe7986466000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 276,
+      "unique_transactions": 99,
+      "transactions_per_second": 87.59672818670063,
+      "code_coverage_percent": 0.6911604219716261,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 2749,
+      "branch_coverage_percent": 4.761904761904762,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 84,
+      "execution_time_seconds": 3.1508026123046875,
+      "memory_consumption_mb": 56.890625,
+      "address_under_test": "0xd08c04237a3475160de6d790cd177833673b66f3",
+      "fuzzer_seed": 0.024043017164278258
+    }
+  },
+  {
+    "n": 10,
+    "contract": "0xd08c04237a3475160de6d790cd177833673b66f3",
+    "contract_name": "SafeVault",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0xd08c04237a3475160de6d790cd177833673b66f3/sources/SafeVault.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "135",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.6007871627807617,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0xd08c04237a3475160de6d790cd177833673b66f3",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0xd08c04237a3475160de6d790cd177833673b66f3",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 276,
+      "unique_transactions": 99,
+      "transactions_per_second": 87.59672818670063,
+      "code_coverage_percent": 0.6911604219716261,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 2749,
+      "branch_coverage_percent": 4.761904761904762,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 84,
+      "execution_time_seconds": 3.1508026123046875,
+      "memory_consumption_mb": 56.890625,
+      "address_under_test": "0xd08c04237a3475160de6d790cd177833673b66f3",
+      "fuzzer_seed": 0.024043017164278258
+    }
+  },
+  {
+    "n": 11,
+    "contract": "0x9313708918235a0fd6e6005f350445d73777e72c",
+    "contract_name": "SecureVaultUSDC",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x9313708918235a0fd6e6005f350445d73777e72c/sources/SecureVaultUSDC.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 1318,
+      "unique_transactions": 179,
+      "transactions_per_second": 116.04146607621975,
+      "code_coverage_percent": 42.96066252587992,
+      "code_coverage_covered": 415,
+      "code_coverage_total": 966,
+      "branch_coverage_percent": 45.83333333333333,
+      "branch_coverage_covered": 22,
+      "branch_coverage_total": 48,
+      "execution_time_seconds": 11.358008861541748,
+      "memory_consumption_mb": 71.0625,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.7478800293436565
+    }
+  },
+  {
+    "n": 12,
+    "contract": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+    "contract_name": "Erc20Token",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259/sources/Erc20Token.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "25",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.624098062515259,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0xa9059cbb000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0xa9059cbb000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 481,
+      "unique_transactions": 198,
+      "transactions_per_second": 134.04939985548293,
+      "code_coverage_percent": 0.5782105903834449,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 3286,
+      "branch_coverage_percent": 4.0,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 100,
+      "execution_time_seconds": 3.5882294178009033,
+      "memory_consumption_mb": 57.67578125,
+      "address_under_test": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+      "fuzzer_seed": 0.18603204393723838
+    }
+  },
+  {
+    "n": 12,
+    "contract": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+    "contract_name": "Erc20Token",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259/sources/Erc20Token.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.630185604095459,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x095ea7b3000000000000000000000000cafebabecafebabecafebabecafebabecafebabeb44385cb865fa005b0bff56252f0f57f5d155a36891740a5cc32933defb7d7bc"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x095ea7b3000000000000000000000000cafebabecafebabecafebabecafebabecafebabeb44385cb865fa005b0bff56252f0f57f5d155a36891740a5cc32933defb7d7bc"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 481,
+      "unique_transactions": 198,
+      "transactions_per_second": 134.04939985548293,
+      "code_coverage_percent": 0.5782105903834449,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 3286,
+      "branch_coverage_percent": 4.0,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 100,
+      "execution_time_seconds": 3.5882294178009033,
+      "memory_consumption_mb": 57.67578125,
+      "address_under_test": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+      "fuzzer_seed": 0.18603204393723838
+    }
+  },
+  {
+    "n": 12,
+    "contract": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+    "contract_name": "Erc20Token",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259/sources/Erc20Token.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "255",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 2.6847925186157227,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 481,
+      "unique_transactions": 198,
+      "transactions_per_second": 134.04939985548293,
+      "code_coverage_percent": 0.5782105903834449,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 3286,
+      "branch_coverage_percent": 4.0,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 100,
+      "execution_time_seconds": 3.5882294178009033,
+      "memory_consumption_mb": 57.67578125,
+      "address_under_test": "0x2cd0c0dfbf7cee529cf25d33ec11e2362b3ff259",
+      "fuzzer_seed": 0.18603204393723838
+    }
+  },
+  {
+    "n": 13,
+    "contract": "0x90532dbd8cb348edb5a9cf36fe1e92737c23aaa1",
+    "contract_name": "ElonMusk",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x90532dbd8cb348edb5a9cf36fe1e92737c23aaa1/sources/ElonMusk.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 167,
+      "unique_transactions": 29,
+      "transactions_per_second": 234.46517544165022,
+      "code_coverage_percent": 92.13483146067416,
+      "code_coverage_covered": 164,
+      "code_coverage_total": 178,
+      "branch_coverage_percent": 91.66666666666666,
+      "branch_coverage_covered": 11,
+      "branch_coverage_total": 12,
+      "execution_time_seconds": 0.7122592926025391,
+      "memory_consumption_mb": 65.27734375,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.431611873425194
+    }
+  },
+  {
+    "n": 14,
+    "contract": "0xcb6aecfb09688915cf7f9cb7ff581188a4cf4389",
+    "contract_name": "InvestmentCon",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.26+commit.8a97fa7a",
+    "source_file": "contracts/0xcb6aecfb09688915cf7f9cb7ff581188a4cf4389/sources/InvestmentCon.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "2369",
+    "category": "SWC-120",
+    "swc_id": 120,
+    "swc_title": "Weak Sources of Randomness from Chain Attributes",
+    "severity": "Low",
+    "confidence": null,
+    "status": "Success",
+    "description": "Block Dependency",
+    "detection_time_seconds": 19.547410249710083,
+    "transaction": {
+      "from": "0xffffffffffffffffffffffffffffffffffffffff",
+      "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x14288f842b342b5c519f9c65e402bcb7fe65c302bf4144cd638dc640a012f004171e84800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001a957b4ea91fec5483393226542ff2ad0f08d95803efde1ad21bc879afad7f8ad800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000020e24d3f984c6a46f367f9e647f874fbfcf75c8c37fdc1eee6912f62f93aa86e84"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xffffffffffffffffffffffffffffffffffffffff",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x14288f842b342b5c519f9c65e402bcb7fe65c302bf4144cd638dc640a012f004171e84800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001a957b4ea91fec5483393226542ff2ad0f08d95803efde1ad21bc879afad7f8ad800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000020e24d3f984c6a46f367f9e647f874fbfcf75c8c37fdc1eee6912f62f93aa86e84"
+        },
+        "block": {
+          "timestamp": 1
+        },
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "0x000000000022d473030f116ddee9f6b43ac78ba3": 1
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 4466,
+      "unique_transactions": 1199,
+      "transactions_per_second": 61.577019108845924,
+      "code_coverage_percent": 89.24078091106291,
+      "code_coverage_covered": 2057,
+      "code_coverage_total": 2305,
+      "branch_coverage_percent": 96.03174603174604,
+      "branch_coverage_covered": 121,
+      "branch_coverage_total": 126,
+      "execution_time_seconds": 72.5270574092865,
+      "memory_consumption_mb": 100.16796875,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.7952502031135388
+    }
+  },
+  {
+    "n": 14,
+    "contract": "0xcb6aecfb09688915cf7f9cb7ff581188a4cf4389",
+    "contract_name": "InvestmentCon",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.26+commit.8a97fa7a",
+    "source_file": "contracts/0xcb6aecfb09688915cf7f9cb7ff581188a4cf4389/sources/InvestmentCon.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "1509",
+    "category": "SWC-120",
+    "swc_id": 120,
+    "swc_title": "Weak Sources of Randomness from Chain Attributes",
+    "severity": "Low",
+    "confidence": null,
+    "status": "Success",
+    "description": "Block Dependency",
+    "detection_time_seconds": 19.871413230895996,
+    "transaction": {
+      "from": "0x0000000000000000000000000000000000000001",
+      "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x14288f84e39c46c2b12a7768bbda9ef450315770f573b44d909717fa83b689fa4b534b3d000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000018500000000000000000000000000000000000000000000000000000000000000"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0x0000000000000000000000000000000000000001",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x14288f84e39c46c2b12a7768bbda9ef450315770f573b44d909717fa83b689fa4b534b3d000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000018500000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {
+          "timestamp": 1551383524
+        },
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "0x000000000022d473030f116ddee9f6b43ac78ba3": 0
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xfffffffffffffffffffbffffffffffffffffffff",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0xb02c43d00000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 4466,
+      "unique_transactions": 1199,
+      "transactions_per_second": 61.577019108845924,
+      "code_coverage_percent": 89.24078091106291,
+      "code_coverage_covered": 2057,
+      "code_coverage_total": 2305,
+      "branch_coverage_percent": 96.03174603174604,
+      "branch_coverage_covered": 121,
+      "branch_coverage_total": 126,
+      "execution_time_seconds": 72.5270574092865,
+      "memory_consumption_mb": 100.16796875,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.7952502031135388
+    }
+  },
+  {
+    "n": 15,
+    "contract": "0xc23eae990b7a611b0c2b37261e9d397f831be677",
+    "contract_name": "Counter",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.18+commit.87f61d96",
+    "source_file": "contracts/0xc23eae990b7a611b0c2b37261e9d397f831be677/sources/Counter.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 664,
+      "unique_transactions": 68,
+      "transactions_per_second": 412.16036294742054,
+      "code_coverage_percent": 77.05882352941177,
+      "code_coverage_covered": 131,
+      "code_coverage_total": 170,
+      "branch_coverage_percent": 90.0,
+      "branch_coverage_covered": 9,
+      "branch_coverage_total": 10,
+      "execution_time_seconds": 1.6110234260559082,
+      "memory_consumption_mb": 55.68359375,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.09811326316691771
+    }
+  },
+  {
+    "n": 16,
+    "contract": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+    "contract_name": "OwnbitMultiSigProxy",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.26+commit.8a97fa7a",
+    "source_file": "contracts/0x4f22dc2b50329e0e58e695c5db55941aa36ba307/sources/OwnbitMultiSigProxy.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "33",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.7813119888305664,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 69,
+      "unique_transactions": 11,
+      "transactions_per_second": 36.09860294040606,
+      "code_coverage_percent": 8.441558441558442,
+      "code_coverage_covered": 13,
+      "code_coverage_total": 154,
+      "branch_coverage_percent": 25.0,
+      "branch_coverage_covered": 2,
+      "branch_coverage_total": 8,
+      "execution_time_seconds": 1.9114313125610352,
+      "memory_consumption_mb": 55.671875,
+      "address_under_test": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+      "fuzzer_seed": 0.6272268180763598
+    }
+  },
+  {
+    "n": 16,
+    "contract": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+    "contract_name": "OwnbitMultiSigProxy",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.26+commit.8a97fa7a",
+    "source_file": "contracts/0x4f22dc2b50329e0e58e695c5db55941aa36ba307/sources/OwnbitMultiSigProxy.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.7861065864562988,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x5c60da1b"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x5c60da1b"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 69,
+      "unique_transactions": 11,
+      "transactions_per_second": 36.09860294040606,
+      "code_coverage_percent": 8.441558441558442,
+      "code_coverage_covered": 13,
+      "code_coverage_total": 154,
+      "branch_coverage_percent": 25.0,
+      "branch_coverage_covered": 2,
+      "branch_coverage_total": 8,
+      "execution_time_seconds": 1.9114313125610352,
+      "memory_consumption_mb": 55.671875,
+      "address_under_test": "0x4f22dc2b50329e0e58e695c5db55941aa36ba307",
+      "fuzzer_seed": 0.6272268180763598
+    }
+  },
+  {
+    "n": 17,
+    "contract": "0x7af204f6675b956687e8828237f2131a45b5881f",
+    "contract_name": "NestedArrayTest",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x7af204f6675b956687e8828237f2131a45b5881f/sources/NestedArrayTest.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": null,
+    "rule": "",
+    "category": "",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Failed",
+    "description": "",
+    "transaction": null,
+    "contract_stats": null
+  },
+  {
+    "n": 18,
+    "contract": "0x419dbccfe59ea12f1598bbc92fb3140235f8bff8",
+    "contract_name": "FlashExecutor",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.35+commit.47b9dedd",
+    "source_file": "contracts/0x419dbccfe59ea12f1598bbc92fb3140235f8bff8/sources/FlashExecutor.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": null,
+    "rule": "",
+    "category": "",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Failed",
+    "description": "",
+    "transaction": null,
+    "contract_stats": null
+  },
+  {
+    "n": 19,
+    "contract": "0x67433187db1e57f66e88880b6be833f6759362b1",
+    "contract_name": "ERC1967Proxy",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.21+commit.d9974bed",
+    "source_file": "contracts/0x67433187db1e57f66e88880b6be833f6759362b1/sources/ERC1967Proxy.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 61,
+      "unique_transactions": 8,
+      "transactions_per_second": 16.677917320723296,
+      "code_coverage_percent": 77.06422018348624,
+      "code_coverage_covered": 84,
+      "code_coverage_total": 109,
+      "branch_coverage_percent": 50.0,
+      "branch_coverage_covered": 1,
+      "branch_coverage_total": 2,
+      "execution_time_seconds": 3.6575310230255127,
+      "memory_consumption_mb": 56.8125,
+      "address_under_test": "0x67433187db1e57f66e88880b6be833f6759362b1",
+      "fuzzer_seed": 0.052337199092563846
+    }
+  },
+  {
+    "n": 20,
+    "contract": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+    "contract_name": "EscrowControllerV5",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x3a300630867fcf33568ae00b0b15fc826b7720a0/sources/EscrowControllerV5.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "12",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6202855110168457,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0x74b25b8e"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0x74b25b8e"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 590,
+      "unique_transactions": 185,
+      "transactions_per_second": 207.65351733249108,
+      "code_coverage_percent": 0.31986531986531985,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 5940,
+      "branch_coverage_percent": 1.9607843137254901,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 204,
+      "execution_time_seconds": 2.84127140045166,
+      "memory_consumption_mb": 58.43359375,
+      "address_under_test": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+      "fuzzer_seed": 0.9133222192606124
+    }
+  },
+  {
+    "n": 20,
+    "contract": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+    "contract_name": "EscrowControllerV5",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x3a300630867fcf33568ae00b0b15fc826b7720a0/sources/EscrowControllerV5.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "25",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6318776607513428,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0xfaf4c03b"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0xfaf4c03b"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 590,
+      "unique_transactions": 185,
+      "transactions_per_second": 207.65351733249108,
+      "code_coverage_percent": 0.31986531986531985,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 5940,
+      "branch_coverage_percent": 1.9607843137254901,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 204,
+      "execution_time_seconds": 2.84127140045166,
+      "memory_consumption_mb": 58.43359375,
+      "address_under_test": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+      "fuzzer_seed": 0.9133222192606124
+    }
+  },
+  {
+    "n": 20,
+    "contract": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+    "contract_name": "EscrowControllerV5",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x3a300630867fcf33568ae00b0b15fc826b7720a0/sources/EscrowControllerV5.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "310",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.643989086151123,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 590,
+      "unique_transactions": 185,
+      "transactions_per_second": 207.65351733249108,
+      "code_coverage_percent": 0.31986531986531985,
+      "code_coverage_covered": 19,
+      "code_coverage_total": 5940,
+      "branch_coverage_percent": 1.9607843137254901,
+      "branch_coverage_covered": 4,
+      "branch_coverage_total": 204,
+      "execution_time_seconds": 2.84127140045166,
+      "memory_consumption_mb": 58.43359375,
+      "address_under_test": "0x3a300630867fcf33568ae00b0b15fc826b7720a0",
+      "fuzzer_seed": 0.9133222192606124
+    }
+  },
+  {
+    "n": 21,
+    "contract": "0xbe32cfdb635d214cf4aa9aca827e49f331334727",
+    "contract_name": "ERC721CCollection",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.24+commit.e11b9ed9",
+    "source_file": "contracts/0xbe32cfdb635d214cf4aa9aca827e49f331334727/sources/ERC721CCollection.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 5,
+      "total_transactions": 338,
+      "unique_transactions": 235,
+      "transactions_per_second": 5.638254619021616,
+      "code_coverage_percent": 48.87156339762003,
+      "code_coverage_covered": 4764,
+      "code_coverage_total": 9748,
+      "branch_coverage_percent": 45.348837209302324,
+      "branch_coverage_covered": 195,
+      "branch_coverage_total": 430,
+      "execution_time_seconds": 59.94762969017029,
+      "memory_consumption_mb": 111.71875,
+      "address_under_test": "0xbe32cfdb635d214cf4aa9aca827e49f331334727",
+      "fuzzer_seed": 0.7091940110709012
+    }
+  },
+  {
+    "n": 22,
+    "contract": "0x1fa3f692ec20a220b2d0f0c2cbe7469ab1632b1d",
+    "contract_name": "XRP",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.30+commit.73712a01",
+    "source_file": "contracts/0x1fa3f692ec20a220b2d0f0c2cbe7469ab1632b1d/sources/XRP.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 3481,
+      "unique_transactions": 941,
+      "transactions_per_second": 90.51353400420295,
+      "code_coverage_percent": 90.90121317157713,
+      "code_coverage_covered": 1049,
+      "code_coverage_total": 1154,
+      "branch_coverage_percent": 75.0,
+      "branch_coverage_covered": 42,
+      "branch_coverage_total": 56,
+      "execution_time_seconds": 38.45833706855774,
+      "memory_consumption_mb": 87.04296875,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.7727132943907362
+    }
+  },
+  {
+    "n": 23,
+    "contract": "0x7922912ab91eb6a4b0350b01dd066994ba64f882",
+    "contract_name": "EACAggregatorProxy",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.6.6+commit.6c089d02",
+    "source_file": "contracts/0x7922912ab91eb6a4b0350b01dd066994ba64f882/sources/EACAggregatorProxy.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 1427,
+      "unique_transactions": 413,
+      "transactions_per_second": 58.40660272027743,
+      "code_coverage_percent": 44.63065049614112,
+      "code_coverage_covered": 2024,
+      "code_coverage_total": 4535,
+      "branch_coverage_percent": 50.0,
+      "branch_coverage_covered": 135,
+      "branch_coverage_total": 270,
+      "execution_time_seconds": 24.432169198989868,
+      "memory_consumption_mb": 73.94921875,
+      "address_under_test": "0x7922912ab91eb6a4b0350b01dd066994ba64f882",
+      "fuzzer_seed": 0.31516072144014295
+    }
+  },
+  {
+    "n": 24,
+    "contract": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+    "contract_name": "ETH7702Forwarder",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.34+commit.80d5c536",
+    "source_file": "contracts/0xd90cbae11a43636a29a62210c1a17fa7c027d2d7/sources/ETH7702Forwarder.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "13",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6458899974822998,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "00000000"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "00000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 111,
+      "unique_transactions": 16,
+      "transactions_per_second": 60.08075381792799,
+      "code_coverage_percent": 5.607476635514018,
+      "code_coverage_covered": 18,
+      "code_coverage_total": 321,
+      "branch_coverage_percent": 16.666666666666664,
+      "branch_coverage_covered": 3,
+      "branch_coverage_total": 18,
+      "execution_time_seconds": 1.8475134372711182,
+      "memory_consumption_mb": 55.8359375,
+      "address_under_test": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+      "fuzzer_seed": 0.10957459109310941
+    }
+  },
+  {
+    "n": 24,
+    "contract": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+    "contract_name": "ETH7702Forwarder",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.34+commit.80d5c536",
+    "source_file": "contracts/0xd90cbae11a43636a29a62210c1a17fa7c027d2d7/sources/ETH7702Forwarder.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "134",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.6561944484710693,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": ""
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": ""
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 111,
+      "unique_transactions": 16,
+      "transactions_per_second": 60.08075381792799,
+      "code_coverage_percent": 5.607476635514018,
+      "code_coverage_covered": 18,
+      "code_coverage_total": 321,
+      "branch_coverage_percent": 16.666666666666664,
+      "branch_coverage_covered": 3,
+      "branch_coverage_total": 18,
+      "execution_time_seconds": 1.8475134372711182,
+      "memory_consumption_mb": 55.8359375,
+      "address_under_test": "0xd90cbae11a43636a29a62210c1a17fa7c027d2d7",
+      "fuzzer_seed": 0.10957459109310941
+    }
+  },
+  {
+    "n": 25,
+    "contract": "0xc552638efaca173e667bcd2fda8111f2831102f2",
+    "contract_name": "Token",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.30+commit.73712a01",
+    "source_file": "contracts/0xc552638efaca173e667bcd2fda8111f2831102f2/sources/Token.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 8676,
+      "unique_transactions": 1894,
+      "transactions_per_second": 67.27879951522662,
+      "code_coverage_percent": 49.479843953185956,
+      "code_coverage_covered": 2283,
+      "code_coverage_total": 4614,
+      "branch_coverage_percent": 477.4074074074074,
+      "branch_coverage_covered": 1289,
+      "branch_coverage_total": 270,
+      "execution_time_seconds": 128.95592761039734,
+      "memory_consumption_mb": 138.328125,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.7689937759047388
+    }
+  },
+  {
+    "n": 26,
+    "contract": "0x7427b61606f94fe209517330a0d9ada90d1b0eb0",
+    "contract_name": "JIM",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.23+commit.f704f362",
+    "source_file": "contracts/0x7427b61606f94fe209517330a0d9ada90d1b0eb0/sources/JIM.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 9859,
+      "unique_transactions": 2316,
+      "transactions_per_second": 39.16968969602924,
+      "code_coverage_percent": 61.568954725641554,
+      "code_coverage_covered": 2951,
+      "code_coverage_total": 4793,
+      "branch_coverage_percent": 147.45222929936307,
+      "branch_coverage_covered": 463,
+      "branch_coverage_total": 314,
+      "execution_time_seconds": 251.6997218132019,
+      "memory_consumption_mb": 101.05078125,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.8506385645248563
+    }
+  },
+  {
+    "n": 27,
+    "contract": "0x2ba6fc095b0348b8f256306830279d5c41872bad",
+    "contract_name": "Project256",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.34+commit.80d5c536",
+    "source_file": "contracts/0x2ba6fc095b0348b8f256306830279d5c41872bad/sources/Project256.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "13",
+    "category": "SWC-110",
+    "swc_id": 110,
+    "swc_title": "Assertion Violation",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Assertion Failure",
+    "detection_time_seconds": 1.8805978298187256,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x2ba6fc095b0348b8f256306830279d5c41872bad",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0xac3851cd"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2ba6fc095b0348b8f256306830279d5c41872bad",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0xac3851cd"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 1616,
+      "unique_transactions": 751,
+      "transactions_per_second": 236.16107548483959,
+      "code_coverage_percent": 0.1194641180988139,
+      "code_coverage_covered": 14,
+      "code_coverage_total": 11719,
+      "branch_coverage_percent": 0.4531722054380665,
+      "branch_coverage_covered": 3,
+      "branch_coverage_total": 662,
+      "execution_time_seconds": 6.842787265777588,
+      "memory_consumption_mb": 61.26953125,
+      "address_under_test": "0x2ba6fc095b0348b8f256306830279d5c41872bad",
+      "fuzzer_seed": 0.866530819191427
+    }
+  },
+  {
+    "n": 28,
+    "contract": "0xdc1e5ed1a1c2fb6fae71015c0d681c068c4da9d4",
+    "contract_name": "Just_play",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.19+commit.7dd6d404",
+    "source_file": "contracts/0xdc1e5ed1a1c2fb6fae71015c0d681c068c4da9d4/sources/Just_play.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "on-chain",
+    "rule": "",
+    "category": "No Issues",
+    "swc_id": null,
+    "swc_title": null,
+    "severity": "",
+    "confidence": null,
+    "status": "Success",
+    "description": "",
+    "transaction": null,
+    "contract_stats": {
+      "generations_count": 21,
+      "total_transactions": 217,
+      "unique_transactions": 90,
+      "transactions_per_second": 8.378106179035324,
+      "code_coverage_percent": 61.3413715146948,
+      "code_coverage_covered": 814,
+      "code_coverage_total": 1327,
+      "branch_coverage_percent": 47.77777777777778,
+      "branch_coverage_covered": 43,
+      "branch_coverage_total": 90,
+      "execution_time_seconds": 25.90084147453308,
+      "memory_consumption_mb": 78.796875,
+      "address_under_test": "0xdc1e5ed1a1c2fb6fae71015c0d681c068c4da9d4",
+      "fuzzer_seed": 0.6971800778495605
+    }
+  },
+  {
+    "n": 29,
+    "contract": "0xd6c6160cd8726629c836c29c4d310336dfe52297",
+    "contract_name": "DOGESHIT",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.23+commit.f704f362",
+    "source_file": "contracts/0xd6c6160cd8726629c836c29c4d310336dfe52297/sources/DOGESHIT.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "1894",
+    "category": "SWC-114",
+    "swc_id": 114,
+    "swc_title": "Transaction Order Dependence",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Transaction Order Dependency",
+    "detection_time_seconds": 43.251819372177124,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0xea414b28000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0xea414b28000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x51bc3c85"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0x3501454135014541350145413501454135014541",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x23b872dd00000000000000000000000035014541350145413501454135014541350145410000000000000000000000003501454135014541350145413501454135014541982e014b85983977a00aa5ca7026abca7937c05be92aa2e48896668ce22a8edd"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x51bc3c85"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 7320,
+      "unique_transactions": 1740,
+      "transactions_per_second": 57.39115127831985,
+      "code_coverage_percent": 55.02260170768458,
+      "code_coverage_covered": 2191,
+      "code_coverage_total": 3982,
+      "branch_coverage_percent": 68.59504132231406,
+      "branch_coverage_covered": 166,
+      "branch_coverage_total": 242,
+      "execution_time_seconds": 127.54579472541809,
+      "memory_consumption_mb": 88.90625,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.5224026297201086
+    }
+  },
+  {
+    "n": 30,
+    "contract": "0x76e3ae528b4786a51c21a0932f259f0ff12af7d5",
+    "contract_name": "TokenTreasury",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x76e3ae528b4786a51c21a0932f259f0ff12af7d5/sources/TokenTreasury.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "827",
+    "category": "SWC-114",
+    "swc_id": 114,
+    "swc_title": "Transaction Order Dependence",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Transaction Order Dependency",
+    "detection_time_seconds": 6.395707845687866,
+    "transaction": {
+      "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "value": 1,
+      "gaslimit": 4500000,
+      "data": "0xd0e30db0"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0xd0e30db0"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0xd0e30db0"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0xd0e30db0"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 2266,
+      "unique_transactions": 446,
+      "transactions_per_second": 62.412478055341744,
+      "code_coverage_percent": 87.86982248520711,
+      "code_coverage_covered": 594,
+      "code_coverage_total": 676,
+      "branch_coverage_percent": 85.41666666666666,
+      "branch_coverage_covered": 41,
+      "branch_coverage_total": 48,
+      "execution_time_seconds": 36.30684232711792,
+      "memory_consumption_mb": 96.6875,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.09501371225275579
+    }
+  },
+  {
+    "n": 30,
+    "contract": "0x76e3ae528b4786a51c21a0932f259f0ff12af7d5",
+    "contract_name": "TokenTreasury",
+    "tool": "ConFuzzius",
+    "compiler_version": "v0.8.20+commit.a1b79de6",
+    "source_file": "contracts/0x76e3ae528b4786a51c21a0932f259f0ff12af7d5/sources/TokenTreasury.sol",
+    "scan_timestamp": "2026-07-26T17:33:11.915426",
+    "method": "offline",
+    "rule": "698",
+    "category": "SWC-114",
+    "swc_id": 114,
+    "swc_title": "Transaction Order Dependence",
+    "severity": "Medium",
+    "confidence": null,
+    "status": "Success",
+    "description": "Transaction Order Dependency",
+    "detection_time_seconds": 12.407460927963257,
+    "transaction": {
+      "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+      "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "value": 0,
+      "gaslimit": 4500000,
+      "data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "full_individual_data": [
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "0xcafebabecafebabecafebabecafebabecafebabe": 1
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 1,
+          "gaslimit": 4500000,
+          "data": "0xd0e30db0"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "0xcafebabecafebabecafebabecafebabecafebabe": 1
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xcafebabecafebabecafebabecafebabecafebabe",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "0xcafebabecafebabecafebabecafebabecafebabe": 0
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      },
+      {
+        "transaction": {
+          "from": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+          "to": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+          "value": 0,
+          "gaslimit": 4500000,
+          "data": "0x27e235e3000000000000000000000000cafebabecafebabecafebabecafebabecafebabe"
+        },
+        "block": {},
+        "global_state": {
+          "call_return": {
+            "null": null
+          },
+          "extcodesize": {
+            "null": null
+          }
+        },
+        "environment": {
+          "returndatasize": {
+            "null": null
+          }
+        }
+      }
+    ],
+    "contract_stats": {
+      "generations_count": 51,
+      "total_transactions": 2266,
+      "unique_transactions": 446,
+      "transactions_per_second": 62.412478055341744,
+      "code_coverage_percent": 87.86982248520711,
+      "code_coverage_covered": 594,
+      "code_coverage_total": 676,
+      "branch_coverage_percent": 85.41666666666666,
+      "branch_coverage_covered": 41,
+      "branch_coverage_total": 48,
+      "execution_time_seconds": 36.30684232711792,
+      "memory_consumption_mb": 96.6875,
+      "address_under_test": "0x2c5e8a3b3aad9df32339409534e64dfcabcd3a65",
+      "fuzzer_seed": 0.09501371225275579
+    }
+  }
+]

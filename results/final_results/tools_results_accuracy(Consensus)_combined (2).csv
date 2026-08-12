@@ -1,0 +1,41 @@
+﻿tool,contract,access_control,arithmetic,bad_randomness,denial_of_service,front_running,reentrancy,short_addresses,time_manipulation,unchecked_low_level_calls,consensus_category,TP,FP,FN,TN,precision,recall,f1,accuracy
+consensus,0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9,True,False,False,False,False,False,False,False,True,"access_control, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01,True,False,False,False,False,False,False,False,True,"access_control, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859,False,False,False,False,False,False,False,False,True,unchecked_low_level_calls,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2,False,False,False,False,False,False,False,False,True,unchecked_low_level_calls,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c,False,False,False,False,False,False,False,False,True,unchecked_low_level_calls,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,arbitrary_location_write_simple,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,auction,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,bectoken,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,blackjack,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,dos_address,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,dos_number,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,dos_simple,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,erc20,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,eth_tx_order_dependence_minimal,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,ether_lotto,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,etheraffle,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,fibonaccibalance,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,findthishash,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,governmental_survey,True,False,False,False,False,False,False,False,True,"access_control, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,guess_the_random_number,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,incorrect_constructor_name1,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,incorrect_constructor_name2,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,incorrect_constructor_name3,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,insecure_transfer,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,integer_overflow_1,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,integer_overflow_add,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,integer_overflow_benign_1,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,list_dos,True,False,False,False,False,False,False,False,True,"access_control, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,lottery,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,lottopollo,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,lucky_doubler,True,False,True,False,False,False,False,False,True,"access_control, bad_randomness, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,odds_and_evens,True,False,False,False,False,False,False,False,False,access_control,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,reentrance,False,False,False,False,False,True,False,False,True,"reentrancy, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,reentrancy_bonus,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,reentrancy_cross_function,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,reentrancy_dao,False,False,False,False,False,True,False,False,True,"reentrancy, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,reentrancy_insecure,False,False,False,False,False,True,False,False,True,"reentrancy, unchecked_low_level_calls",14,20,26,300,0.412,0.35,0.378,0.872
+consensus,roulette,False,False,False,True,False,False,False,False,False,denial_of_service,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,short_address_example,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872
+consensus,timed_crowdsale,False,False,False,False,False,False,False,False,False,no_consensus,14,20,26,300,0.412,0.35,0.378,0.872

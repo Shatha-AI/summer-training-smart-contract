@@ -1,0 +1,235 @@
+[
+  {
+    "inputs": [],
+    "name": "STATUS_NON_PAIR_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_NOT_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_PAIR_LIKE_CONTRACT",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_PAIR_VALID",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_TOKEN_EMITTER",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_UNKNOWN",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "STATUS_ZERO_ADDRESS",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "pairAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getPairsElementsByPairs",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "index",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "pairAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "pairDecimals",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token0",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "token0Name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "token0Symbol",
+            "type": "string"
+          },
+          {
+            "internalType": "uint8",
+            "name": "token0Decimals",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token1",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "token1Name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "token1Symbol",
+            "type": "string"
+          },
+          {
+            "internalType": "uint8",
+            "name": "token1Decimals",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct SwapstrackerV2.PairElementFull[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "pairAddresses",
+        "type": "address[]"
+      }
+    ],
+    "name": "getPairsElementsMinimalByPairs",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "index",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "pairAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "pairDecimals",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token0",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "token0Decimals",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "token1",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "token1Decimals",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct SwapstrackerV2.PairElementMinimal[]",
+        "name": "results",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
